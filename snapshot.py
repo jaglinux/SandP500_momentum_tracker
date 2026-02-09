@@ -297,8 +297,7 @@ def main(date_str: str = None) -> pd.DataFrame:
     
     with open(output_file, "w", encoding="utf-8") as f:
         f.write(f"S&P 500 High Tracker Snapshot\n")
-        if date_str:
-            f.write(f"Data Date: {date_str}\n")
+        f.write(f"Data Date: {date_str or datetime.now(timezone.utc).strftime('%Y-%m-%d')}\n")
         f.write(f"Generated: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')}\n")
         f.write(f"Total stocks: {len(df)}\n")
         f.write("=" * 80 + "\n\n")

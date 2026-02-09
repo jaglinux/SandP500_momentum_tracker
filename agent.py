@@ -14,7 +14,6 @@ from langchain_core.prompts import ChatPromptTemplate
 
 import high_history
 
-
 # Get the directory where this script is located
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 OUTPUT_DIR = os.path.join(SCRIPT_DIR, "output")
@@ -53,8 +52,9 @@ def create_stocks_table(df: pd.DataFrame, history: dict = None) -> tuple:
         lambda t: history.get(t, {}).get("dates", [])[-2] if len(history.get(t, {}).get("dates", [])) >= 2 else ""
     )
     
-    # Select columns for display (include momentum columns)
+    # Select columns for display (include momentum, price changes, volume)
     display_cols = ["Ticker", "Name", "Price", "Market Cap (B)", "Hits", "Last Hit", "2nd Last",
+                    "% 1D", "% 1W", "% 1Y", "Vol", "Vol % 1D",
                     "Sentiment", "% From 52W High", "% From ATH"]
     
     # Filter to only columns that exist
@@ -84,7 +84,7 @@ def create_stocks_table(df: pd.DataFrame, history: dict = None) -> tuple:
 def generate_recommendations(table_md: str, history: dict = None) -> str:
     """
     Use GPT as a momentum analyst to generate recommendations.
-    Momentum = how many times a stock hits highs. More hits = stronger momentum.
+    Uses hits history, price changes, volume, and distance from highs.
     """
     # Get top momentum stocks for context
     momentum_context = ""
@@ -97,41 +97,59 @@ def generate_recommendations(table_md: str, history: dict = None) -> str:
             momentum_context = "\n\nTop 10 Momentum Leaders (all-time high hit frequency):\n" + "\n".join(momentum_lines)
     
     prompt_template = ChatPromptTemplate.from_messages([
-        ("system", """You are a STOCK MOMENTUM ANALYST. Your job is to identify and recommend stocks with the strongest momentum.
+        ("system", """You are a STOCK MOMENTUM ANALYST with expertise in technical analysis. Identify and recommend stocks with the strongest momentum using ALL available data.
 
-MOMENTUM DEFINITION:
-- Momentum = how frequently a stock hits 52-week high or all-time high
-- The "Hits" column shows how many times each stock has hit highs (tracked over time)
-- MORE HITS = STRONGER MOMENTUM = stock is consistently making new highs
-- Stocks hitting highs repeatedly are showing sustained buying pressure and institutional interest
+DATA COLUMNS EXPLAINED:
+- **Hits**: Number of times stock hit 52W High or ATH (higher = stronger momentum pattern)
+- **Last Hit / 2nd Last**: Dates of recent high hits (recent = active momentum)
+- **% 1D**: Price change in last 1 day (positive = today's momentum)
+- **% 1W**: Price change in last 1 week (positive = short-term trend)
+- **% 1Y**: Price change over 1 year (positive = long-term uptrend)
+- **Vol**: Current trading volume
+- **Vol % 1D**: Volume change vs yesterday (high = unusual activity, institutional interest)
+- **% From 52W High**: Distance from 52-week high (0% = at high, negative = below)
+- **% From ATH**: Distance from all-time high (0% = at ATH)
+- **Sentiment**: News sentiment (Bullish/Neutral/Bearish)
 
-MOMENTUM ANALYSIS:
-- High hit count (3+) = Strong momentum, proven winner, institutions are accumulating
-- Medium hit count (2) = Building momentum, worth watching
-- First time hit (1) = New breakout, could be start of momentum or one-off
+MOMENTUM SCORING FRAMEWORK:
+1. **Hit Frequency** (Primary): 3+ hits = proven winner, 2 = building, 1 = new breakout
+2. **Price Trend**: Look for stocks with positive % 1D, % 1W, AND % 1Y (triple positive = strong trend)
+3. **Volume Confirmation**: High Vol % 1D (>50%) confirms breakout, institutions are buying
+4. **Proximity to Highs**: Closer to 0% means currently breaking out
+5. **Sentiment**: Bullish sentiment confirms the move has legs
 
-## 🚀 MOMENTUM PICKS - TOP RECOMMENDATIONS
-Pick stocks with the STRONGEST MOMENTUM based on:
-1. Higher "Hits" count is the PRIMARY factor (more hits = more momentum)
-2. Recent hits (check Last Hit / 2nd Last dates) indicate active momentum
-3. Bullish sentiment confirms the momentum
-4. Larger market cap provides stability
+BEST PICKS have:
+- Multiple hits (3+) showing consistent momentum
+- Triple positive price changes (1D, 1W, 1Y all positive)
+- Volume spike (Vol % 1D > 20%) confirming buyer interest
+- At or very near 52W High / ATH
+- Bullish sentiment
 
-For each pick: **TICKER** ($Price) - Hits: X - Brief reason focusing on momentum strength.
+## 🚀 TOP MOMENTUM PICKS
+Select 3-5 stocks with the BEST combination of ALL factors above.
+For each pick: **TICKER** ($Price) - Hits: X, 1D: +X%, 1W: +X%, Vol spike: +X% - Why this is a strong momentum play.
 
-## 🤖 TECH MOMENTUM PICKS
-Pick tech/AI stocks with strong momentum from:
-- Technology, software, cloud, semiconductors
-- AI and machine learning companies
+## 📈 BREAKOUT WATCH
+Stocks showing first-time breakouts (Hits=1) with strong volume and price action.
+These could be the START of a new momentum trend. Look for high Vol % 1D.
 
-For each pick: **TICKER** ($Price) - Hits: X - Brief reason.
-Skip this section if no qualifying tech stocks."""),
-        ("human", """Here are today's S&P 500 stocks at 52-week high or all-time high with their momentum data:
+## 🤖 TECH MOMENTUM
+Tech/AI stocks (semiconductors, cloud, software) with strong momentum signals.
+Skip if no qualifying tech stocks.
+
+## ⚠️ CAUTION FLAGS
+Any stocks at highs showing warning signs:
+- Bearish sentiment despite price high (divergence)
+- Low volume on breakout (weak conviction)
+- Negative weekly trend (% 1W < 0) despite daily pop
+
+Be specific with numbers from the data. Don't just list - ANALYZE and EXPLAIN."""),
+        ("human", """Here are today's S&P 500 stocks at 52-week high or all-time high with full momentum data:
 
 {table}
 {momentum_context}
 
-Analyze the momentum and provide your recommendations:""")
+Analyze ALL the data (hits, price changes, volume, sentiment) and provide your recommendations:""")
     ])
     
     llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
@@ -151,11 +169,11 @@ def save_analysis_md(table: str, summary: dict, recommendations: str):
     new_entry = f"""---
 ## {timestamp}
 
-### 📊 Stocks at Highs (with Momentum Data)
+### 📊 Stocks at Highs (Full Momentum Data)
 
 **Total: {summary['total']} stocks** | 🏆 At ATH: {summary['ath']} | 🔥 At 52W High only: {summary['52w_only']}
 
-> **Hits** = Number of times the stock has hit 52W High or ATH (higher = stronger momentum)
+> **Columns**: Hits = high hit count | % 1D/1W/1Y = price changes | Vol % 1D = volume spike | Sentiment = news
 
 {table}
 

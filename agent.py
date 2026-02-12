@@ -159,15 +159,19 @@ Analyze ALL the data (hits, price changes, volume, sentiment) and provide your r
     return response.content.strip()
 
 
-def save_analysis_md(table: str, summary: dict, recommendations: str):
+def save_analysis_md(table: str, summary: dict, recommendations: str, snapshot_date: str = None):
     """Save table and recommendations to markdown file, prepending new entries at the top."""
     now = datetime.now(timezone.utc)
-    timestamp = now.strftime("%Y-%m-%d %H:%M UTC")
+    generated_timestamp = now.strftime("%Y-%m-%d %H:%M UTC")
+    
+    # Use snapshot_date if provided, otherwise use today
+    if snapshot_date is None:
+        snapshot_date = now.strftime("%Y-%m-%d")
     
     filepath = os.path.join(OUTPUT_DIR, "ai_analysis.md")
     
     new_entry = f"""---
-## {timestamp}
+## Snapshot: {snapshot_date} | Generated: {generated_timestamp}
 
 ### 📊 Stocks at Highs (Full Momentum Data)
 
@@ -207,12 +211,13 @@ def save_analysis_md(table: str, summary: dict, recommendations: str):
     return filepath
 
 
-def main(df_stocks: pd.DataFrame = None):
+def main(df_stocks: pd.DataFrame = None, snapshot_date: str = None):
     """
     Main function to generate AI momentum analysis.
     
     Args:
         df_stocks: DataFrame with stocks at highs (required)
+        snapshot_date: Date of the snapshot data (YYYY-MM-DD)
     """
     print("\n=== Generating AI Momentum Analysis ===")
     
@@ -236,5 +241,5 @@ def main(df_stocks: pd.DataFrame = None):
     print(f"\n{recommendations}\n")
     
     # Save to file (table first, then recommendations)
-    filepath = save_analysis_md(table, summary, recommendations)
+    filepath = save_analysis_md(table, summary, recommendations, snapshot_date)
     print(f"Analysis saved to {filepath}")

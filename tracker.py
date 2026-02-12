@@ -199,7 +199,7 @@ def main(use_cache: bool = False, date_str: str = None, history_only: bool = Fal
 
     # 7) Generate AI analysis
     os.makedirs(OUTPUT_DIR, exist_ok=True)
-    agent.main(df_merged)
+    agent.main(df_merged, snapshot_date=date_str)
     
     if analyze_only:
         print(f"\n✅ Analysis complete using snapshot date: {date_str}")

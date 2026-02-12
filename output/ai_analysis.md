@@ -1,6 +1,90 @@
 # S&P 500 Momentum Tracker - AI Analysis
 
 ---
+## Snapshot: 2026-01-20 | Generated: 2026-02-12 01:00 UTC
+
+### 📊 Stocks at Highs (Full Momentum Data)
+
+**Total: 32 stocks** | 🏆 At ATH: 21 | 🔥 At 52W High only: 11
+
+> **Columns**: Hits = high hit count | % 1D/1W/1Y = price changes | Vol % 1D = volume spike | Sentiment = news
+
+|   # | Ticker   | Name                            |   Price |   Market Cap (B) |   Hits | Last Hit   | 2nd Last   |   % 1D |   % 1W |    % 1Y |      Vol |   Vol % 1D | Sentiment   |   % From 52W High |   % From ATH |
+|-----|----------|---------------------------------|---------|------------------|--------|------------|------------|--------|--------|---------|----------|------------|-------------|-------------------|--------------|
+|   1 | HOLX     | Hologic, Inc.                   |   75.11 |            16.76 |     19 | 2026-01-20 | 2026-01-16 |   0.17 |   0.33 |    6.74 |  2412500 |     -41.87 | Neutral     |             -0.31 |       -14.53 |
+|   2 | EA       | Electronic Arts Inc.            |  204.00 |            50.61 |     19 | 2026-01-20 | 2026-01-16 |  -0.12 |  -0.12 |   43.06 |  2599900 |      25.73 | Bullish     |             -0.43 |        -0.43 |
+|   3 | ULTA     | Ulta Beauty, Inc.               |  675.62 |            30.63 |     16 | 2026-01-20 | 2026-01-16 |   1.83 |   2.14 |   60.04 |   527300 |      34.55 | Neutral     |             -0.37 |        -0.37 |
+|   4 | XOM      | Exxon Mobil Corporation         |  130.46 |           656.02 |     16 | 2026-01-20 | 2026-01-16 |   0.44 |   5.18 |   21.33 | 16477300 |      -0.69 | Bullish     |             -1.12 |        -1.12 |
+|   5 | AME      | AMETEK, Inc.                    |  213.14 |            54.34 |     16 | 2026-01-20 | 2026-01-16 |  -1.16 |   1.61 |   16.17 |  1220100 |      -7.47 | Bullish     |             -1.26 |        -1.26 |
+|   6 | SNA      | Snap-On Incorporated            |  364.58 |            19.96 |     15 | 2026-01-20 | 2026-01-16 |   0.89 |   1.80 |    5.74 |   390900 |      -0.64 | Bullish     |             -0.43 |        -0.43 |
+|   7 | CHRW     | C.H. Robinson Worldwide, Inc.   |  175.10 |            23.19 |     14 | 2026-01-20 | 2026-01-16 |  -0.38 |   1.48 |   69.79 |  1784100 |     -13.89 | Bullish     |             -1.70 |        -1.70 |
+|   8 | MTB      | M&T Bank Corporation            |  211.71 |            36.68 |     14 | 2026-01-20 | 2026-01-16 |  -0.27 |   0.08 |   10.02 |  1185600 |     -35.87 | Bullish     |             -1.85 |        -2.76 |
+|   9 | PNC      | PNC Financial Services Group, I |  220.96 |            95.21 |     14 | 2026-01-20 | 2026-01-16 |  -0.23 |   3.21 |   15.34 |  5582500 |      14.73 | Bullish     |             -1.91 |        -1.91 |
+|  10 | MNST     | Monster Beverage Corporation    |   81.47 |            78.93 |     12 | 2026-01-20 | 2026-01-16 |   4.22 |   5.12 |   65.52 |  7338700 |      -3.50 | Bullish     |             -0.18 |        -0.18 |
+|  11 | NEM      | Newmont Corporation             |  118.94 |           136.87 |     12 | 2026-01-20 | 2026-01-16 |   4.22 |   5.29 |  185.61 | 11149000 |      20.16 | Neutral     |             -0.34 |        -0.34 |
+|  12 | WAB      | Westinghouse Air Brake Technolo |  227.56 |            43.49 |     12 | 2026-01-20 | 2026-01-16 |  -0.89 |   0.48 |   11.21 |   553900 |     -17.37 | Bullish     |             -1.37 |        -1.37 |
+|  13 | TXT      | Textron Inc.                    |   93.16 |            17.34 |     12 | 2026-01-20 | 2026-01-16 |  -1.14 |  -0.13 |   14.84 |  1383400 |      -4.52 | Bullish     |             -1.81 |        -4.13 |
+|  14 | ROL      | Rollins, Inc.                   |   63.11 |            31.56 |     11 | 2026-01-20 | 2026-01-16 |   0.61 |   3.44 |   31.33 |  2881500 |      35.61 | Neutral     |             -0.25 |        -0.25 |
+|  15 | FCX      | Freeport-McMoRan, Inc.          |   60.07 |            94.00 |     11 | 2026-01-20 | 2026-01-15 |   2.32 |   2.57 |   51.13 | 19583600 |      -9.46 | Neutral     |             -0.81 |        -0.81 |
+|  16 | NUE      | Nucor Corporation               |  174.49 |            44.49 |     11 | 2026-01-20 | 2026-01-16 |   0.06 |   5.13 |   41.79 |  1622300 |      -6.65 | Bullish     |             -0.82 |       -11.60 |
+|  17 | FITB     | Fifth Third Bancorp             |   50.12 |            48.92 |     10 | 2026-01-20 | 2026-01-08 |   1.95 |   3.30 |   15.80 | 20591400 |     110.34 | Bullish     |             -1.10 |        -1.10 |
+|  18 | LMT      | Lockheed Martin Corporation     |  576.06 |           145.48 |      9 | 2026-01-20 | 2026-01-16 |  -1.09 |   4.50 |   17.13 |  1521900 |     -35.94 | Bullish     |             -1.84 |        -3.58 |
+|  19 | BG       | Bunge Limited                   |  110.06 |            23.60 |      8 | 2026-01-20 | 2026-01-16 |   2.09 |   8.95 |   44.86 |  2109400 |       6.72 | Neutral     |             -0.28 |        -4.75 |
+|  20 | CBOE     | Cboe Global Markets, Inc.       |  271.92 |            28.11 |      8 | 2026-01-20 | 2026-01-16 |  -0.60 |   3.01 |   38.72 |   712000 |     -22.88 | Bullish     |             -1.65 |        -1.65 |
+|  21 | O        | Realty Income Corporation       |   61.35 |            59.22 |      7 | 2026-01-20 | 2026-01-16 |   0.33 |   4.64 |   17.97 |  7360000 |       1.89 | Neutral     |             -0.53 |        -1.27 |
+|  22 | TMO      | Thermo Fisher Scientific Inc    |  619.01 |           198.06 |      7 | 2026-01-20 | 2026-01-16 |   0.05 |   0.58 |    8.40 |  3108800 |       7.91 | Bullish     |             -1.72 |        -6.90 |
+|  23 | BA       | Boeing Company (The)            |  249.00 |           185.55 |      6 | 2026-01-20 | 2026-01-16 |   0.53 |   3.83 |   41.83 | 11293200 |      89.99 | Bullish     |             -0.21 |       -42.83 |
+|  24 | JNJ      | Johnson & Johnson               |  218.21 |           580.30 |      6 | 2026-01-20 | 2026-01-16 |  -0.21 |   4.05 |   51.80 | 14057100 |      40.27 | Neutral     |             -0.86 |        -0.86 |
+|  25 | FIX      | Comfort Systems USA, Inc.       | 1134.75 |            47.23 |      6 | 2026-01-20 | 2026-01-13 |   1.32 |   9.30 |  115.18 |   545100 |       7.47 | Bullish     |             -1.07 |        -1.07 |
+|  26 | SNDK     | Sandisk Corporation             |  453.12 |            88.44 |      5 | 2026-01-20 | 2026-01-12 |   9.55 |  16.40 | 1158.67 | 17872400 |      13.82 | Bullish     |             -0.93 |        -0.93 |
+|  27 | PNW      | Pinnacle West Capital Corporati |   92.05 |            11.49 |      5 | 2026-01-20 | 2026-01-16 |  -0.81 |   3.67 |    9.95 |  1103500 |     -25.98 | Bullish     |             -1.13 |        -1.13 |
+|  28 | HSY      | The Hershey Company             |  198.87 |            46.81 |      5 | 2026-01-20 | 2026-01-15 |   0.56 |   2.97 |   33.74 |  2228600 |     -43.89 | Bullish     |             -1.48 |       -22.46 |
+|  29 | ADM      | Archer-Daniels-Midland Company  |   65.88 |            33.30 |      4 | 2026-01-20 | 2026-01-15 |   1.07 |   5.92 |   33.64 |  4052000 |      10.69 | Bullish     |             -1.13 |       -26.05 |
+|  30 | FE       | FirstEnergy Corp.               |   46.81 |            27.69 |      3 | 2026-01-20 | 2026-01-16 |  -0.17 |   5.66 |   22.25 |  5361000 |     -38.29 | Neutral     |             -0.99 |        -0.99 |
+|  31 | KO       | Coca-Cola Company (The)         |   71.75 |           338.27 |      2 | 2026-01-20 | 2025-12-22 |   1.86 |   1.77 |   18.34 | 22152200 |      10.61 | Bullish     |             -1.59 |        -1.59 |
+|  32 | D        | Dominion Energy, Inc.           |   61.09 |            55.21 |      2 | 2026-01-20 | 2026-01-16 |  -0.07 |   4.62 |   14.47 |  6392900 |      -4.73 | Bullish     |             -1.73 |       -17.86 |
+
+### 🚀 AI Momentum Analysis
+
+## 🚀 TOP MOMENTUM PICKS
+
+1. **NEM** ($118.94) - 1Y: +185.61%, 1W: +5.29%, Vol spike: +20.16%  
+   **Analysis**: Newmont Corporation shows exceptional momentum with a staggering 185.61% increase over the past year. The positive weekly trend of 5.29% and significant volume spike indicate strong institutional interest, making it a top pick for momentum investors.
+
+2. **SNDK** ($453.12) - 1Y: +1158.67%, 1W: +16.40%, Vol spike: +13.82%  
+   **Analysis**: Sandisk Corporation has an extraordinary 1Y gain of over 1158%, showcasing remarkable price momentum. The weekly increase of 16.40% and a solid volume spike confirm the strength of this upward trend, positioning it as an exceptional momentum stock.
+
+3. **MNST** ($81.47) - 1Y: +65.52%, 1W: +5.12%, Vol spike: +14.73%  
+   **Analysis**: Monster Beverage Corporation has shown a strong 1Y gain of 65.52%. The positive weekly trend of 5.12% and a notable volume spike suggest that the stock is gaining traction, making it a solid choice for momentum-focused investors.
+
+4. **FCX** ($60.07) - 1Y: +51.13%, 1W: +2.57%, Vol spike: +9.46%  
+   **Analysis**: Freeport-McMoRan, Inc. has a respectable 1Y gain of 51.13%. The positive weekly trend of 2.57% and a volume spike indicate that the stock is experiencing upward momentum, making it a viable option for those seeking momentum plays.
+
+5. **ULTA** ($675.62) - 1Y: +60.04%, 1W: +2.14%, Vol spike: +34.55%  
+   **Analysis**: Ulta Beauty, Inc. has a solid 1Y gain of 60.04%. The positive weekly trend of 2.14% and a significant volume spike suggest strong buying interest, positioning it as a strong momentum stock.
+
+## 📈 BREAKOUT WATCH
+
+1. **CBOE** ($271.92) - 1Y: +38.72%, 1W: +3.01%, Vol spike: +22.88%  
+   **Analysis**: Cboe Global Markets, Inc. is showing early-stage momentum with a 1Y gain of 38.72% and a positive weekly trend. The volume spike indicates institutional interest, making it a potential breakout candidate.
+
+2. **ADM** ($65.88) - 1Y: +33.64%, 1W: +5.92%, Vol spike: +10.69%  
+   **Analysis**: Archer-Daniels-Midland Company is also showing promising signs with a 1Y gain of 33.64% and a strong weekly increase. The volume spike suggests growing interest, making it a stock to watch for potential breakout.
+
+## ⚠️ RANGE-BOUND / CAUTION
+
+- **HOLX** ($75.11) - 1Y: +6.74%, 1W: +0.33%, Hits: 19  
+  **Warning**: Despite having 19 hits, Hologic, Inc. shows a low 1Y gain of only 6.74%, indicating it is range-bound and hitting the same resistance level repeatedly. Avoid this stock for momentum plays.
+
+- **EA** ($204.00) - 1Y: +43.06%, 1W: -0.12%, Hits: 19  
+  **Warning**: Electronic Arts Inc. has a high hit count but a low 1Y gain of 43.06% and a negative weekly trend, suggesting it is also range-bound. This stock should be avoided for momentum strategies.
+
+- **XOM** ($130.46) - 1Y: +21.33%, 1W: +5.18%, Hits: 16  
+  **Warning**: Exxon Mobil Corporation has a significant number of hits but a low 1Y gain of 21.33%, indicating it is not breaking out and is likely range-bound. Caution is advised here.
+
+These selections focus on stocks with real momentum while avoiding those that are range-bound despite high hit counts.
+
+---
 ## 2026-02-12 00:39 UTC
 
 ### 📊 Stocks at Highs (Full Momentum Data)

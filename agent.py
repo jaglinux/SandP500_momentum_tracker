@@ -18,7 +18,6 @@ import high_history
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 OUTPUT_DIR = os.path.join(SCRIPT_DIR, "output")
 
-
 def create_stocks_table(df: pd.DataFrame, history: dict = None) -> tuple:
     """
     Create a formatted table of stocks at highs with momentum data.
@@ -97,59 +96,55 @@ def generate_recommendations(table_md: str, history: dict = None) -> str:
             momentum_context = "\n\nTop 10 Momentum Leaders (all-time high hit frequency):\n" + "\n".join(momentum_lines)
     
     prompt_template = ChatPromptTemplate.from_messages([
-        ("system", """You are a STOCK MOMENTUM ANALYST with expertise in technical analysis. Identify and recommend stocks with the strongest momentum using ALL available data.
+        ("system", """You are a STOCK MOMENTUM ANALYST. Your job is to find stocks with REAL price momentum, not range-bound stocks.
 
-DATA COLUMNS EXPLAINED:
-- **Hits**: Number of times stock hit 52W High or ATH (higher = stronger momentum pattern)
-- **Last Hit / 2nd Last**: Dates of recent high hits (recent = active momentum)
-- **% 1D**: Price change in last 1 day (positive = today's momentum)
-- **% 1W**: Price change in last 1 week (positive = short-term trend)
-- **% 1Y**: Price change over 1 year (positive = long-term uptrend)
-- **Vol**: Current trading volume
-- **Vol % 1D**: Volume change vs yesterday (high = unusual activity, institutional interest)
-- **% From 52W High**: Distance from 52-week high (0% = at high, negative = below)
-- **% From ATH**: Distance from all-time high (0% = at ATH)
+DATA COLUMNS:
+- **% 1Y**: Year-over-year price change - THIS IS THE PRIMARY MOMENTUM INDICATOR
+- **% 1W**: Weekly price change - shows current trend direction
+- **% 1D**: Daily price change
+- **Hits**: Times stock hit highs - WARNING: High hits + low % 1Y = RANGE-BOUND (avoid!)
+- **Vol % 1D**: Volume spike vs yesterday (>50% = institutional interest)
 - **Sentiment**: News sentiment (Bullish/Neutral/Bearish)
 
-MOMENTUM SCORING FRAMEWORK:
-1. **Hit Frequency** (Primary): 3+ hits = proven winner, 2 = building, 1 = new breakout
-2. **Price Trend**: Look for stocks with positive % 1D, % 1W, AND % 1Y (triple positive = strong trend)
-3. **Volume Confirmation**: High Vol % 1D (>50%) confirms breakout, institutions are buying
-4. **Proximity to Highs**: Closer to 0% means currently breaking out
-5. **Sentiment**: Bullish sentiment confirms the move has legs
+CRITICAL MOMENTUM RULES:
+1. **% 1Y is PRIMARY** - True momentum = stocks UP 50%+ in a year. Stocks up 100%+ are exceptional.
+2. **AVOID RANGE-BOUND STOCKS** - High "Hits" with low % 1Y (<30%) means the stock keeps hitting the SAME ceiling repeatedly. This is NOT momentum - it's resistance!
+3. **% 1W must be positive** - Confirms current uptrend is active
+4. **Volume confirms conviction** - Vol % 1D > 50% shows institutions are buying
 
-BEST PICKS have:
-- Multiple hits (3+) showing consistent momentum
-- Triple positive price changes (1D, 1W, 1Y all positive)
-- Volume spike (Vol % 1D > 20%) confirming buyer interest
-- At or very near 52W High / ATH
-- Bullish sentiment
+RANGE-BOUND WARNING:
+- If a stock has many Hits but % 1Y < 30%, it's hitting the same price ceiling repeatedly = AVOID
+- Example: 18 hits but only 7% yearly gain = stock is stuck, not trending
+
+TRUE MOMENTUM STOCKS have:
+- % 1Y > 50% (ideally 70%+) - significant price appreciation
+- % 1W > 2% - active current uptrend  
+- Positive % 1D - today's momentum
+- Volume spike confirming the move
 
 ## 🚀 TOP MOMENTUM PICKS
-Select 3-5 stocks with the BEST combination of ALL factors above.
-For each pick: **TICKER** ($Price) - Hits: X, 1D: +X%, 1W: +X%, Vol spike: +X% - Why this is a strong momentum play.
+Select 3-5 stocks with the HIGHEST % 1Y gains (50%+) that also have positive % 1W.
+For each: **TICKER** ($Price) - 1Y: +X%, 1W: +X%, Vol spike: +X% - Brief analysis.
 
-## 📈 BREAKOUT WATCH
-Stocks showing first-time breakouts (Hits=1) with strong volume and price action.
-These could be the START of a new momentum trend. Look for high Vol % 1D.
+## 📈 BREAKOUT WATCH  
+New breakouts (Hits=1-2) with strong % 1Y and volume spike.
+These are early-stage momentum plays.
 
 ## 🤖 TECH MOMENTUM
-Tech/AI stocks (semiconductors, cloud, software) with strong momentum signals.
-Skip if no qualifying tech stocks.
+Tech/semiconductor/AI stocks with % 1Y > 70% and positive weekly trend.
+Skip if none qualify.
 
-## ⚠️ CAUTION FLAGS
-Any stocks at highs showing warning signs:
-- Bearish sentiment despite price high (divergence)
-- Low volume on breakout (weak conviction)
-- Negative weekly trend (% 1W < 0) despite daily pop
+## ⚠️ RANGE-BOUND / CAUTION
+Stocks with HIGH Hits but LOW % 1Y - these are hitting resistance, not breaking out.
+Also flag: Bearish sentiment, negative % 1W despite daily pop.
 
-Be specific with numbers from the data. Don't just list - ANALYZE and EXPLAIN."""),
-        ("human", """Here are today's S&P 500 stocks at 52-week high or all-time high with full momentum data:
+Be specific with numbers. Prioritize % 1Y over Hits count."""),
+        ("human", """S&P 500 stocks at 52-week high or all-time high:
 
 {table}
 {momentum_context}
 
-Analyze ALL the data (hits, price changes, volume, sentiment) and provide your recommendations:""")
+Find stocks with REAL momentum (high % 1Y), not range-bound stocks (high hits but low % 1Y):""")
     ])
     
     llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)

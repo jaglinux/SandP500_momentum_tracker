@@ -1,6 +1,115 @@
 # S&P 500 Momentum Tracker - AI Analysis
 
 ---
+## Snapshot: 2026-01-30 | Generated: 2026-04-15 08:38 UTC
+
+### 📊 Stocks at Highs (Full Momentum Data)
+
+**Total: 53 stocks** | 🏆 At ATH: 40 | 🔥 At 52W High only: 13
+
+> **Columns**: Hits = high hit count | % 1D/1W/1Y = price changes | Vol % 1D = volume spike | Sentiment = news
+
+|   # | Ticker   | Name                            |   Price |   Market Cap (B) |   Hits | Last Hit   | 2nd Last   |   % 1D |   % 1W |   % 1Y |          Vol |   Vol % 1D | Sentiment   |   % From 52W High |   % From ATH |
+|-----|----------|---------------------------------|---------|------------------|--------|------------|------------|--------|--------|--------|--------------|------------|-------------|-------------------|--------------|
+|   1 | EA       | Electronic Arts Inc.            |  203.73 |            50.76 |     26 | 2026-01-30 | 2026-01-29 |  -0.01 |  -0.04 |  72.65 |   4233600.00 |      59.06 | Bullish     |             -0.47 |        -0.47 |
+|   2 | HOLX     | Hologic, Inc.                   |   74.93 |            16.97 |     26 | 2026-01-30 | 2026-01-29 |  -0.07 |  -0.16 |   3.82 |   2642031.00 |     -35.82 | Bullish     |             -0.57 |       -14.74 |
+|   3 | XOM      | Exxon Mobil Corporation         |  140.46 |           620.32 |     23 | 2026-01-30 | 2026-01-29 |   0.63 |   4.76 |  33.79 |  29657700.00 |     -17.07 | Bullish     |             -0.66 |        -0.66 |
+|   4 | AME      | AMETEK, Inc.                    |  223.62 |            53.68 |     22 | 2026-01-30 | 2026-01-29 |  -1.16 |   1.47 |  21.23 |   1294000.00 |       0.58 | Bullish     |             -1.67 |        -1.67 |
+|   5 | PCAR     | PACCAR Inc.                     |  122.59 |            65.96 |     21 | 2026-01-30 | 2026-01-29 |  -0.33 |   0.75 |  12.10 |   2374000.00 |     -46.99 | Bullish     |             -1.95 |        -1.95 |
+|   6 | NDSN     | Nordson Corporation             |  273.69 |            15.56 |     18 | 2026-01-30 | 2026-01-29 |  -0.17 |   1.20 |  26.25 |    628300.00 |      -7.44 | Bullish     |             -0.33 |        -0.33 |
+|   7 | ROL      | Rollins, Inc.                   |   63.15 |            26.41 |     18 | 2026-01-30 | 2026-01-29 |   0.49 |   0.68 |  28.94 |   2310500.00 |     -13.33 | Bullish     |             -0.78 |        -0.78 |
+|   8 | USB      | U.S. Bancorp                    |   55.54 |            87.15 |     17 | 2026-01-30 | 2026-01-29 |  -0.39 |   1.15 |  22.05 |   9826600.00 |      21.55 | Bullish     |             -1.04 |        -1.04 |
+|   9 | PNC      | PNC Financial Services Group, I |  221.60 |            89.43 |     17 | 2026-01-30 | 2026-01-29 |  -0.52 |   1.78 |  14.53 |   2107100.00 |     -15.57 | Bullish     |             -1.97 |        -1.97 |
+|  10 | MTB      | M&T Bank Corporation            |  220.04 |            32.86 |     16 | 2026-01-30 | 2026-01-29 |   0.06 |   3.62 |  13.02 |   1516100.00 |      15.38 | Neutral     |             -0.57 |        -0.57 |
+|  11 | FDX      | FedEx Corporation               |  320.95 |            88.32 |     14 | 2026-01-30 | 2026-01-29 |   0.73 |   5.93 |  22.52 |   2588600.00 |      57.71 | Neutral     |             -0.15 |        -0.15 |
+|  12 | PFG      | Principal Financial Group Inc   |   93.88 |            20.41 |     14 | 2026-01-30 | 2026-01-29 |  -0.04 |   3.85 |  17.83 |   1888200.00 |     -12.22 | Bullish     |             -0.71 |        -0.71 |
+|  13 | LMT      | Lockheed Martin Corporation     |  630.90 |           140.95 |     14 | 2026-01-30 | 2026-01-28 |   1.88 |   7.35 |  42.05 |   2099600.00 |     -46.60 | Neutral     |             -1.77 |        -1.77 |
+|  14 | SCHW     | Charles Schwab Corporation (The |  103.57 |           172.38 |     14 | 2026-01-30 | 2026-01-27 |   0.43 |   1.70 |  25.83 |  11335300.00 |      12.97 | Neutral     |             -1.79 |        -1.79 |
+|  15 | JNJ      | Johnson & Johnson               |  226.05 |           578.62 |     13 | 2026-01-30 | 2026-01-29 |  -0.02 |   3.23 |  53.21 |  11045500.00 |      14.52 | Bullish     |             -1.20 |        -1.20 |
+|  16 | CVX      | Chevron Corporation             |  175.19 |           372.52 |     12 | 2026-01-30 | 2026-01-28 |   3.34 |   6.11 |  18.41 |  22946600.00 |      36.70 | Bullish     |             -0.23 |        -0.23 |
+|  17 | TFC      | Truist Financial Corporation    |   50.91 |            63.36 |     12 | 2026-01-30 | 2026-01-29 |   0.19 |   3.73 |  12.37 |  12027700.00 |      -1.97 | Bullish     |             -0.48 |        -8.65 |
+|  18 | O        | Realty Income Corporation       |   60.64 |            59.50 |     12 | 2026-01-30 | 2026-01-29 |   1.07 |   1.14 |  19.64 |   7304100.00 |      36.67 | Bullish     |             -0.83 |        -1.57 |
+|  19 | BEN      | Franklin Resources, Inc.        |   26.24 |            13.78 |     12 | 2026-01-30 | 2026-01-29 |   2.86 |   5.18 |  39.98 |  24424500.00 |     194.51 | Neutral     |             -1.04 |       -25.49 |
+|  20 | HAS      | Hasbro, Inc.                    |   88.70 |            13.05 |     12 | 2026-01-30 | 2026-01-29 |  -1.27 |   0.71 |  55.93 |   2336900.00 |      41.72 | Bullish     |             -1.64 |       -10.02 |
+|  21 | SPG      | Simon Property Group, Inc.      |  189.13 |            77.26 |     11 | 2026-01-30 | 2026-01-29 |   0.80 |   3.56 |  14.35 |   3019700.00 |      78.97 | Bullish     |             -0.49 |        -0.49 |
+|  22 | GOOG     | Alphabet Inc.                   |  338.29 |          3999.03 |     11 | 2026-01-30 | 2026-01-29 |  -0.04 |   3.08 |  67.72 |  21740200.00 |     -11.44 | Bullish     |             -1.10 |        -1.10 |
+|  23 | PNW      | Pinnacle West Capital Corporati |   92.65 |            12.43 |     11 | 2026-01-30 | 2026-01-28 |   0.56 |   1.51 |  11.78 |   1294800.00 |      25.81 | Neutral     |             -1.52 |        -1.52 |
+|  24 | ROK      | Rockwell Automation, Inc.       |  420.19 |            45.57 |     11 | 2026-01-30 | 2026-01-29 |  -1.19 |   0.91 |  53.60 |    660800.00 |      -8.26 | Neutral     |             -1.85 |        -1.85 |
+|  25 | NOC      | Northrop Grumman Corporation    |  690.05 |            96.60 |     11 | 2026-01-30 | 2026-01-29 |  -0.44 |   2.87 |  45.70 |    953100.00 |     -10.44 | Bullish     |             -1.87 |        -1.87 |
+|  26 | GOOGL    | Alphabet Inc.                   |  337.76 |          4027.21 |     10 | 2026-01-30 | 2026-01-29 |  -0.07 |   3.07 |  68.93 |  31024000.00 |     -22.02 | Bullish     |             -1.25 |        -1.25 |
+|  27 | EIX      | Edison International            |   61.54 |            27.86 |     10 | 2026-01-30 | 2026-01-29 |   0.18 |   2.48 |  22.45 |   4507000.00 |      85.78 | Bullish     |             -1.44 |       -24.53 |
+|  28 | ACGL     | Arch Capital Group Ltd.         |   96.04 |            34.27 |     10 | 2026-01-30 | 2026-01-29 |   0.33 |   3.31 |   1.54 |   2216200.00 |      12.77 | Bullish     |             -1.60 |       -13.28 |
+|  29 | KO       | Coca-Cola Company (The)         |   74.30 |           326.69 |      9 | 2026-01-30 | 2026-01-29 |   1.88 |   2.65 |  20.25 |  26420500.00 |      26.64 | Bullish     |             -0.12 |        -0.12 |
+|  30 | GILD     | Gilead Sciences, Inc.           |  141.15 |           174.33 |      9 | 2026-01-30 | 2026-01-29 |   1.72 |   4.43 |  50.51 |   9460200.00 |      32.35 | Bullish     |             -0.18 |        -0.18 |
+|  31 | CME      | CME Group Inc.                  |  282.31 |           107.76 |      8 | 2026-01-30 | 2026-01-29 |  -0.27 |   2.24 |  24.86 |   1448300.00 |     -25.36 | Bearish     |             -0.93 |        -0.93 |
+|  32 | ECL      | Ecolab Inc.                     |  281.24 |            77.14 |      8 | 2026-01-30 | 2026-01-29 |  -0.30 |   0.03 |  12.82 |   1293800.00 |       7.90 | Bullish     |             -1.06 |        -1.06 |
+|  33 | FE       | FirstEnergy Corp.               |   46.89 |            29.52 |      8 | 2026-01-30 | 2026-01-29 |   0.02 |   1.68 |  24.18 |   5063500.00 |      24.31 | Bullish     |             -1.25 |        -1.25 |
+|  34 | HON      | Honeywell International Inc.    |  226.40 |           147.79 |      7 | 2026-01-30 | 2026-01-29 |   0.12 |   2.74 |  10.09 |   6719200.00 |      -3.25 | Neutral     |             -0.90 |        -0.90 |
+|  35 | NI       | NiSource Inc                    |   43.99 |            22.60 |      7 | 2026-01-30 | 2026-01-29 |  -0.81 |   2.03 |  20.74 |   4945100.00 |      12.68 | Bullish     |             -1.47 |        -1.47 |
+|  36 | WMB      | Williams Companies, Inc. (The)  |   66.78 |            87.36 |      7 | 2026-01-30 | 2026-01-29 |   0.03 |   3.54 |  22.97 |   7985300.00 |      13.78 | Bullish     |             -1.48 |        -1.48 |
+|  37 | CBRE     | CBRE Group Inc                  |  170.33 |            43.41 |      7 | 2026-01-30 | 2026-01-29 |  -0.75 |   0.65 |  17.75 |   1423600.00 |       5.56 | Bullish     |             -1.57 |        -1.57 |
+|  38 | KMI      | Kinder Morgan, Inc.             |   30.20 |            70.42 |      6 | 2026-01-30 | 2026-01-29 |   0.83 |   3.11 |  13.29 |  18926700.00 |       0.33 | Bullish     |             -0.26 |        -0.26 |
+|  39 | CAH      | Cardinal Health, Inc.           |  214.36 |            50.58 |      6 | 2026-01-30 | 2026-01-27 |   1.73 |   3.14 |  69.64 |   2454000.00 |      87.77 | Bullish     |             -0.75 |        -0.75 |
+|  40 | CSX      | CSX Corporation                 |   37.64 |            79.07 |      6 | 2026-01-30 | 2026-01-29 |  -0.29 |   3.06 |  16.75 |  11117500.00 |      -8.00 | Neutral     |             -0.92 |        -3.06 |
+|  41 | TSN      | Tyson Foods, Inc.               |   64.81 |            22.87 |      6 | 2026-01-30 | 2026-01-29 |   0.17 |   5.95 |  19.19 |   4432800.00 |      60.17 | Bullish     |             -0.96 |       -26.29 |
+|  42 | CNP      | CenterPoint Energy, Inc (Holdin |   39.47 |            28.06 |      6 | 2026-01-30 | 2026-01-29 |   0.25 |   2.35 |  23.62 |   5025500.00 |      -8.16 | Bullish     |             -1.45 |        -1.45 |
+|  43 | NEE      | NextEra Energy, Inc.            |   87.30 |           190.41 |      5 | 2026-01-30 | 2026-01-29 |  -0.32 |   3.64 |  27.13 |  10205300.00 |      -8.90 | Bullish     |             -1.45 |        -1.45 |
+|  44 | TDY      | Teledyne Technologies Incorpora |  620.30 |            29.99 |      5 | 2026-01-30 | 2026-01-29 |  -0.80 |   1.58 |  19.56 |    510900.00 |       6.82 | Bullish     |             -1.66 |        -1.66 |
+|  45 | DE       | Deere & Company                 |  526.46 |           160.99 |      5 | 2026-01-30 | 2026-01-29 |  -0.39 |   2.64 |  11.51 |   1517800.00 |       1.63 | Neutral     |             -1.72 |        -1.72 |
+|  46 | PM       | Philip Morris International Inc |  177.85 |           248.54 |      4 | 2026-01-30 | 2026-01-28 |   0.87 |   3.71 |  42.56 |   8239200.00 |       8.71 | Neutral     |             -1.36 |        -1.36 |
+|  47 | SYY      | Sysco Corporation               |   83.22 |            35.46 |      4 | 2026-01-30 | 2026-01-29 |  -0.31 |  10.02 |  17.53 |   5243100.00 |      28.45 | Bullish     |             -1.73 |        -1.73 |
+|  48 | MSCI     | MSCI Inc.                       |  606.83 |            40.09 |      3 | 2026-01-30 | 2026-01-28 |   0.16 |   3.30 |   4.44 |    569400.00 |     -28.81 | Bearish     |             -1.96 |        -6.31 |
+|  49 | VZ       | Verizon Communications Inc.     |   43.86 |           191.82 |      2 | 2026-01-30 | 2025-12-22 |  11.83 |  12.65 |  20.52 | 123584700.00 |     178.67 | Bullish     |             -0.25 |        -1.35 |
+|  50 | COP      | ConocoPhillips                  |  103.43 |           145.20 |      2 | 2026-01-30 | 2025-12-22 |   1.39 |   5.98 |   6.28 |   9169000.00 |     -36.62 | Bullish     |             -1.41 |       -18.57 |
+|  51 | PFE      | Pfizer, Inc.                    |   26.44 |           154.21 |      2 | 2026-01-30 | 2026-01-27 |   1.30 |   3.08 |   5.39 |  51599400.00 |      16.28 | Bearish     |             -1.45 |       -46.50 |
+|  52 | CTRA     | Coterra Energy Inc.             |   28.64 |            24.05 |      1 | 2026-01-30 |            |   2.82 |   5.22 |   5.19 |  13851700.00 |     -17.33 | Bullish     |             -0.72 |        -7.41 |
+|  53 | PEP      | Pepsico, Inc.                   |  152.27 |           212.86 |      1 | 2026-01-30 |            |   3.32 |   6.26 |   5.18 |  12641300.00 |      39.49 | Bullish     |             -1.07 |       -14.42 |
+
+### 🚀 AI Momentum Analysis
+
+## 🚀 TOP MOMENTUM PICKS
+
+1. **EA** ($203.73) - 1Y: +72.65%, 1W: -0.04%, Vol spike: +59.06%
+   - Despite a strong 1Y gain of 72.65%, the negative weekly trend (-0.04%) and high hit count (26) suggest potential resistance. Caution is advised.
+
+2. **GOOG** ($338.29) - 1Y: +67.72%, 1W: +3.08%, Vol spike: +11.44%
+   - With a solid 1Y gain of 67.72% and a positive weekly trend of +3.08%, Google shows strong momentum. The volume spike indicates institutional interest, making it a strong candidate.
+
+3. **GILD** ($141.15) - 1Y: +50.51%, 1W: +4.43%, Vol spike: +32.35%
+   - Gilead Sciences has a 1Y gain of 50.51% and a positive weekly trend of +4.43%. The volume spike confirms buying interest, indicating a solid momentum play.
+
+4. **LMT** ($630.90) - 1Y: +42.05%, 1W: +7.35%, Vol spike: +46.60%
+   - Lockheed Martin shows a strong weekly trend of +7.35% and a solid 1Y gain of 42.05%. The volume spike suggests institutional buying, making it a noteworthy momentum stock.
+
+5. **FDX** ($320.95) - 1Y: +22.52%, 1W: +5.93%, Vol spike: +57.71%
+   - FedEx has a 1Y gain of 22.52% and a strong weekly trend of +5.93%. The significant volume spike indicates institutional interest, positioning it as a potential momentum play.
+
+## 📈 BREAKOUT WATCH
+
+1. **CTRA** ($28.64) - 1Y: +5.19%, 1W: +5.22%, Vol spike: +17.33%
+   - Coterra Energy has just 1 hit, indicating a potential breakout. The positive weekly trend and volume spike suggest early-stage momentum.
+
+2. **PEP** ($152.27) - 1Y: +5.18%, 1W: +6.26%, Vol spike: +39.49%
+   - PepsiCo also shows a single hit with a positive weekly trend and volume spike, indicating potential for upward movement.
+
+## ⚠️ RANGE-BOUND / CAUTION
+
+1. **HOLX** ($74.93) - 1Y: +3.82%, 1W: -0.16%
+   - Despite 26 hits, the low 1Y gain of 3.82% and negative weekly trend indicate that Hologic is range-bound and should be avoided.
+
+2. **XOM** ($140.46) - 1Y: +33.79%, 1W: +4.76%
+   - Exxon Mobil has a high hit count (23) but a low 1Y gain of 33.79%. While the weekly trend is positive, the overall momentum is weak, suggesting caution.
+
+3. **AME** ($223.62) - 1Y: +21.23%, 1W: +1.47%
+   - AMETEK has a high hit count (22) but a low 1Y gain of 21.23%. The positive weekly trend is not enough to offset the range-bound nature of the stock.
+
+4. **PCAR** ($122.59) - 1Y: +12.10%, 1W: +0.75%
+   - PACCAR has 21 hits and a low 1Y gain of 12.10%. The positive weekly trend is insufficient to indicate true momentum, making it a stock to avoid.
+
+5. **NDSN** ($273.69) - 1Y: +26.25%, 1W: +1.20%
+   - Nordson Corporation has a high hit count (18) but a low 1Y gain of 26.25%. The positive weekly trend does not compensate for the lack of significant momentum.
+
+---
 ## Snapshot: 2026-01-20 | Generated: 2026-02-12 01:00 UTC
 
 ### 📊 Stocks at Highs (Full Momentum Data)

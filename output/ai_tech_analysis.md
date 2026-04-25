@@ -1,6 +1,118 @@
 # S&P 500 Momentum Tracker - Tech (IT + Communication Services) AI Analysis
 
 ---
+## Snapshot: 2026-03-06 | Generated: 2026-04-25 09:11 UTC
+
+### 📊 Tech Screen — IT & Communication Services — Stocks at Highs
+
+**Total: 1 stocks** | 🏆 At ATH: 1 | 🔥 At 52W High only: 0
+
+> **Columns**: **At high today** = in today's at-52W/ATH set; **False** = still shown (history + ranked by % 1Y / market cap / hits). | Hits = cumulative high hits | % 1D/1W/1Y = price changes | Vol % 1D = volume vs prior day
+
+|   # | Ticker   | Name                            | At high today   |   Price |   Market Cap (B) |   Hits | Last Hit   | 2nd Last   |   % 1D |   % 1W |    % 1Y |      Vol |   Vol % 1D |   % From 52W High |   % From ATH |
+|-----|----------|---------------------------------|-----------------|---------|------------------|--------|------------|------------|--------|--------|---------|----------|------------|-------------------|--------------|
+|   1 | VZ       | Verizon Communications Inc.     | True            |   50.36 |           193.87 |     19 | 2026-03-06 | 2026-03-05 |  -0.12 |   1.95 |   23.49 | 23562600 |     -14.42 |             -0.56 |        -0.56 |
+|   2 | SNDK     | Sandisk Corporation             | False           |  527.33 |           146.11 |      9 | 2026-02-02 | 2026-01-29 |  -6.76 | -17.00 | 1034.04 | 16108900 |       4.38 |            -27.26 |       -27.26 |
+|   3 | WDC      | Western Digital Corporation     | False           |  245.25 |           138.13 |      5 | 2026-01-28 | 2026-01-27 |  -5.32 | -12.27 |  494.23 |  6352700 |       0.90 |            -20.82 |       -20.82 |
+|   4 | MU       | Micron Technology, Inc.         | False           |  370.14 |           560.17 |     12 | 2026-01-28 | 2026-01-27 |  -6.74 | -10.20 |  316.17 | 34458800 |      15.02 |            -18.70 |       -18.70 |
+|   5 | GLW      | Corning Incorporated            | False           |  123.29 |           151.09 |      7 | 2026-02-25 | 2026-02-24 |  -8.50 | -18.01 |  174.99 | 19123600 |       4.58 |            -23.80 |       -23.80 |
+|   6 | LRCX     | Lam Research Corporation        | False           |  199.33 |           334.88 |     11 | 2026-01-29 | 2026-01-28 |  -7.15 | -14.67 |  162.57 | 13597800 |      32.78 |            -22.25 |       -22.25 |
+|   7 | TER      | Teradyne, Inc.                  | False           |  273.05 |            65.45 |     14 | 2026-02-25 | 2026-02-24 | -10.65 | -14.68 |  160.05 |  5896900 |      49.82 |            -20.84 |       -20.84 |
+|   8 | AMAT     | Applied Materials, Inc.         | False           |  324.74 |           330.97 |     15 | 2026-02-25 | 2026-02-24 |  -6.29 | -12.77 |  116.21 |  8655200 |      46.71 |            -17.98 |       -17.98 |
+|   9 | APH      | Amphenol Corporation            | False           |  131.61 |           184.06 |      8 | 2026-01-27 | 2026-01-26 |  -3.21 |  -9.72 |  115.20 |  7975600 |     -42.70 |            -21.05 |       -21.05 |
+|  10 | KLAC     | KLA Corporation                 | False           | 1344.55 |           254.24 |     14 | 2026-01-29 | 2026-01-28 |  -5.93 | -11.81 |   95.74 |  1117900 |       3.73 |            -20.50 |       -20.50 |
+|  11 | MPWR     | Monolithic Power Systems, Inc.  | False           | 1021.12 |            80.16 |      5 | 2026-02-25 | 2026-02-06 |  -5.13 | -10.46 |   82.37 |   756900 |      28.70 |            -18.55 |       -18.55 |
+|  12 | KEYS     | Keysight Technologies Inc.      | False           |  272.43 |            59.50 |     22 | 2026-03-02 | 2026-02-27 |  -4.25 | -11.36 |   76.31 |  1695700 |     -21.33 |            -14.06 |       -14.06 |
+|  13 | JBL      | Jabil Inc.                      | False           |  241.09 |            36.04 |     10 | 2026-02-25 | 2026-02-09 |  -4.41 |  -9.02 |   74.66 |  1123800 |     -22.53 |            -14.32 |       -14.32 |
+|  14 | GOOGL    | Alphabet Inc.                   | False           |  298.31 |          4166.21 |     11 | 2026-02-02 | 2026-01-30 |  -0.78 |  -4.25 |   73.88 | 25576900 |     -28.46 |            -14.46 |       -14.46 |
+|  15 | GOOG     | Alphabet Inc.                   | False           |  298.09 |          4141.05 |     12 | 2026-02-02 | 2026-01-30 |  -0.87 |  -4.22 |   71.90 | 17598000 |     -22.28 |            -14.81 |       -14.81 |
+|  16 | EA       | Electronic Arts Inc.            | False           |  198.00 |            50.72 |     38 | 2026-03-05 | 2026-03-04 |  -1.37 |  -1.28 |   45.37 |  4947000 |     154.68 |             -3.27 |        -3.27 |
+|  17 | ADI      | Analog Devices, Inc.            | False           |  315.81 |           195.07 |     21 | 2026-02-25 | 2026-02-24 |  -4.22 | -10.96 |   43.93 |  4536700 |     -15.49 |            -12.78 |       -12.78 |
+|  18 | TKO      | TKO Group Holdings, Inc.        | False           |  201.87 |            13.98 |      9 | 2026-03-02 | 2026-02-27 |  -4.28 |  -9.47 |   39.63 |   944300 |     -34.54 |            -10.69 |       -10.69 |
+|  19 | TDY      | Teledyne Technologies Incorpora | False           |  647.64 |            30.05 |     20 | 2026-03-04 | 2026-03-03 |  -1.10 |  -4.91 |   31.83 |   282500 |     -15.27 |             -6.60 |        -6.60 |
+|  20 | CSCO     | Cisco Systems, Inc.             | False           |   78.22 |           351.58 |      5 | 2026-02-09 | 2026-02-06 |  -1.71 |  -1.03 |   27.03 | 20621200 |     -23.18 |            -10.83 |       -10.83 |
+|  21 | MCHP     | Microchip Technology Incorporat | False           |   64.77 |            48.40 |      6 | 2026-02-11 | 2026-01-28 |  -4.48 | -13.22 |   14.50 | 11745000 |      22.26 |            -21.83 |       -32.34 |
+|  22 | FOXA     | Fox Corporation                 | False           |   59.78 |            26.74 |     10 | 2026-01-08 | 2026-01-07 |   1.86 |   6.63 |    8.99 |  4016800 |      18.54 |            -21.36 |       -21.36 |
+|  23 | OMC      | Omnicom Group Inc.              | False           |   84.09 |            23.50 |      5 | 2026-03-04 | 2026-03-03 |   0.19 |  -0.42 |    6.66 |  3850900 |     -13.76 |             -2.57 |       -16.98 |
+|  24 | FOX      | Fox Corporation                 | False           |   54.31 |            23.89 |     11 | 2026-01-08 | 2026-01-07 |   1.51 |   5.55 |    6.56 |  1634100 |      11.00 |            -19.91 |       -19.91 |
+
+### 🚀 AI Momentum Analysis
+
+## 🚀 TOP MOMENTUM PICKS
+1. **Sandisk Corporation (SNDK)**
+   - **Price**: $527.33
+   - **Market Cap**: $146.11B
+   - **% 1Y**: 1034.04%
+   - **% 1W**: -17.00%
+   - **Volume**: 16,108,900 (4.38% increase)
+   - **Interpretation**: Despite a significant drop in the past week, the massive 1Y gain indicates strong long-term momentum, likely driven by product cycles in storage technology.
+
+2. **Western Digital Corporation (WDC)**
+   - **Price**: $245.25
+   - **Market Cap**: $138.13B
+   - **% 1Y**: 494.23%
+   - **% 1W**: -12.27%
+   - **Volume**: 6,352,700 (0.90% increase)
+   - **Interpretation**: Similar to SNDK, WDC shows strong long-term growth, but recent weakness suggests potential volatility. 
+
+3. **Micron Technology, Inc. (MU)**
+   - **Price**: $370.14
+   - **Market Cap**: $560.17B
+   - **% 1Y**: 316.17%
+   - **% 1W**: -10.20%
+   - **Volume**: 34,458,800 (15.02% increase)
+   - **Interpretation**: Strong 1Y performance indicates solid demand in memory products, with volume confirming interest despite recent price declines.
+
+4. **Electronic Arts Inc. (EA)**
+   - **Price**: $198.00
+   - **Market Cap**: $50.72B
+   - **% 1Y**: 45.37%
+   - **% 1W**: -1.28%
+   - **Volume**: 4,947,000 (154.68% increase)
+   - **Interpretation**: EA's consistent performance and high volume suggest strong investor interest, likely driven by game releases and digital sales.
+
+5. **Alphabet Inc. (GOOGL)**
+   - **Price**: $298.31
+   - **Market Cap**: $4,166.21B
+   - **% 1Y**: 73.88%
+   - **% 1W**: -4.25%
+   - **Volume**: 25,576,900 (28.46% decrease)
+   - **Interpretation**: As a mega-cap platform, GOOGL's strong 1Y growth reflects robust ad revenue and cloud services, though recent volume decline may indicate profit-taking.
+
+## 📈 EARLY / BREAKOUT WATCH
+1. **Amphenol Corporation (APH)**
+   - **Price**: $131.61
+   - **Market Cap**: $184.06B
+   - **% 1Y**: 115.20%
+   - **Volume**: 7,975,600 (42.70% decrease)
+   - **Interpretation**: Strong 1Y growth indicates solid demand in connectivity solutions, but declining volume may suggest a need for confirmation before a breakout.
+
+2. **Keysight Technologies Inc. (KEYS)**
+   - **Price**: $272.43
+   - **Market Cap**: $59.50B
+   - **% 1Y**: 76.31%
+   - **Volume**: 1,695,700 (21.33% decrease)
+   - **Interpretation**: With a strong 1Y performance, KEYS is positioned well for growth in electronic design automation, but volume trends need monitoring.
+
+## ⚠️ CAUTION
+1. **Verizon Communications Inc. (VZ)**
+   - **% 1Y**: 23.49%
+   - **% 1W**: 1.95%
+   - **Interpretation**: While VZ is at a high, the low 1Y growth suggests it may be range-bound, and the recent bounce in price is not supported by strong momentum.
+
+2. **Corning Incorporated (GLW)**
+   - **% 1Y**: 174.99%
+   - **% 1W**: -18.01%
+   - **Interpretation**: Despite a high 1Y return, the significant drop in the past week raises concerns about sustainability, indicating potential volatility.
+
+3. **Cisco Systems, Inc. (CSCO)**
+   - **% 1Y**: 27.03%
+   - **% 1W**: -1.03%
+   - **Interpretation**: CSCO's high hit frequency is not matched by strong growth metrics, suggesting it may be struggling to maintain momentum in a competitive landscape. 
+
+In summary, focus on the top momentum picks for strong long-term growth, while keeping an eye on early breakout candidates and exercising caution with names showing high hits but weak 1Y performance.
+
+---
 ## Snapshot: 2026-02-27 | Generated: 2026-04-25 08:36 UTC
 
 ### 📊 Tech Screen — IT & Communication Services — Stocks at Highs

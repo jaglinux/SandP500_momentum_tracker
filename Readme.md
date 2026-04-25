@@ -1,25 +1,28 @@
 # S&P 500 Momentum Tracker
 
-A Python toolkit to track S&P 500 stocks hitting 52-week highs and all-time highs, analyze momentum patterns, fetch news sentiment, and generate AI-driven recommendations.
+A Python toolkit to track S&P 500 stocks hitting 52-week highs and all-time highs, analyze momentum patterns, and generate AI-driven recommendations (global and tech-screen views).
 
 ## Features
 
 - **Momentum Tracking**: Track how many times each stock hits 52W High or ATH over time
 - **Price & Volume Analysis**: Monitor 1-day, 1-week, and 1-year price/volume changes
-- **Sentiment Analysis**: Fetch news headlines and compute sentiment using VADER
-- **AI Recommendations**: Generate buy recommendations using GPT based on momentum, price trends, volume spikes, and sentiment
+- **AI Analysis (two reports)**: LangChain + GPT — **all S&P at-highs** (`ai_analysis.md`) and **Information Technology + Communication Services** only (`ai_tech_analysis.md`)
+- **History Augmentation**: Names with strong cumulative hits but not “at high” today can still appear, ranked by % 1Y, market cap, and hits (see `agent.py`)
 
 ## Project Structure
 
 | File | Description |
 |------|-------------|
-| `tracker.py` | Main orchestrator - runs the full pipeline |
+| `tracker.py` | Main orchestrator — snapshot, history, AI (passes full universe to `agent` for augmentation) |
 | `snapshot.py` | Fetches current quotes, 52W high, ATH, price/volume changes |
-| `sentiment.py` | Fetches headlines and computes VADER sentiment |
-| `agent.py` | Uses LangChain + GPT to generate AI recommendations |
-| `high_history.py` | Tracks momentum (hit count) for each stock over time |
-| `fetch_tickers.py` | Fetches S&P 500 ticker list from Wikipedia |
+| `agent.py` | LangChain + GPT — builds tables, generates global and tech AI markdown |
+| `high_history.py` | Tracks momentum (hit count and dates) for each stock over time |
+| `tech_universe.py` | Loads `tech_tickers.txt` and filters DataFrames for the tech report |
+| `fetch_tickers.py` | Fetches full S&P 500 ticker list from Wikipedia → `ticker.txt` |
+| `fetch_tech_tickers.py` | Fetches GICS **Information Technology** + **Communication Services** members → `tech_tickers.txt` |
 | `ticker.txt` | List of S&P 500 tickers |
+| `tech_tickers.txt` | Tech-screen tickers (IT + Communication Services); refresh with `python fetch_tech_tickers.py` |
+| `requirements.txt` | Python dependencies |
 
 ## Output Files
 
@@ -30,18 +33,16 @@ All outputs are saved to the `output/` directory:
 | `snapshot.txt` | Latest stock data table |
 | `high_history.json` | Momentum history (hit counts and dates) |
 | `high_history.txt` | Human-readable momentum history |
-| `ai_analysis.md` | AI recommendations log (newest at top) |
+| `ai_analysis.md` | **Global** AI analysis — all at-highs universe (newest at top) |
+| `ai_tech_analysis.md` | **Tech screen** — IT + Communication Services only (newest at top) |
 
 ## Installation
 
 ```bash
-pip install yfinance pandas tabulate langchain langchain-openai vaderSentiment
+pip install -r requirements.txt
 ```
 
-Set your OpenAI API key:
-```bash
-export OPENAI_API_KEY="your-api-key"
-```
+Set your OpenAI API key (e.g. in the environment, or as required by your `agent` setup).
 
 ## Usage
 
@@ -50,21 +51,23 @@ export OPENAI_API_KEY="your-api-key"
 The main entry point that orchestrates the full pipeline.
 
 ```bash
-# Full run: fetch prices, update history, get sentiment, generate AI analysis
+# Full run: fetch prices, update history, generate AI (global + tech)
 python tracker.py
 
-# Use cached snapshot (skip yfinance API calls)
+# Use cached snapshot (skip yfinance API for prices)
 python tracker.py --use-cache
 
 # Specify a date for historical tracking
 python tracker.py --date 2025-02-07
 
-# History only: update high_history.json, skip sentiment and AI
+# History only: update high_history.json, skip AI
 python tracker.py --history-only
 
-# Analyze only: use cached snapshot + history, run sentiment and AI
+# Analyze only: cached snapshot + high_history, regenerate both AI reports (no yfinance)
 python tracker.py --analyze-only
 ```
+
+> **Note:** If no stocks are at 52W/ATH on the snapshot date, the tracker exits before AI. You need a snapshot with at least one at-high name to produce the markdown files.
 
 #### Command-Line Options
 
@@ -72,8 +75,8 @@ python tracker.py --analyze-only
 |--------|-------|-------------|
 | `--use-cache` | `-c` | Use cached `snapshot.txt` instead of fetching from yfinance API |
 | `--date DATE` | `-d` | Date for tracking (YYYY-MM-DD). Defaults to today |
-| `--history-only` | `-H` | Only update `high_history.json`, skip sentiment and AI analysis |
-| `--analyze-only` | `-a` | Use cached snapshot and history, fetch sentiment, generate AI analysis |
+| `--history-only` | `-H` | Only update `high_history.json`, skip AI analysis |
+| `--analyze-only` | `-a` | Use cached `snapshot.txt` and `high_history.json`, run AI only (no yfinance) |
 
 ### Individual Modules
 
@@ -81,17 +84,14 @@ python tracker.py --analyze-only
 # Fetch S&P 500 tickers and save to ticker.txt
 python fetch_tickers.py
 
+# Fetch IT + Communication Services tickers into tech_tickers.txt
+python fetch_tech_tickers.py
+
 # Fetch current quotes and save snapshot
 python snapshot.py
 
-# Fetch sentiment for specific tickers
-python sentiment.py
-
 # View high history summary
 python high_history.py
-
-# Run AI analysis on existing data
-python agent.py
 ```
 
 ## Workflow Examples
@@ -100,33 +100,25 @@ python agent.py
 ```bash
 python tracker.py
 ```
-This fetches latest prices, updates momentum history, gets sentiment, and generates AI recommendations.
+Fetches latest prices, updates momentum history, and writes both `ai_analysis.md` and `ai_tech_analysis.md` (if `tech_tickers.txt` exists and data qualifies).
 
 ### Backfill Historical Data
 ```bash
 python tracker.py --date 2025-02-01 --history-only
-python tracker.py --date 2025-02-02 --history-only
-python tracker.py --date 2025-02-03 --history-only
 ```
-Use `--history-only` to quickly backfill momentum data without running sentiment/AI.
+Use `--history-only` to backfill momentum data without running AI.
 
 ### Re-run AI Analysis
 ```bash
 python tracker.py --analyze-only
 ```
-Uses existing `snapshot.txt` and `high_history.json` to regenerate AI recommendations without making yfinance API calls.
+Regenerates both AI markdown files from `snapshot.txt` and `high_history.json` without calling yfinance for prices.
 
-## AI Analysis Features
+## AI Analysis
 
-The AI analyzes stocks using:
-- **Hit Frequency**: Number of times hitting 52W High/ATH (3+ = strong momentum)
-- **Price Trends**: 1-day, 1-week, 1-year price changes
-- **Volume Spikes**: Unusual volume indicates institutional interest
-- **Sentiment**: News sentiment (Bullish/Neutral/Bearish)
-- **Proximity to Highs**: How close to 52W High and ATH
+The model uses hit frequency, % 1D / % 1W / % 1Y, volume vs prior day, distance from highs, and the **“At high today”** column (augmented names from history). The **tech** report restricts the table to tickers in `tech_tickers.txt` (GICS **Information Technology** and **Communication Services**).
 
-Output sections:
-- 🚀 **Top Momentum Picks**: Best combination of all factors
-- 📈 **Breakout Watch**: First-time breakouts with strong volume
-- 🤖 **Tech Momentum**: Tech/AI stocks with momentum
-- ⚠️ **Caution Flags**: Stocks showing warning signs
+## Tech screen tickers (GICS)
+
+- **IT** and **Communication Services** are both included so names like Alphabet (GOOG/GOOGL) and Meta (META) appear, since GICS classifies them under Communication Services, not IT.
+- Refresh the list when the S&P 500 index changes: `python fetch_tech_tickers.py`.

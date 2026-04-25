@@ -56,9 +56,11 @@ def save_history_readable(history: Dict = None):
         second_last = dates[-2] if len(dates) >= 2 else ""
         third_last = dates[-3] if len(dates) >= 3 else ""
         
+        name = data.get("name")
+        name_str = "" if name is None else str(name)
         rows.append({
             "Ticker": ticker,
-            "Name": data.get("name", "")[:30],  # Truncate long names
+            "Name": name_str[:30],  # Truncate long names
             "Hits": data.get("count", 0),
             "Last Hit": last_date,
             "2nd Last": second_last,
@@ -170,9 +172,11 @@ def get_summary(history: Dict = None) -> pd.DataFrame:
         last_date = dates[-1] if len(dates) >= 1 else ""
         second_last = dates[-2] if len(dates) >= 2 else ""
         
+        name = data.get("name")
+        name_str = "" if name is None else str(name)
         rows.append({
             "Ticker": ticker,
-            "Name": data.get("name", ""),
+            "Name": name_str,
             "Hit Count": data.get("count", 0),
             "Last Date": last_date,
             "2nd Last Date": second_last

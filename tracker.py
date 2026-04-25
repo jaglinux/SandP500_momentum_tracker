@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Main tracker module for S&P 500 High Tracker.
-Orchestrates snapshots, sentiment, and AI analysis.
+Orchestrates snapshots and AI analysis.
 """
 
 import os
@@ -11,7 +11,6 @@ from datetime import datetime, timezone
 import pandas as pd
 
 import snapshot
-import sentiment
 import agent
 import high_history
 
@@ -97,9 +96,9 @@ def main(use_cache: bool = False, date_str: str = None, history_only: bool = Fal
     Args:
         use_cache: If True, load from output/snapshot.txt instead of calling yfinance API.
         date_str: Optional date string (YYYY-MM-DD) for tracking history.
-        history_only: If True, only fetch prices and update high_history.json (skip sentiment/AI).
-        analyze_only: If True, use cached snapshot.txt and high_history.json, 
-                      fetch sentiment, generate AI analysis. Skips yfinance and history update.
+        history_only: If True, only fetch prices and update high_history.json (skip AI).
+        analyze_only: If True, use cached snapshot.txt and high_history.json,
+                      generate AI analysis. Skips yfinance and history update.
     """
     # analyze_only implies use_cache
     if analyze_only:
@@ -128,7 +127,7 @@ def main(use_cache: bool = False, date_str: str = None, history_only: bool = Fal
     elif use_cache:
         print("   [CACHE MODE - using saved snapshot]")
     if history_only:
-        print("   [HISTORY ONLY MODE - skipping sentiment/AI]")
+        print("   [HISTORY ONLY MODE - skipping AI]")
     print("=" * 70)
 
     # 2) Filter to stocks at 52W high or ATH
@@ -165,18 +164,12 @@ def main(use_cache: bool = False, date_str: str = None, history_only: bool = Fal
     
     # If history_only mode, stop here
     if history_only:
-        print("\n✅ History updated. Skipping sentiment and AI analysis.")
+        print("\n✅ History updated. Skipping AI analysis.")
         return
 
-    # 4) Fetch sentiment for stocks at highs
-    high_tickers = df_highs["Ticker"].tolist()
-    print(f"\n=== Fetching sentiment for {len(high_tickers)} stocks ===")
-    df_sentiment = sentiment.main(tickers=high_tickers)
+    df_merged = df_highs.copy()
 
-    # 5) Merge price + sentiment data
-    df_merged = df_highs.merge(df_sentiment, on="Ticker", how="left")
-    
-    # 6) Print summary
+    # 4) Print summary
     print("\n" + "=" * 70)
     print("📊 STOCKS AT HIGHS SUMMARY")
     print("=" * 70)
@@ -187,19 +180,12 @@ def main(use_cache: bool = False, date_str: str = None, history_only: bool = Fal
     print(f"\n🏆 At All-Time High: {len(at_ath)} stocks")
     print(f"🔥 At 52-Week High (not ATH): {len(at_52w_only)} stocks")
     print(f"📈 Total at highs: {len(df_merged)} stocks")
-    
-    # Count by sentiment
-    if "Sentiment" in df_merged.columns:
-        bullish = len(df_merged[df_merged["Sentiment"] == "Bullish"])
-        neutral = len(df_merged[df_merged["Sentiment"] == "Neutral"])
-        bearish = len(df_merged[df_merged["Sentiment"] == "Bearish"])
-        print(f"\n📰 Sentiment: Bullish={bullish}, Neutral={neutral}, Bearish={bearish}")
-    
+
     print("=" * 70)
 
-    # 7) Generate AI analysis
+    # 5) Generate AI analysis
     os.makedirs(OUTPUT_DIR, exist_ok=True)
-    agent.main(df_merged, snapshot_date=date_str)
+    agent.main(df_merged, snapshot_date=date_str, df_universe=df_prices)
     
     if analyze_only:
         print(f"\n✅ Analysis complete using snapshot date: {date_str}")
@@ -221,12 +207,12 @@ if __name__ == "__main__":
     parser.add_argument(
         "--history-only", "-H",
         action="store_true",
-        help="Only update high_history.json (skip sentiment and AI analysis). Useful for backfilling."
+        help="Only update high_history.json (skip AI analysis). Useful for backfilling."
     )
     parser.add_argument(
         "--analyze-only", "-a",
         action="store_true",
-        help="Read cached snapshot.txt and high_history.json, fetch sentiment, generate AI analysis. "
+        help="Read cached snapshot.txt and high_history.json, generate AI analysis. "
              "Skips yfinance API calls entirely. Uses date from snapshot.txt."
     )
     args = parser.parse_args()

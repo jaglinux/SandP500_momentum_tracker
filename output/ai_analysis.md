@@ -1,6 +1,152 @@
 # S&P 500 Momentum Tracker - AI Analysis
 
 ---
+## Snapshot: 2026-04-10 | Generated: 2026-05-14 05:52 UTC
+
+### 📊 Stocks at Highs (Full Momentum Data)
+
+**Total: 44 stocks** | 🏆 At ATH: 39 | 🔥 At 52W High only: 5
+
+> **Columns**: **At high today** = in today's at-52W/ATH set; **False** = still shown (history + ranked by % 1Y / market cap / hits). | Hits = cumulative high hits | % 1D/1W/1Y = price changes | Vol % 1D = volume vs prior day
+
+|   # | Ticker   | Name                            | At high today   |   Price |   Market Cap (B) |   Hits | Last Hit   | 2nd Last   |   % 1D |   % 1W |    % 1Y |         Vol |   Vol % 1D |   % From 52W High |   % From ATH |
+|-----|----------|---------------------------------|-----------------|---------|------------------|--------|------------|------------|--------|--------|---------|-------------|------------|-------------------|--------------|
+|   1 | WDC      | Western Digital Corporation     | True            |  343.43 |           170.30 |      8 | 2026-04-10 | 2026-03-19 |   1.64 |  16.43 |  889.14 |  6122600.00 |      -4.21 |             -1.81 |        -1.81 |
+|   2 | TER      | Teradyne, Inc.                  | True            |  367.99 |            56.88 |     17 | 2026-04-10 | 2026-04-09 |   1.04 |  18.86 |  410.93 |  3113400.00 |     -30.57 |             -1.34 |        -1.34 |
+|   3 | FIX      | Comfort Systems USA, Inc.       | True            | 1592.84 |            71.62 |     19 | 2026-04-10 | 2026-04-09 |   1.17 |  12.39 |  373.43 |   241200.00 |     -33.65 |             -1.31 |        -1.31 |
+|   4 | LRCX     | Lam Research Corporation        | True            |  263.66 |           369.47 |     13 | 2026-04-10 | 2026-04-09 |   1.89 |  20.70 |  299.81 |  9124700.00 |      -6.49 |             -1.70 |        -1.70 |
+|   5 | GEV      | GE Vernova Inc.                 | True            |  991.32 |           285.53 |     14 | 2026-04-10 | 2026-04-09 |   2.41 |  10.32 |  220.78 |  2164600.00 |       5.01 |             -0.81 |        -0.81 |
+|   6 | INTC     | Intel Corporation               | True            |   62.38 |           604.58 |      7 | 2026-04-10 | 2026-04-09 |   1.07 |  23.82 |  213.78 | 98624400.00 |     -36.62 |             -1.59 |        -1.59 |
+|   7 | AMAT     | Applied Materials, Inc.         | True            |  399.49 |           346.50 |     17 | 2026-04-10 | 2026-04-09 |   0.42 |  14.64 |  191.57 |  6399900.00 |      19.10 |             -1.92 |        -1.92 |
+|   8 | MPWR     | Monolithic Power Systems, Inc.  | True            | 1353.85 |            81.08 |      8 | 2026-04-10 | 2026-04-09 |   1.47 |  21.04 |  181.43 |   522400.00 |      -5.84 |             -1.18 |        -1.18 |
+|   9 | CAT      | Caterpillar, Inc.               | True            |  789.16 |           415.59 |     19 | 2026-04-10 | 2026-04-09 |   0.46 |  10.24 |  177.20 |  1872000.00 |     -33.19 |             -0.90 |        -0.90 |
+|  10 | KLAC     | KLA Corporation                 | True            | 1737.28 |           241.62 |     17 | 2026-04-10 | 2026-04-09 |   0.58 |  14.53 |  166.53 |   686400.00 |     -26.94 |             -1.29 |        -1.29 |
+|  11 | KEYS     | Keysight Technologies Inc.      | True            |  324.18 |            61.94 |     25 | 2026-04-10 | 2026-04-09 |   0.38 |  11.31 |  143.00 |  1178400.00 |      13.98 |             -0.42 |        -0.42 |
+|  12 | JBL      | Jabil Inc.                      | True            |  299.50 |            37.50 |     15 | 2026-04-10 | 2026-04-09 |   2.21 |  11.52 |  127.18 |  1155800.00 |      13.58 |             -1.40 |        -1.40 |
+|  13 | PWR      | Quanta Services, Inc.           | True            |  585.36 |           116.10 |     27 | 2026-04-10 | 2026-04-09 |   0.57 |   4.41 |  123.04 |   611400.00 |     -34.63 |             -1.22 |        -1.22 |
+|  14 | CMI      | Cummins Inc.                    | True            |  616.14 |            97.91 |     23 | 2026-04-10 | 2026-04-09 |   0.84 |  12.09 |  122.75 |   612600.00 |      -8.10 |             -0.75 |        -0.75 |
+|  15 | C        | Citigroup, Inc.                 | True            |  123.80 |           211.66 |     10 | 2026-04-10 | 2026-04-09 |  -0.42 |   7.93 |  107.21 |  8958000.00 |       1.39 |             -0.87 |       -67.30 |
+|  16 | STT      | State Street Corporation        | True            |  139.42 |            41.95 |     16 | 2026-04-10 | 2026-04-09 |   0.67 |   8.25 |   81.43 |  2351600.00 |      26.04 |             -0.34 |        -0.34 |
+|  17 | BK       | The Bank of New York Mellon Cor | True            |  127.06 |            92.65 |     19 | 2026-04-10 | 2026-04-09 |  -0.79 |   4.45 |   70.01 |  2893400.00 |      -4.70 |             -0.93 |        -0.93 |
+|  18 | HUBB     | Hubbell Inc                     | True            |  536.01 |            25.56 |     21 | 2026-04-10 | 2026-04-09 |   0.25 |   8.45 |   58.75 |   431463.00 |     -22.83 |             -1.41 |        -1.41 |
+|  19 | ETN      | Eaton Corporation, PLC          | True            |  401.89 |           158.01 |      3 | 2026-04-10 | 2026-04-09 |   0.64 |  11.60 |   50.70 |  2218700.00 |       3.96 |             -1.03 |        -1.03 |
+|  20 | ETR      | Entergy Corporation             | True            |  115.84 |            51.44 |     32 | 2026-04-10 | 2026-04-09 |  -0.83 |   1.37 |   49.06 |  1890100.00 |     -31.49 |             -1.14 |        -1.14 |
+|  21 | EA       | Electronic Arts Inc.            | True            |  202.74 |            50.20 |     54 | 2026-04-10 | 2026-04-09 |   0.27 |  -0.42 |   46.07 |  1542200.00 |     -34.95 |             -0.96 |        -0.96 |
+|  22 | EIX      | Edison International            | True            |   75.72 |            27.17 |     30 | 2026-04-10 | 2026-04-09 |  -0.13 |   4.32 |   44.80 |  1833000.00 |     -37.27 |             -0.66 |        -7.14 |
+|  23 | SPG      | Simon Property Group, Inc.      | True            |  200.57 |            76.21 |     29 | 2026-04-10 | 2026-04-09 |   0.80 |   6.31 |   42.57 |  1107600.00 |      -9.71 |             -1.09 |        -1.09 |
+|  24 | GRMN     | Garmin Ltd.                     | True            |  256.89 |            44.75 |      2 | 2026-04-10 | 2026-04-09 |   0.14 |   8.10 |   39.76 |   711400.00 |      -9.24 |             -1.04 |        -1.04 |
+|  25 | EQIX     | Equinix, Inc.                   | True            | 1030.24 |           106.25 |     18 | 2026-04-10 | 2026-04-09 |  -0.13 |   2.99 |   36.77 |   342800.00 |     -15.52 |             -0.93 |        -0.93 |
+|  26 | DLR      | Digital Realty Trust, Inc.      | True            |  188.87 |            69.15 |     11 | 2026-04-10 | 2026-04-09 |   0.38 |   3.95 |   36.61 |  1317100.00 |     -52.09 |             -0.64 |        -0.64 |
+|  27 | AEP      | American Electric Power Company | True            |  135.32 |            69.62 |     24 | 2026-04-10 | 2026-04-09 |  -0.62 |   2.73 |   36.48 |  1982200.00 |     -22.65 |             -1.05 |        -1.05 |
+|  28 | FE       | FirstEnergy Corp.               | True            |   50.90 |            25.52 |     38 | 2026-04-10 | 2026-04-09 |  -0.92 |   0.23 |   33.51 |  3047400.00 |      -9.83 |             -1.74 |        -1.74 |
+|  29 | FAST     | Fastenal Company                | True            |   48.91 |            50.25 |      2 | 2026-04-10 | 2026-04-09 |   0.14 |   6.20 |   32.48 |  7289900.00 |      -0.37 |             -1.84 |        -1.84 |
+|  30 | EVRG     | Evergy, Inc.                    | True            |   83.58 |            19.01 |     23 | 2026-04-10 | 2026-04-09 |  -0.98 |   0.89 |   32.46 |  1364700.00 |     -17.61 |             -1.98 |        -1.98 |
+|  31 | ATO      | Atmos Energy Corporation        | True            |  190.36 |            30.04 |     28 | 2026-04-10 | 2026-04-09 |  -1.00 |   0.74 |   30.35 |   910100.00 |      -2.41 |             -1.12 |        -1.12 |
+|  32 | NI       | NiSource Inc                    | True            |   47.75 |            22.56 |     36 | 2026-04-10 | 2026-04-09 |  -0.87 |   1.18 |   29.90 |  3146900.00 |     -15.04 |             -1.46 |        -1.46 |
+|  33 | FRT      | Federal Realty Investment Trust | True            |  109.05 |             9.92 |     15 | 2026-04-10 | 2026-03-04 |   1.55 |   2.12 |   28.20 |  2051700.00 |      47.81 |             -0.60 |        -7.18 |
+|  34 | LNT      | Alliant Energy Corporation      | True            |   72.56 |            18.67 |     27 | 2026-04-10 | 2026-04-09 |  -0.84 |   0.34 |   25.32 |  2036100.00 |      17.64 |             -1.75 |        -1.75 |
+|  35 | XEL      | Xcel Energy Inc.                | True            |   82.38 |            49.89 |     14 | 2026-04-10 | 2026-04-09 |  -0.47 |   2.03 |   24.23 |  3515400.00 |     -11.14 |             -1.47 |        -1.47 |
+|  36 | AEE      | Ameren Corporation              | True            |  113.45 |            30.19 |     29 | 2026-04-10 | 2026-04-09 |  -0.76 |   1.58 |   20.69 |  1164200.00 |     -29.56 |             -1.80 |        -1.80 |
+|  37 | PPL      | PPL Corporation                 | True            |   39.65 |            26.90 |     22 | 2026-04-10 | 2026-04-09 |  -0.40 |   2.61 |   19.63 |  6038300.00 |     -34.11 |             -0.50 |        -0.50 |
+|  38 | PNW      | Pinnacle West Capital Corporati | True            |  102.68 |            12.01 |     40 | 2026-04-10 | 2026-04-09 |  -0.82 |   0.87 |   19.37 |   862500.00 |      17.28 |             -1.27 |        -1.27 |
+|  39 | REG      | Regency Centers Corporation     | True            |   78.40 |            14.33 |     23 | 2026-04-10 | 2026-04-09 |   0.06 |   1.84 |   19.32 |  1475400.00 |      22.28 |             -0.92 |        -0.92 |
+|  40 | LIN      | Linde plc                       | True            |  503.15 |           237.30 |     17 | 2026-04-10 | 2026-04-09 |  -0.03 |   0.11 |   18.07 |  1153000.00 |     -39.92 |             -1.14 |        -1.14 |
+|  41 | APD      | Air Products and Chemicals, Inc | True            |  298.71 |            68.18 |     10 | 2026-04-10 | 2026-04-09 |   0.33 |   1.76 |   17.05 |   863300.00 |     -17.55 |             -0.84 |        -9.54 |
+|  42 | WEC      | WEC Energy Group, Inc.          | True            |  117.54 |            36.55 |     23 | 2026-04-10 | 2026-04-09 |  -1.04 |  -0.03 |   15.17 |  1183700.00 |     -38.41 |             -1.74 |        -1.74 |
+|  43 | CMS      | CMS Energy Corporation          | True            |   78.77 |            22.49 |     30 | 2026-04-10 | 2026-04-09 |  -0.70 |   1.02 |   14.30 |  2157400.00 |     -43.54 |             -1.22 |        -1.22 |
+|  44 | TSN      | Tyson Foods, Inc.               | True            |   65.64 |            23.55 |     16 | 2026-04-10 | 2026-04-09 |   0.34 |   1.56 |   13.03 |  1959700.00 |     -29.73 |             -0.36 |       -25.34 |
+|  45 | SNDK     | Sandisk Corporation             | False           |  851.77 |           214.32 |     13 | 2026-04-09 | 2026-03-19 |   0.02 |  21.41 | 2641.01 | 13343800.00 |     -22.57 |             -2.54 |        -2.54 |
+|  46 | STX      | Seagate Technology Holdings PLC | False           |  503.13 |           183.27 |      5 | 2026-04-07 | 2026-01-28 |   0.47 |  17.18 |  630.74 |  3435200.00 |      11.09 |             -2.72 |        -2.72 |
+|  47 | MU       | Micron Technology, Inc.         | False           |  420.59 |           906.28 |     13 | 2026-03-17 | 2026-01-28 |  -0.22 |  14.84 |  501.85 | 36377600.00 |     -15.60 |            -10.73 |       -10.73 |
+|  48 | GLW      | Corning Incorporated            | False           |  171.24 |           177.73 |      9 | 2026-04-09 | 2026-04-08 |   0.85 |  15.77 |  316.94 |  9907900.00 |     -17.17 |             -3.12 |        -3.12 |
+|  49 | ALB      | Albemarle Corporation           | False           |  173.64 |            23.70 |      9 | 2026-01-27 | 2026-01-26 |   0.75 |  -2.50 |  222.95 |  1208700.00 |     -21.46 |            -15.50 |       -45.51 |
+|  50 | APA      | APA Corporation                 | False           |   38.37 |            13.07 |     19 | 2026-03-27 | 2026-03-26 |  -0.87 |  -8.11 |  178.26 |  4861400.00 |     -51.33 |            -15.40 |       -64.15 |
+|  51 | NEM      | Newmont Corporation             | False           |  120.90 |           127.00 |     16 | 2026-01-28 | 2026-01-27 |   1.59 |   6.01 |  140.42 |  6535400.00 |      -4.89 |            -10.18 |       -10.18 |
+|  52 | TPR      | Tapestry, Inc.                  | False           |  150.30 |            26.81 |     17 | 2026-02-26 | 2026-02-25 |  -1.52 |   6.44 |  138.54 |  1338600.00 |      -2.48 |             -6.96 |        -6.96 |
+|  53 | VLO      | Valero Energy Corporation       | False           |  238.82 |            72.48 |     18 | 2026-03-27 | 2026-03-26 |   1.58 |  -2.16 |  125.52 |  2896900.00 |     -25.82 |             -7.59 |        -7.59 |
+|  54 | APH      | Amphenol Corporation            | False           |  140.75 |           153.34 |      8 | 2026-01-27 | 2026-01-26 |   2.23 |   9.96 |  121.03 |  9737500.00 |      43.04 |            -15.57 |       -15.57 |
+|  55 | FCX      | Freeport-McMoRan, Inc.          | False           |   67.65 |            96.55 |     15 | 2026-02-26 | 2026-02-25 |   2.03 |  10.46 |  119.28 | 15706800.00 |      24.02 |             -2.80 |        -2.80 |
+|  56 | GOOGL    | Alphabet Inc.                   | False           |  317.24 |          4877.92 |     11 | 2026-02-02 | 2026-01-30 |  -0.39 |   7.26 |  108.31 | 19152600.00 |     -19.32 |             -9.04 |        -9.04 |
+|  57 | HWM      | Howmet Aerospace Inc.           | False           |  252.56 |           109.27 |     25 | 2026-03-02 | 2026-02-27 |  -0.55 |   8.59 |  103.95 |  1187100.00 |     -37.19 |             -5.48 |        -5.48 |
+|  58 | GOOG     | Alphabet Inc.                   | False           |  315.72 |          4834.55 |     12 | 2026-02-02 | 2026-01-30 |  -0.21 |   7.22 |  103.91 | 11997600.00 |     -17.86 |             -9.77 |        -9.77 |
+|  59 | HII      | Huntington Ingalls Industries,  | False           |  394.41 |            13.17 |     18 | 2026-03-02 | 2026-02-27 |  -2.22 |  -0.56 |  100.00 |   432600.00 |      40.00 |            -14.26 |       -14.26 |
+|  60 | DD       | DuPont de Nemours, Inc.         | False           |   47.25 |            20.97 |     22 | 2026-02-11 | 2026-02-10 |  -0.36 |   3.89 |   99.88 |  2195400.00 |     -25.14 |             -9.91 |        -9.91 |
+|  61 | ADI      | Analog Devices, Inc.            | False           |  350.14 |           211.09 |     21 | 2026-02-25 | 2026-02-24 |  -0.35 |   9.99 |   99.31 |  2505100.00 |     -14.43 |             -3.29 |        -3.29 |
+|  62 | VTRS     | Viatris Inc.                    | False           |   13.47 |            20.23 |     22 | 2026-02-19 | 2026-02-18 |  -1.03 |   0.22 |   94.19 |  6539700.00 |      13.96 |            -17.52 |       -78.33 |
+|  63 | IVZ      | Invesco Ltd                     | False           |   23.58 |            12.45 |     12 | 2026-01-22 | 2026-01-16 |   0.04 |  -2.32 |   93.43 |  4125500.00 |     -45.04 |            -19.72 |       -19.72 |
+|  64 | CFG      | Citizens Financial Group, Inc.  | False           |   63.71 |            25.55 |     17 | 2026-02-10 | 2026-02-09 |  -1.23 |   5.21 |   91.19 |  4021900.00 |     -13.90 |             -6.72 |        -6.72 |
+|  65 | HAL      | Halliburton Company             | False           |   37.59 |            34.27 |     18 | 2026-03-27 | 2026-03-25 |  -0.27 |  -1.52 |   90.53 | 11347700.00 |      -9.24 |             -8.72 |       -36.83 |
+|  66 | MCHP     | Microchip Technology Incorporat | False           |   71.56 |            52.33 |      6 | 2026-02-11 | 2026-01-28 |   0.48 |   9.09 |   89.90 |  8065300.00 |      -4.86 |            -13.64 |       -25.25 |
+|  67 | GS       | Goldman Sachs Group, Inc. (The) | False           |  907.80 |           281.86 |      8 | 2026-01-15 | 2026-01-12 |   0.45 |   5.19 |   89.18 |  1642700.00 |      -8.63 |             -7.32 |        -7.32 |
+|  68 | JCI      | Johnson Controls International  | False           |  142.53 |            87.73 |     18 | 2026-03-02 | 2026-02-27 |   0.48 |   7.19 |   88.23 |  3583800.00 |      -8.35 |             -2.40 |        -2.40 |
+|  69 | MPC      | Marathon Petroleum Corporation  | False           |  222.62 |            72.72 |     13 | 2026-03-27 | 2026-03-26 |  -0.40 |  -7.91 |   87.11 |  2216700.00 |     -22.62 |            -12.96 |       -12.96 |
+|  70 | HAS      | Hasbro, Inc.                    | False           |   91.73 |            13.30 |     18 | 2026-02-11 | 2026-02-10 |  -1.43 |   1.74 |   86.31 |  1663600.00 |      -7.18 |            -13.66 |       -13.66 |
+|  71 | FDX      | FedEx Corporation               | False           |  374.08 |            88.21 |     30 | 2026-03-02 | 2026-02-27 |  -0.77 |   3.44 |   85.27 |  1139400.00 |     -29.42 |             -4.39 |        -4.39 |
+|  72 | CHRW     | C.H. Robinson Worldwide, Inc.   | False           |  163.49 |            19.24 |     23 | 2026-02-09 | 2026-02-06 |  -3.94 |  -2.59 |   84.55 |  2024900.00 |      38.01 |            -19.32 |       -19.32 |
+|  73 | NTRS     | Northern Trust Corporation      | False           |  152.23 |            30.16 |     15 | 2026-02-09 | 2026-01-15 |  -0.26 |   7.02 |   77.47 |   824700.00 |     -13.07 |             -2.87 |        -2.87 |
+|  74 | PH       | Parker-Hannifin Corporation     | False           |  982.01 |           111.25 |     28 | 2026-02-26 | 2026-02-24 |   0.13 |   8.39 |   77.32 |   511500.00 |      -8.61 |             -4.90 |        -4.90 |
+|  75 | DVN      | Devon Energy Corporation        | False           |   47.79 |            54.08 |     25 | 2026-03-27 | 2026-03-26 |  -0.19 |  -3.44 |   76.68 | 10332200.00 |     -24.83 |             -9.33 |       -40.23 |
+|  76 | GM       | General Motors Company          | False           |   76.42 |            68.36 |     12 | 2026-02-04 | 2026-02-03 |  -0.40 |   5.35 |   76.53 |  4069500.00 |     -39.03 |            -12.58 |       -12.58 |
+|  77 | CRL      | Charles River Laboratories Inte | False           |  175.65 |             7.84 |     12 | 2026-01-12 | 2026-01-09 |   0.06 |   1.01 |   75.74 |   487900.00 |     -41.86 |            -23.26 |       -61.83 |
+|  78 | BKR      | Baker Hughes Company            | False           |   62.62 |            64.89 |     23 | 2026-02-27 | 2026-02-26 |  -0.93 |   4.06 |   74.86 |  6210300.00 |       2.29 |             -6.22 |        -6.22 |
+|  79 | ROK      | Rockwell Automation, Inc.       | False           |  396.00 |            50.63 |     13 | 2026-02-03 | 2026-02-02 |   0.28 |   8.49 |   74.69 |   415400.00 |     -44.13 |             -9.42 |        -9.42 |
+|  80 | BG       | Bunge Limited                   | False           |  123.92 |            24.45 |     25 | 2026-04-02 | 2026-03-17 |   0.78 |  -4.25 |   74.44 |   894700.00 |     -46.11 |             -6.07 |        -6.07 |
+|  81 | DAL      | Delta Air Lines, Inc.           | False           |   67.82 |            46.68 |      7 | 2026-02-10 | 2026-02-09 |  -0.01 |   1.59 |   74.42 |  8040800.00 |     -30.90 |            -10.98 |       -10.98 |
+|  82 | NUE      | Nucor Corporation               | False           |  186.12 |            52.91 |     21 | 2026-02-11 | 2026-02-10 |   1.15 |   7.92 |   72.64 |  1644100.00 |       6.88 |             -5.15 |        -5.39 |
+|  83 | MS       | Morgan Stanley                  | False           |  176.69 |           305.73 |     12 | 2026-01-16 | 2026-01-15 |  -0.29 |   7.13 |   71.15 |  4240100.00 |     -19.98 |             -7.30 |        -7.30 |
+|  84 | JBHT     | J.B. Hunt Transport Services, I | False           |  226.62 |            22.42 |     23 | 2026-03-04 | 2026-03-03 |   0.81 |   5.64 |   70.87 |   844400.00 |       3.85 |             -3.80 |        -3.80 |
+|  85 | GE       | GE Aerospace                    | False           |  308.35 |           307.92 |     18 | 2026-03-02 | 2026-02-27 |  -1.49 |   9.67 |   70.78 |  3685100.00 |     -32.64 |            -11.39 |       -11.39 |
+|  86 | PSX      | Phillips 66                     | False           |  159.25 |            68.89 |     18 | 2026-03-27 | 2026-03-26 |  -1.13 |  -9.62 |   70.22 |  2927100.00 |     -11.56 |            -16.45 |       -16.45 |
+|  87 | CAH      | Cardinal Health, Inc.           | False           |  215.52 |            43.64 |     13 | 2026-03-02 | 2026-02-27 |  -0.13 |   0.69 |   69.11 |  1292200.00 |      22.91 |             -7.52 |        -7.52 |
+|  88 | LHX      | L3Harris Technologies, Inc.     | False           |  353.59 |            56.81 |     12 | 2026-03-09 | 2026-03-02 |  -1.22 |  -0.68 |   68.45 |  1250600.00 |      10.01 |             -6.44 |        -6.44 |
+|  89 | JNJ      | Johnson & Johnson               | False           |  238.46 |           554.67 |     34 | 2026-03-03 | 2026-03-02 |  -1.18 |  -1.88 |   64.84 |  7354500.00 |      18.31 |             -5.26 |        -5.26 |
+
+### 🚀 AI Momentum Analysis
+
+## 🚀 TOP MOMENTUM PICKS
+
+1. **WDC** ($343.43) - 1Y: +889.14%, 1W: +16.43%, Vol spike: +612.26%  
+   **Analysis**: Western Digital has shown exceptional momentum with a staggering 889% increase over the past year. The stock is currently trending upwards with a strong weekly gain of 16.43% and a significant volume spike, indicating strong institutional interest.
+
+2. **TER** ($367.99) - 1Y: +410.93%, 1W: +18.86%, Vol spike: +311.34%  
+   **Analysis**: Teradyne has also demonstrated impressive momentum with a 410.93% increase in the last year. The stock is on an upward trajectory with a weekly gain of 18.86% and a notable volume spike, suggesting robust buying activity.
+
+3. **FIX** ($1592.84) - 1Y: +373.43%, 1W: +12.39%, Vol spike: +241.20%  
+   **Analysis**: Comfort Systems USA has shown strong price momentum with a 373.43% increase over the past year. The stock is maintaining a positive weekly trend and has experienced a significant volume spike, indicating strong market interest.
+
+4. **LRCX** ($263.66) - 1Y: +299.81%, 1W: +20.70%, Vol spike: +9,124,700%  
+   **Analysis**: Lam Research has a solid 299.81% increase in the last year, with a strong weekly gain of 20.70%. The volume spike is exceptionally high, indicating strong institutional buying, which supports the momentum.
+
+5. **AMAT** ($399.49) - 1Y: +191.57%, 1W: +14.64%, Vol spike: +6,399,900%  
+   **Analysis**: Applied Materials has shown a robust 191.57% increase over the past year. The stock is trending positively with a weekly gain of 14.64% and a significant volume spike, reflecting strong institutional interest.
+
+## 📈 BREAKOUT WATCH
+
+1. **ETN** ($401.89) - 1Y: +50.70%, 1W: +11.60%, Vol spike: +2,218,700%  
+   **Analysis**: Eaton Corporation is showing early-stage momentum with a 50.70% increase over the past year and a positive weekly trend. The volume spike indicates potential institutional interest, making it a stock to watch.
+
+2. **C** ($123.80) - 1Y: +107.21%, 1W: +7.93%, Vol spike: +8,958,000%  
+   **Analysis**: Citigroup has shown a solid 107.21% increase in the last year. Despite a lower weekly gain, the significant volume spike suggests strong buying interest, indicating potential for further momentum.
+
+## 🤖 TECH MOMENTUM
+
+1. **INTC** ($62.38) - 1Y: +213.78%, 1W: +23.82%, Vol spike: +98,624,400%  
+   **Analysis**: Intel has shown a remarkable 213.78% increase over the past year, with a strong weekly gain of 23.82%. The massive volume spike indicates significant institutional interest, making it a strong tech momentum play.
+
+2. **KLAC** ($1737.28) - 1Y: +166.53%, 1W: +14.53%, Vol spike: +686,400%  
+   **Analysis**: KLA Corporation has demonstrated a solid 166.53% increase in the last year. The stock is trending positively with a weekly gain of 14.53% and a significant volume spike, indicating strong market interest.
+
+## ⚠️ RANGE-BOUND / CAUTION
+
+- **EA** ($202.74) - 1Y: +46.07%, 1W: -0.42%, Hits: 54  
+  **Warning**: Despite a high number of hits, Electronic Arts has a low yearly gain and a negative weekly trend, indicating it may be range-bound and not a true momentum play.
+
+- **SPG** ($200.57) - 1Y: +42.57%, 1W: +6.31%, Hits: 29  
+  **Warning**: Simon Property Group has a high hit count but a low yearly gain, suggesting it is hitting resistance rather than showing true momentum.
+
+These selections highlight stocks with real momentum based on the criteria provided, while also flagging those that may be range-bound despite high hit counts.
+
+---
 ## Snapshot: 2026-04-02 | Generated: 2026-05-14 00:09 UTC
 
 ### 📊 Stocks at Highs (Full Momentum Data)

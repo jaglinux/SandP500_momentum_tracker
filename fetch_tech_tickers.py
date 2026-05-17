@@ -3,7 +3,7 @@
 Fetch S&P 500 constituents from Wikipedia and save tech_tickers.txt.
 
 Universe = all names in GICS **Information Technology** or **Communication Services**
-(no hardcoded symbols). Alphabet (GOOGL/GOOG) and Meta (META) are Communication Services
+(no hardcoded symbols). Alphabet is tracked as GOOGL only (GOOG excluded). Meta (META) is Communication Services
 in GICS—that is why they are not classified as IT.
 
 Run occasionally to refresh when index composition changes.
@@ -16,6 +16,8 @@ import os
 
 import pandas as pd
 import requests
+
+from ticker_lists import filter_tickers
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 OUTPUT = os.path.join(SCRIPT_DIR, "tech_tickers.txt")
@@ -37,7 +39,7 @@ def main():
     df["_sym"] = df["Symbol"].astype(str).str.replace(".", "-", regex=False)
     mask = df["GICS Sector"].isin(TECH_SCREENS_SECTORS)
     out = df.loc[mask].drop_duplicates(subset="_sym", keep="first")
-    tickers = sorted(out["_sym"].tolist())
+    tickers = filter_tickers(sorted(out["_sym"].tolist()))
     with open(OUTPUT, "w", encoding="utf-8") as f:
         for t in tickers:
             f.write(f"{t}\n")

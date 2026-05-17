@@ -5,8 +5,9 @@ Uses LangChain + GPT as a momentum analyst to recommend stocks based on high fre
 """
 
 import os
+import re
 from datetime import datetime, timezone
-from typing import FrozenSet, List, Optional
+from typing import FrozenSet, List, Optional, Tuple
 
 from tabulate import tabulate
 
@@ -20,6 +21,60 @@ import tech_universe
 # Get the directory where this script is located
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 OUTPUT_DIR = os.path.join(SCRIPT_DIR, "output")
+
+GLOBAL_ANALYSIS_SECTIONS: Tuple[str, ...] = (
+    "## 🚀 TOP MOMENTUM PICKS",
+    "## 📈 BREAKOUT WATCH",
+    "## 🤖 TECH MOMENTUM",
+    "## ⚠️ RANGE-BOUND",
+)
+
+TECH_ANALYSIS_SECTIONS: Tuple[str, ...] = (
+    "## 🚀 TOP MOMENTUM PICKS",
+    "## 📈 EARLY / BREAKOUT WATCH",
+    "## ⚠️ CAUTION",
+)
+
+
+def reorder_analysis_sections(content: str, section_prefixes: Tuple[str, ...]) -> str:
+    """Ensure ## sections appear in the requested order; unknown sections keep relative order at end."""
+    content = content.strip()
+    if not content:
+        return content
+
+    parts = re.split(r"(?m)^(## .+)$", content)
+    if len(parts) == 1:
+        return content
+
+    preamble = parts[0].strip()
+    blocks: List[Tuple[str, str]] = []
+    i = 1
+    while i < len(parts):
+        header = parts[i].strip()
+        body = parts[i + 1].rstrip() if i + 1 < len(parts) else ""
+        blocks.append((header, body))
+        i += 2
+
+    ordered: List[str] = []
+    used: set[int] = set()
+    for prefix in section_prefixes:
+        for idx, (header, body) in enumerate(blocks):
+            if idx in used:
+                continue
+            if header.startswith(prefix) or prefix in header:
+                used.add(idx)
+                ordered.append(f"{header}\n\n{body}".strip() if body else header)
+                break
+
+    for idx, (header, body) in enumerate(blocks):
+        if idx not in used:
+            ordered.append(f"{header}\n\n{body}".strip() if body else header)
+
+    sections_text = "\n\n".join(ordered)
+    if preamble:
+        return f"{preamble}\n\n{sections_text}".strip()
+    return sections_text
+
 
 def _history_hits(ticker: str, history: dict) -> int:
     d = history.get(ticker)
@@ -252,6 +307,8 @@ Skip if none qualify.
 Stocks with HIGH Hits but LOW % 1Y - these are hitting resistance, not breaking out.
 Also flag: negative % 1W despite a daily pop.
 
+OUTPUT ORDER (required): print the ## sections below in this exact sequence — **## 🚀 TOP MOMENTUM PICKS first**, caution sections last. Do not reorder.
+
 Be specific with numbers. Prioritize % 1Y over Hits count. Call out large **Market Cap (B)** names with extreme % 1Y when they appear in the table."""),
         ("human", """S&P 500 stocks at 52-week high or all-time high:
 
@@ -313,6 +370,8 @@ Newer high-hit or smaller names in this universe with strong % 1Y and volume.
 ## ⚠️ CAUTION
 High Hits + low % 1Y (range-bound). Also flag weak % 1W despite a one-day bounce.
 
+OUTPUT ORDER (required): print the ## sections below in this exact sequence — **## 🚀 TOP MOMENTUM PICKS first**, ## ⚠️ CAUTION last. Do not reorder.
+
 Be specific with numbers. Do not discuss sectors outside IT and Communication Services.""",
             ),
             (
@@ -341,8 +400,9 @@ def save_analysis_md(
     filename: str = "ai_analysis.md",
     header_title: str = "# S&P 500 Momentum Tracker - AI Analysis\n\n",
     section_stocks_title: str = "### 📊 Stocks at Highs (Full Momentum Data)\n\n",
+    section_order: Tuple[str, ...] = GLOBAL_ANALYSIS_SECTIONS,
 ):
-    """Save table and recommendations to markdown file, prepending new entries at the top."""
+    """Save table and recommendations to markdown; AI picks first, full table after."""
     now = datetime.now(timezone.utc)
     generated_timestamp = now.strftime("%Y-%m-%d %H:%M UTC")
 
@@ -350,19 +410,20 @@ def save_analysis_md(
         snapshot_date = now.strftime("%Y-%m-%d")
 
     filepath = os.path.join(OUTPUT_DIR, filename)
+    recommendations = reorder_analysis_sections(recommendations, section_order)
 
     new_entry = f"""---
 ## Snapshot: {snapshot_date} | Generated: {generated_timestamp}
+
+### 🚀 AI Momentum Analysis
+
+{recommendations}
 
 {section_stocks_title}**Total: {summary['total']} stocks** | 🏆 At ATH: {summary['ath']} | 🔥 At 52W High only: {summary['52w_only']}
 
 > **Columns**: **At high today** = in today's at-52W/ATH set; **False** = still shown (history + ranked by % 1Y / market cap / hits). | Hits = cumulative high hits | % 1D/1W/1Y = price changes | Vol % 1D = volume vs prior day
 
 {table}
-
-### 🚀 AI Momentum Analysis
-
-{recommendations}
 
 """
 
@@ -468,5 +529,6 @@ def main(
         filename="ai_tech_analysis.md",
         header_title="# S&P 500 Momentum Tracker - Tech (IT + Communication Services) AI Analysis\n\n",
         section_stocks_title="### 📊 Tech Screen — IT & Communication Services — Stocks at Highs\n\n",
+        section_order=TECH_ANALYSIS_SECTIONS,
     )
     print(f"Tech analysis saved to {path_t}")

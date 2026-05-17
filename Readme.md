@@ -141,6 +141,6 @@ The model uses hit frequency, % 1D / % 1W / % 1Y, volume vs prior day, distance 
 
 ## Tech screen tickers (GICS)
 
-- **IT** and **Communication Services** are both included so names like Alphabet (GOOG/GOOGL) and Meta (META) appear, since GICS classifies them under Communication Services, not IT.
+- **IT** and **Communication Services** are both included so names like Alphabet (GOOGL) and Meta (META) appear, since GICS classifies them under Communication Services, not IT. The index also lists GOOG (Class C); this project tracks **GOOGL** only.
 - Refresh the S&P-derived list when the index changes: `python fetch_tech_tickers.py`.
 - Add non-S&P tech names to `extra_tech_tickers.txt` (same idea as `extra_tickers.txt` for the main universe).

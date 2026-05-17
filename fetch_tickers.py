@@ -10,6 +10,8 @@ import io
 import requests
 import pandas as pd
 
+from ticker_lists import filter_tickers
+
 
 def fetch_sp500_tickers() -> list:
     """
@@ -40,7 +42,7 @@ def fetch_sp500_tickers() -> list:
     
     print(f"Found {len(tickers)} tickers")
     
-    return sorted(tickers)
+    return filter_tickers(sorted(tickers))
 
 
 def save_tickers(tickers: list, filename: str = "ticker.txt"):

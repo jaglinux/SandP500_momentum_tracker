@@ -1,25 +1,22 @@
 #!/usr/bin/env python3
 """
-Tickers for the tech-focused report: GICS Information Technology + Communication Services
-(S&P 500), loaded from tech_tickers.txt (see fetch_tech_tickers.py).
+Tickers for the tech-focused report: GICS IT + Communication Services (tech_tickers.txt)
+plus manual adds in extra_tech_tickers.txt (see fetch_tech_tickers.py).
 """
 
-import os
 from typing import TYPE_CHECKING
+
+from ticker_lists import EXTRA_TECH_TICKERS_FILE, TECH_TICKERS_FILE, read_ticker_file
 
 if TYPE_CHECKING:
     import pandas as pd
 
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-TECH_TICKERS_FILE = os.path.join(SCRIPT_DIR, "tech_tickers.txt")
-
 
 def load_tech_tickers() -> frozenset:
-    """Return ticker symbols (IT + Communication Services). Empty if file missing."""
-    if not os.path.exists(TECH_TICKERS_FILE):
-        return frozenset()
-    with open(TECH_TICKERS_FILE, "r", encoding="utf-8") as f:
-        return frozenset(line.strip() for line in f if line.strip())
+    """Return tech-screen symbols (S&P IT/Comm + extra_tech_tickers.txt)."""
+    base = read_ticker_file(TECH_TICKERS_FILE)
+    extras = read_ticker_file(EXTRA_TECH_TICKERS_FILE)
+    return frozenset(base) | frozenset(extras)
 
 
 def filter_tech_dataframe(df: "pd.DataFrame", tech: frozenset) -> "pd.DataFrame":

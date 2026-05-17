@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
 Fetch all S&P 500 tickers from Wikipedia and save to ticker.txt.
-Run this manually to update the ticker list.
+
+Manual symbols (non-S&P, etc.) belong in extra_tickers.txt — never edit ticker.txt
+for those; they are merged at runtime by snapshot.load_tickers().
 """
 
 import io
@@ -48,6 +50,7 @@ def save_tickers(tickers: list, filename: str = "ticker.txt"):
             f.write(f"{ticker}\n")
     
     print(f"Saved {len(tickers)} tickers to {filename}")
+    print("Add non-S&P symbols to extra_tickers.txt (one per line); fetch does not touch that file.")
 
 
 def main():

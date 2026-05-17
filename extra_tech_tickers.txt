@@ -1,0 +1,6 @@
+# Manual additions for the tech AI report (ai_tech_analysis.md).
+# Safe to re-run: python fetch_tech_tickers.py — this file is never overwritten.
+
+CRWV
+IREN
+NBIS

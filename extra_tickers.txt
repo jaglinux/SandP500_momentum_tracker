@@ -1,0 +1,7 @@
+# Non-S&P (or manual) symbols merged into the tracker universe at runtime.
+# Safe to re-run: python fetch_tickers.py — this file is never overwritten.
+# One ticker per line; lines starting with # are ignored.
+
+CRWV
+IREN
+NBIS

@@ -16,25 +16,33 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 TICKER_FILE = os.path.join(SCRIPT_DIR, "ticker.txt")
 OUTPUT_DIR = os.path.join(SCRIPT_DIR, "output")
 
+from ticker_lists import EXTRA_TICKERS_FILE, merge_tickers, read_ticker_file
+
 
 def load_tickers() -> list:
     """
-    Load tickers from ticker.txt file (in same folder as this script).
-    Exits with error if file doesn't exist.
+    Load tickers from ticker.txt plus extra_tickers.txt (manual adds).
+    Exits with error if the base file doesn't exist.
     """
     if not os.path.exists(TICKER_FILE):
         print(f"Error: ticker.txt not found at {TICKER_FILE}")
         print(f"Run 'python fetch_tickers.py' first to generate the S&P 500 ticker list.")
         exit(1)
-    
-    with open(TICKER_FILE, "r", encoding="utf-8") as f:
-        tickers = [line.strip() for line in f if line.strip()]
-    
+
+    base = read_ticker_file(TICKER_FILE)
+    extras = read_ticker_file(EXTRA_TICKERS_FILE)
+    tickers = merge_tickers(base, extras)
+
     if not tickers:
-        print(f"Error: ticker.txt is empty.")
+        print("Error: ticker.txt is empty.")
         exit(1)
-    
-    print(f"Loaded {len(tickers)} tickers from ticker.txt")
+
+    if extras:
+        print(
+            f"Loaded {len(tickers)} tickers ({len(base)} S&P + {len(extras)} from extra_tickers.txt)"
+        )
+    else:
+        print(f"Loaded {len(tickers)} tickers from ticker.txt")
     return tickers
 
 

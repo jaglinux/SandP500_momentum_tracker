@@ -7,6 +7,8 @@ Universe = all names in GICS **Information Technology** or **Communication Servi
 in GICS—that is why they are not classified as IT.
 
 Run occasionally to refresh when index composition changes.
+
+Manual tech-screen symbols belong in extra_tech_tickers.txt (merged at runtime).
 """
 
 import io
@@ -43,6 +45,7 @@ def main():
     print(f"Wrote {len(tickers)} tickers to {OUTPUT}")
     for sector, n in counts.items():
         print(f"  {sector}: {int(n)}")
+    print("Add non-S&P tech names to extra_tech_tickers.txt; fetch does not touch that file.")
 
 
 if __name__ == "__main__":

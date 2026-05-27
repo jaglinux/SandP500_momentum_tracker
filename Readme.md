@@ -144,3 +144,32 @@ The model uses hit frequency, % 1D / % 1W / % 1Y, volume vs prior day, distance 
 - **IT** and **Communication Services** are both included so names like Alphabet (GOOGL) and Meta (META) appear, since GICS classifies them under Communication Services, not IT. The index also lists GOOG (Class C); this project tracks **GOOGL** only.
 - Refresh the S&P-derived list when the index changes: `python fetch_tech_tickers.py`.
 - Add non-S&P tech names to `extra_tech_tickers.txt` (same idea as `extra_tickers.txt` for the main universe).
+
+## Web UI
+
+Browse `output/` reports and ticker lists in the browser.
+
+### Local
+
+```bash
+python serve.py
+```
+
+Open http://127.0.0.1:8000 — the server refreshes `manifest.json` automatically.
+
+Or static only:
+
+```bash
+python generate_manifest.py
+python -m http.server 8000
+```
+
+Then open http://127.0.0.1:8000
+
+### Vercel or GitHub Pages
+
+1. Run `python tracker.py` (and `python generate_manifest.py`) so `output/` and `manifest.json` are up to date.
+2. Commit `index.html`, `manifest.json`, `output/`, `ticker.txt`, `extra_tickers.txt`, and related list files.
+3. Deploy the repo root as a static site (Vercel: no build command; GitHub Pages: branch root or `/docs` if you move files).
+
+Re-run `python generate_manifest.py` after each tracker run if you are not using `serve.py`.

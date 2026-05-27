@@ -1,0 +1,51 @@
+{
+  "generated": "2026-05-27T22:53:24.318692+00:00",
+  "sections": [
+    {
+      "title": "Output",
+      "files": [
+        {
+          "path": "output/ai_tech_analysis.md",
+          "label": "ai_tech_analysis.md",
+          "size": 170053,
+          "modified": "2026-05-27T05:10:05.579586+00:00"
+        },
+        {
+          "path": "output/ai_analysis.md",
+          "label": "ai_analysis.md",
+          "size": 475568,
+          "modified": "2026-05-27T05:09:49.143625+00:00"
+        },
+        {
+          "path": "output/high_history.json",
+          "label": "high_history.json",
+          "size": 86440,
+          "modified": "2026-05-26T22:45:07.027229+00:00"
+        },
+        {
+          "path": "output/high_history.txt",
+          "label": "high_history.txt",
+          "size": 32736,
+          "modified": "2026-05-26T22:45:07.049704+00:00"
+        },
+        {
+          "path": "output/snapshot.txt",
+          "label": "snapshot.txt",
+          "size": 127453,
+          "modified": "2026-05-26T22:45:07.008698+00:00"
+        }
+      ]
+    },
+    {
+      "title": "Ticker lists",
+      "files": [
+        {
+          "path": "tickers_combined.txt",
+          "label": "All tickers (507 unique)",
+          "size": 2920,
+          "modified": "2026-05-27T22:53:24.316812+00:00"
+        }
+      ]
+    }
+  ]
+}

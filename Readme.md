@@ -1,5 +1,7 @@
 # S&P 500 Momentum Tracker
 
+**Live dashboard:** [https://sand-p500-momentum-tracker.vercel.app/](https://sand-p500-momentum-tracker.vercel.app/)
+
 A Python toolkit to track S&P 500 stocks hitting 52-week highs and all-time highs, analyze momentum patterns, and generate AI-driven recommendations (global and tech-screen views).
 
 ## Features
@@ -149,6 +151,8 @@ The model uses hit frequency, % 1D / % 1W / % 1Y, volume vs prior day, distance 
 
 Browse `output/` reports and ticker lists in the browser.
 
+**Live (Vercel):** [https://sand-p500-momentum-tracker.vercel.app/](https://sand-p500-momentum-tracker.vercel.app/)
+
 ### Local
 
 ```bash
@@ -166,10 +170,12 @@ python -m http.server 8000
 
 Then open http://127.0.0.1:8000
 
-### Vercel or GitHub Pages
+### Deploy (Vercel)
 
-1. Run `python tracker.py` (and `python generate_manifest.py`) so `output/` and `manifest.json` are up to date.
-2. Commit `index.html`, `manifest.json`, `output/`, `ticker.txt`, `extra_tickers.txt`, and related list files.
-3. Deploy the repo root as a static site (Vercel: no build command; GitHub Pages: branch root or `/docs` if you move files).
+Production site: [sand-p500-momentum-tracker.vercel.app](https://sand-p500-momentum-tracker.vercel.app/)
+
+1. Run `python tracker.py` (and `python generate_manifest.py`) so `output/`, `manifest.json`, and `tickers_combined.txt` are up to date.
+2. Commit `index.html`, `manifest.json`, `tickers_combined.txt`, `output/`, and ticker list files.
+3. Push to GitHub — Vercel redeploys automatically (no build command; repo root is the static output).
 
 Re-run `python generate_manifest.py` after each tracker run if you are not using `serve.py`.

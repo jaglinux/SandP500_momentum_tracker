@@ -1,10 +1,10 @@
 # Combined ticker list (unique symbols, sorted)
 # Sources:
-#   - ticker.txt (S&P 500): 500
+#   - ticker.txt (S&P 500): 499
 #   - extra_tickers.txt (Manual / watchlist): 3
 #   - tech_tickers.txt (Tech screen (S&P IT + Comm Services)): 95
 #   - extra_tech_tickers.txt (Manual tech screen): 3
-# Total unique: 507
+# Total unique: 506
 
 A
 AAPL
@@ -129,7 +129,6 @@ CSCO
 CSGP
 CSX
 CTAS
-CTRA
 CTSH
 CTVA
 CVNA

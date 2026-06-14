@@ -1,5 +1,5 @@
 S&P 500 Momentum Tracker - High History
-Generated: 2026-06-14 02:00:16 UTC
+Generated: 2026-06-13 00:24:31 UTC
 ==========================================================================================
 
 Stocks ranked by number of times hitting 52-Week High or All-Time High
@@ -12,7 +12,7 @@ Total unique stocks tracked: 162
 
 |   # | Ticker   | Name                           |   Hits | Last Hit   | 2nd Last   | 3rd Last   |
 |-----|----------|--------------------------------|--------|------------|------------|------------|
-|   1 | EA       | Electronic Arts Inc.           |     19 | 2026-06-12 | 2026-06-11 | 2026-06-10 |
+|   1 | EA       | Electronic Arts Inc.           |     18 | 2026-06-11 | 2026-06-10 | 2026-06-09 |
 |   2 | PFG      | Principal Financial Group Inc  |     18 | 2026-06-12 | 2026-06-10 | 2026-06-09 |
 |   3 | FRT      | Federal Realty Investment Trus |     18 | 2026-06-12 | 2026-06-11 | 2026-06-10 |
 |   4 | STT      | State Street Corporation       |     17 | 2026-06-12 | 2026-06-10 | 2026-06-09 |
@@ -35,10 +35,10 @@ Total unique stocks tracked: 162
 |  21 | FTNT     | Fortinet, Inc.                 |     13 | 2026-06-04 | 2026-06-03 | 2026-06-02 |
 |  22 | MNST     | Monster Beverage Corporation   |     12 | 2026-06-12 | 2026-06-10 | 2026-06-09 |
 |  23 | LRCX     | Lam Research Corporation       |     12 | 2026-06-12 | 2026-06-03 | 2026-06-02 |
-|  24 | BK       | The Bank of New York Mellon Co |     12 | 2026-06-12 | 2026-06-02 | 2026-06-01 |
-|  25 | CVS      | CVS Health Corporation         |     12 | 2026-06-12 | 2026-06-11 | 2026-06-10 |
-|  26 | PANW     | Palo Alto Networks, Inc.       |     12 | 2026-06-03 | 2026-06-02 | 2026-06-01 |
-|  27 | BEN      | Franklin Resources, Inc.       |     11 | 2026-06-12 | 2026-06-04 | 2026-05-18 |
+|  24 | CVS      | CVS Health Corporation         |     12 | 2026-06-12 | 2026-06-11 | 2026-06-10 |
+|  25 | PANW     | Palo Alto Networks, Inc.       |     12 | 2026-06-03 | 2026-06-02 | 2026-06-01 |
+|  26 | BEN      | Franklin Resources, Inc.       |     11 | 2026-06-12 | 2026-06-04 | 2026-05-18 |
+|  27 | BK       | The Bank of New York Mellon Co |     11 | 2026-06-02 | 2026-06-01 | 2026-05-29 |
 |  28 | GS       | Goldman Sachs Group, Inc. (The |     11 | 2026-06-04 | 2026-06-03 | 2026-06-02 |
 |  29 | AMAT     | Applied Materials, Inc.        |     11 | 2026-06-12 | 2026-06-11 | 2026-06-04 |
 |  30 | AFL      | AFLAC Incorporated             |     11 | 2026-06-12 | 2026-06-10 | 2026-06-05 |

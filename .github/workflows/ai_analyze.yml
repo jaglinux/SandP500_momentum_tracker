@@ -1,0 +1,49 @@
+# Manually regenerate AI reports from the committed snapshot + high history.
+# Requires output/snapshot.txt and output/high_history.json (or .txt) already in the repo.
+
+name: Manual AI analyze
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: manual-ai-analyze
+  cancel-in-progress: true
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run analyze-only
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python tracker.py --analyze-only
+
+      - name: Commit and push report updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/ai_analysis.md output/ai_tech_analysis.md
+          if git diff --staged --quiet; then
+            echo "No changes to AI markdown files."
+          else
+            git commit -m "chore: refresh AI reports (workflow_dispatch) [skip ci]"
+            git push
+          fi

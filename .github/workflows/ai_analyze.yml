@@ -1,7 +1,7 @@
 # Manually regenerate AI reports from the committed snapshot + high history.
 # Requires output/snapshot.txt and output/high_history.json (or .txt) already in the repo.
 
-name: Manual AI analyze
+name: Run AI analyze
 
 on:
   workflow_dispatch:

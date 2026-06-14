@@ -1,7 +1,7 @@
 # Fetch prices for a given session date and update high_history (no OpenAI).
-# Optional: commit and push snapshot + high_history artifacts.
+# Optional: commit and push snapshot + high_history (only when input is explicitly "true").
 
-name: Manual history-only
+name: Run tracker
 
 on:
   workflow_dispatch:
@@ -53,8 +53,10 @@ jobs:
       - name: Run tracker (history-only)
         run: python tracker.py --date "${{ github.event.inputs.date }}" --history-only
 
+      # workflow_dispatch inputs are STRINGS. The string "false" is truthy in GHA expressions,
+      # so never use `if: ${{ inputs.x }}` for booleans — compare to 'true' explicitly.
       - name: Commit and push outputs
-        if: ${{ github.event.inputs.commit_output }}
+        if: ${{ github.event.inputs.commit_output == 'true' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

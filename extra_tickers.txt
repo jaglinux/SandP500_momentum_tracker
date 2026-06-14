@@ -4,4 +4,6 @@
 
 CRWV
 IREN
+MRVL
 NBIS
+SPCX

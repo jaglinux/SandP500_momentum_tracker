@@ -1,10 +1,5 @@
 # Combined ticker list (unique symbols, sorted)
-# Sources:
-#   - ticker.txt (S&P 500): 497
-#   - extra_tickers.txt (Manual / watchlist): 4
-#   - tech_tickers.txt (Tech screen (S&P IT + Comm Services)): 95
-#   - extra_tech_tickers.txt (Manual tech screen): 4
-# Total unique: 506
+# Sources (merged in order, then de-duplicated): ticker.txt, extra_tickers.txt, tech_tickers.txt, extra_tech_tickers.txt
 
 A
 AAPL
@@ -423,6 +418,7 @@ SNDK
 SNPS
 SO
 SOLV
+SPCX
 SPG
 SPGI
 SRE

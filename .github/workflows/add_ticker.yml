@@ -1,0 +1,71 @@
+# Append a symbol to manual lists if it is not already covered by existing ticker sources.
+# Optional: also append to extra_tech_tickers.txt for the tech AI report universe.
+
+name: Add ticker
+
+on:
+  workflow_dispatch:
+    inputs:
+      ticker:
+        description: "Symbol to add (e.g. NVDA or BRK-B)"
+        required: true
+        type: string
+      add_to_tech:
+        description: "Also add to extra_tech_tickers.txt (tech AI report)"
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  add-ticker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Append to ticker lists if new
+        id: add
+        env:
+          TICKER: ${{ github.event.inputs.ticker }}
+          # workflow_dispatch booleans are the strings 'true' / 'false' in expressions.
+          ADD_TECH: ${{ github.event.inputs.add_to_tech }}
+        run: |
+          set -euo pipefail
+          EXTRA_ARGS=""
+          if [[ "${ADD_TECH}" == "true" ]]; then
+            EXTRA_ARGS="--tech"
+          fi
+          LOG=$(python scripts/add_ticker.py "${TICKER}" ${EXTRA_ARGS})
+          printf '%s\n' "${LOG}"
+          if printf '%s\n' "${LOG}" | grep -q '^CHANGED=1$'; then
+            echo "changed=true" >> "${GITHUB_OUTPUT}"
+          else
+            echo "changed=false" >> "${GITHUB_OUTPUT}"
+          fi
+
+      - name: Regenerate manifest and combined tickers
+        if: steps.add.outputs.changed == 'true'
+        run: python generate_manifest.py
+
+      - name: Commit and push
+        if: steps.add.outputs.changed == 'true'
+        env:
+          TICKER: ${{ github.event.inputs.ticker }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add extra_tickers.txt extra_tech_tickers.txt tickers_combined.txt manifest.json
+          if git diff --staged --quiet; then
+            echo "No file changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: add ticker ${TICKER} (workflow_dispatch) [skip ci]"
+          git push

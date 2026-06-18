@@ -1,5 +1,10 @@
 # Combined ticker list (unique symbols, sorted)
-# Sources (merged in order, then de-duplicated): ticker.txt, extra_tickers.txt, tech_tickers.txt, extra_tech_tickers.txt
+# Sources:
+#   - ticker.txt (S&P 500): 497
+#   - extra_tickers.txt (Manual / watchlist): 7
+#   - tech_tickers.txt (Tech screen (S&P IT + Comm Services)): 95
+#   - extra_tech_tickers.txt (Manual tech screen): 7
+# Total unique: 509
 
 A
 AAPL
@@ -44,6 +49,7 @@ APP
 APTV
 ARE
 ARES
+ARM
 ATO
 AVB
 AVGO
@@ -391,6 +397,7 @@ PWR
 PYPL
 Q
 QCOM
+QNT
 RCL
 REG
 REGN

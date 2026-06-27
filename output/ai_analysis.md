@@ -1,6 +1,180 @@
 # S&P 500 Momentum Tracker - AI Analysis
 
 ---
+## Snapshot: 2026-06-26 | Generated: 2026-06-27 00:45 UTC
+
+### 🚀 AI Momentum Analysis
+
+## 🚀 TOP MOMENTUM PICKS
+
+
+1. **UAL** ($136.11) - 1Y: +75.51%, 1W: +15.04%, Vol spike: +597133% - United Airlines shows strong momentum with a significant yearly gain and a robust weekly increase, indicating a strong uptrend supported by high trading volume.
+
+2. **JNJ** ($254.66) - 1Y: +71.71%, 1W: +11.50%, Vol spike: +16242949% - Johnson & Johnson maintains a solid upward trajectory with impressive yearly growth and a positive weekly trend, backed by substantial institutional interest.
+
+3. **BIIB** ($216.03) - 1Y: +70.21%, 1W: +9.89%, Vol spike: +2164635% - Biogen Inc. demonstrates strong price momentum with a significant yearly increase and a positive weekly change, indicating continued investor confidence.
+
+4. **MRK** ($128.66) - 1Y: +68.67%, 1W: +12.99%, Vol spike: +18469862% - Merck & Company shows solid momentum with a strong yearly gain and a positive weekly trend, supported by high trading volume.
+
+5. **HST** ($25.06) - 1Y: +68.41%, 1W: +0.20%, Vol spike: +7474084% - Host Hotels & Resorts has a strong yearly performance, although the weekly change is minimal, the volume spike indicates continued interest.
+
+## 📈 BREAKOUT WATCH
+
+
+1. **INCY** ($113.75) - 1Y: +60.64%, 1W: +15.81%, Vol spike: +3788192% - Incyte Corporation is a new breakout with a strong yearly gain and a significant weekly increase, indicating potential for further upward movement.
+
+2. **CVS** ($104.34) - 1Y: +58.73%, 1W: +6.12%, Vol spike: +9687579% - CVS Health shows a solid yearly increase and a positive weekly trend, supported by high trading volume, making it a potential breakout candidate.
+
+3. **MNST** ($96.38) - 1Y: +54.98%, 1W: +5.52%, Vol spike: +13338586% - Monster Beverage Corporation is showing strong momentum with a solid yearly gain and a positive weekly trend, indicating potential for further growth.
+
+## 🤖 TECH MOMENTUM
+
+
+- No qualifying tech/semiconductor/AI stocks with % 1Y > 70% and positive weekly trend were found in the provided data.
+
+## ⚠️ RANGE-BOUND / CAUTION
+
+
+- **HST** ($25.06) - 1Y: +68.41%, Hits: 23 - Despite a strong yearly gain, the high number of hits indicates potential resistance, suggesting it may not have true momentum.
+- **GL** ($179.31) - 1Y: +46.98%, Hits: 23 - Similar to HST, the high hit count with a lower yearly gain indicates it may be range-bound.
+- **SPG** ($226.89) - 1Y: +47.99%, Hits: 17 - The high number of hits suggests resistance, despite a decent yearly gain.
+- **CSX** ($47.66) - 1Y: +48.40%, Hits: 18 - High hits with a modest yearly gain indicate potential resistance.
+- **WELL** ($227.33) - 1Y: +50.39%, Hits: 12 - The high hit count suggests it may be hitting resistance levels, despite a solid yearly gain.
+
+### 📊 Stocks at Highs (Full Momentum Data)
+
+**Total: 79 stocks** | 🏆 At ATH: 55 | 🔥 At 52W High only: 24
+
+> **Columns**: **At high today** = in today's at-52W/ATH set; **False** = still shown (history + ranked by % 1Y / market cap / hits). | Hits = cumulative high hits | % 1D/1W/1Y = price changes | Vol % 1D = volume vs prior day
+
+|   # | Ticker   | Name                            | At high today   |   Price |   Market Cap (B) |   Hits | Last Hit   | 2nd Last   |   % 1D |   % 1W |    % 1Y |       Vol |   Vol % 1D |   % From 52W High |   % From ATH |
+|-----|----------|---------------------------------|-----------------|---------|------------------|--------|------------|------------|--------|--------|---------|-----------|------------|-------------------|--------------|
+|   1 | UAL      | United Airlines Holdings, Inc.  | True            |  136.11 |            44.18 |      3 | 2026-06-26 | 2026-06-25 |   1.11 |  15.04 |   75.51 |   5971335 |     -18.49 |             -1.68 |        -1.68 |
+|   2 | JNJ      | Johnson & Johnson               | True            |  254.66 |           613.02 |      1 | 2026-06-26 |            |   3.99 |  11.50 |   71.71 |  16242949 |      60.34 |             -0.16 |        -0.16 |
+|   3 | BIIB     | Biogen Inc.                     | True            |  216.03 |            31.89 |      3 | 2026-06-26 | 2026-05-13 |   6.97 |   9.89 |   70.21 |   2164635 |      62.89 |             -0.93 |       -55.01 |
+|   4 | MRK      | Merck & Company, Inc.           | True            |  128.66 |           317.77 |      3 | 2026-06-26 | 2026-06-25 |   2.56 |  12.99 |   68.67 |  18469862 |      31.52 |             -0.09 |        -0.09 |
+|   5 | HST      | Host Hotels & Resorts, Inc.     | True            |   25.06 |            17.39 |     23 | 2026-06-26 | 2026-06-25 |   0.32 |   0.20 |   68.41 |   7474084 |     -15.53 |             -1.38 |        -1.38 |
+|   6 | CFG      | Citizens Financial Group, Inc.  | True            |   70.40 |            29.77 |      6 | 2026-06-26 | 2026-06-25 |  -0.37 |   4.95 |   64.73 |   2796019 |     -45.44 |             -1.13 |        -1.13 |
+|   7 | HUM      | Humana Inc.                     | True            |  383.84 |            46.08 |     13 | 2026-06-26 | 2026-06-25 |   2.09 |   6.43 |   62.53 |   1670545 |      45.13 |             -0.42 |       -30.12 |
+|   8 | WST      | West Pharmaceutical Services, I | True            |  350.85 |            24.79 |      8 | 2026-06-26 | 2026-06-25 |   1.24 |   6.98 |   60.73 |    663756 |     -58.91 |             -0.41 |       -25.26 |
+|   9 | INCY     | Incyte Corporation              | True            |  113.75 |            22.73 |      1 | 2026-06-26 |            |   5.78 |  15.81 |   60.64 |   3788192 |     106.75 |             -1.57 |       -25.73 |
+|  10 | CVS      | CVS Health Corporation          | True            |  104.34 |           133.13 |     18 | 2026-06-26 | 2026-06-25 |  -0.31 |   6.12 |   58.73 |   9687579 |       8.61 |             -1.71 |        -1.71 |
+|  11 | EIX      | Edison International            | True            |   75.67 |            29.12 |      2 | 2026-06-26 | 2026-06-25 |   1.23 |   5.26 |   57.78 |   1520188 |     -31.08 |             -0.72 |        -7.20 |
+|  12 | MNST     | Monster Beverage Corporation    | True            |   96.38 |            94.26 |     19 | 2026-06-26 | 2026-06-25 |   0.57 |   5.52 |   54.98 |  13338586 |     129.18 |             -1.51 |        -1.51 |
+|  13 | DVA      | DaVita Inc.                     | True            |  217.04 |            13.93 |     17 | 2026-06-26 | 2026-06-25 |   1.72 |   4.39 |   53.83 |    477887 |     -46.05 |              0.00 |         0.00 |
+|  14 | LLY      | Eli Lilly and Company           | True            | 1208.12 |          1077.33 |      2 | 2026-06-26 | 2026-05-28 |   7.13 |   9.97 |   53.02 |   7701171 |     179.31 |             -0.61 |        -0.61 |
+|  15 | URI      | United Rentals, Inc.            | True            | 1121.66 |            70.27 |     10 | 2026-06-26 | 2026-06-25 |  -1.57 |   4.17 |   52.42 |    947974 |      24.80 |             -1.93 |        -1.93 |
+|  16 | WELL     | Welltower Inc.                  | True            |  227.33 |           160.48 |     12 | 2026-06-26 | 2026-06-25 |   1.61 |  10.01 |   50.39 |   3000987 |       6.26 |             -0.49 |        -0.49 |
+|  17 | PANW     | Palo Alto Networks, Inc.        | True            |  304.20 |           247.92 |     13 | 2026-06-26 | 2026-06-03 |   3.79 |   5.71 |   50.34 |   7110661 |     -20.65 |             -0.67 |        -0.67 |
+|  18 | TGT      | Target Corporation              | True            |  140.39 |            63.76 |      4 | 2026-06-26 | 2026-06-25 |   0.59 |   7.38 |   50.14 |   6307040 |      45.30 |             -1.70 |       -39.47 |
+|  19 | CSX      | CSX Corporation                 | True            |   47.66 |            88.56 |     18 | 2026-06-26 | 2026-06-25 |   0.46 |   4.45 |   48.40 |  19368305 |      70.21 |             -0.77 |        -0.77 |
+|  20 | ROK      | Rockwell Automation, Inc.       | True            |  476.82 |            53.06 |     19 | 2026-06-26 | 2026-06-25 |  -0.54 |   0.64 |   48.24 |   1404257 |     101.65 |             -1.98 |        -1.98 |
+|  21 | SPG      | Simon Property Group, Inc.      | True            |  226.89 |            86.21 |     17 | 2026-06-26 | 2026-06-25 |   0.62 |   7.36 |   47.99 |   1690753 |     -42.34 |             -0.74 |        -0.74 |
+|  22 | GL       | Globe Life Inc.                 | True            |  179.31 |            13.92 |     23 | 2026-06-26 | 2026-06-25 |   1.65 |   5.01 |   46.98 |    456206 |     -48.04 |             -1.02 |        -1.02 |
+|  23 | FTNT     | Fortinet, Inc.                  | True            |  151.35 |           110.89 |     17 | 2026-06-26 | 2026-06-25 |   0.95 |   4.57 |   45.73 |   9168698 |      40.05 |             -0.93 |        -0.93 |
+|  24 | CAH      | Cardinal Health, Inc.           | True            |  237.92 |            55.72 |      4 | 2026-06-26 | 2026-06-25 |   1.35 |   7.28 |   45.28 |   1396117 |     -32.68 |             -1.03 |        -1.03 |
+|  25 | UNH      | UnitedHealth Group Incorporated | True            |  427.89 |           388.59 |     16 | 2026-06-26 | 2026-06-25 |   2.97 |   6.72 |   45.18 |   6812847 |      13.28 |              0.02 |       -29.28 |
+|  26 | SWK      | Stanley Black & Decker, Inc.    | True            |   91.98 |            14.30 |      3 | 2026-06-26 | 2026-06-25 |  -0.36 |   6.03 |   42.29 |   1274447 |     -48.70 |             -1.63 |       -50.92 |
+|  27 | KEY      | KeyCorp                         | True            |   23.26 |            25.11 |      7 | 2026-06-26 | 2026-06-25 |  -0.64 |   2.97 |   41.36 |   8836598 |     -21.14 |             -1.94 |        -1.94 |
+|  28 | FITB     | Fifth Third Bancorp             | True            |   56.31 |            51.03 |      5 | 2026-06-26 | 2026-06-25 |  -0.18 |   6.77 |   40.72 |   5081797 |     -38.43 |             -0.80 |        -0.80 |
+|  29 | ABBV     | AbbVie Inc.                     | True            |  253.35 |           447.62 |      4 | 2026-06-26 | 2026-06-25 |   4.20 |  17.03 |   40.05 |  52526686 |     411.05 |              0.00 |         0.00 |
+|  30 | AEP      | American Electric Power Company | True            |  138.69 |            75.46 |      3 | 2026-06-26 | 2026-06-25 |   1.23 |   8.61 |   39.80 |   7716033 |      72.10 |             -0.28 |        -0.28 |
+|  31 | USB      | U.S. Bancorp                    | True            |   60.91 |            94.88 |      4 | 2026-06-26 | 2026-06-25 |  -0.49 |   4.76 |   39.18 |  14583252 |      27.53 |             -1.57 |        -1.57 |
+|  32 | FRT      | Federal Realty Investment Trust | True            |  125.08 |            10.87 |     22 | 2026-06-26 | 2026-06-25 |   0.43 |   3.90 |   37.93 |   1457236 |     119.10 |             -1.05 |        -1.05 |
+|  33 | AIZ      | Assurant, Inc.                  | True            |  264.43 |            13.10 |     21 | 2026-06-26 | 2026-06-25 |   1.40 |   1.76 |   36.81 |    262074 |     -32.03 |             -1.58 |        -1.58 |
+|  34 | PNC      | PNC Financial Services Group, I | True            |  244.99 |            98.38 |      5 | 2026-06-26 | 2026-06-25 |  -0.12 |   5.58 |   36.51 |   2664883 |      -3.15 |             -1.61 |        -1.61 |
+|  35 | IRM      | Iron Mountain Incorporated (Del | True            |  132.44 |            39.40 |      6 | 2026-06-26 | 2026-06-23 |   1.05 |   3.61 |   35.72 |   1985518 |     -12.44 |             -1.66 |        -1.66 |
+|  36 | TECH     | Bio-Techne Corp                 | True            |   71.00 |            11.06 |      2 | 2026-06-26 | 2026-06-25 |   0.42 |  22.54 |   35.28 |  12242821 |     -76.32 |             -1.29 |       -46.63 |
+|  37 | MO       | Altria Group, Inc.              | True            |   73.79 |           123.22 |     11 | 2026-06-26 | 2026-06-25 |   0.79 |   6.76 |   34.03 |  13334450 |      97.77 |             -0.18 |        -0.18 |
+|  38 | LNT      | Alliant Energy Corporation      | True            |   77.25 |            19.95 |      4 | 2026-06-26 | 2026-06-25 |   1.39 |   5.82 |   32.08 |   2702692 |      -1.53 |             -0.10 |        -0.10 |
+|  39 | DOC      | Healthpeak Properties, Inc.     | True            |   21.55 |            14.86 |     19 | 2026-06-26 | 2026-06-25 |   1.51 |  10.17 |   32.06 |  10203218 |      50.52 |             -0.02 |       -24.48 |
+|  40 | EVRG     | Evergy, Inc.                    | True            |   87.21 |            20.10 |     12 | 2026-06-26 | 2026-06-25 |   0.63 |   5.71 |   31.95 |   2594778 |      -4.20 |             -0.41 |        -0.41 |
+|  41 | PKG      | Packaging Corporation of Americ | True            |  241.55 |            21.52 |      1 | 2026-06-26 |            |   0.19 |   5.47 |   31.90 |    432043 |       1.09 |             -1.98 |        -1.98 |
+|  42 | SNA      | Snap-On Incorporated            | True            |  397.10 |            20.57 |      4 | 2026-06-26 | 2026-06-25 |  -0.96 |   2.54 |   31.82 |    439965 |      30.86 |             -1.55 |        -1.55 |
+|  43 | D        | Dominion Energy, Inc.           | True            |   69.39 |            61.03 |     15 | 2026-06-26 | 2026-06-25 |  -0.17 |   1.43 |   31.31 |   7586565 |      80.25 |             -1.11 |        -4.76 |
+|  44 | IEX      | IDEX Corporation                | True            |  227.19 |            16.82 |      8 | 2026-06-26 | 2026-06-25 |  -0.39 |   1.00 |   30.82 |    540113 |      28.69 |             -1.30 |        -4.78 |
+|  45 | CINF     | Cincinnati Financial Corporatio | True            |  184.08 |            28.47 |      8 | 2026-06-26 | 2026-06-25 |   3.57 |   8.75 |   29.12 |   1300715 |     114.25 |             -0.60 |        -0.60 |
+|  46 | KIM      | Kimco Realty Corporation (HC)   | True            |   25.89 |            17.46 |     11 | 2026-06-26 | 2026-06-12 |   1.45 |   6.19 |   28.95 |   6724313 |      82.88 |             -0.73 |        -0.73 |
+|  47 | WMB      | Williams Companies, Inc. (The)  | True            |   77.92 |            95.30 |      7 | 2026-06-26 | 2026-05-19 |   0.50 |   6.56 |   27.87 |  12983543 |     100.33 |             -1.98 |        -1.98 |
+|  48 | MAS      | Masco Corporation               | True            |   79.97 |            16.13 |      3 | 2026-06-26 | 2026-06-25 |   0.31 |   7.52 |   27.81 |   1856111 |     -11.56 |             -1.03 |        -4.84 |
+|  49 | AEE      | Ameren Corporation              | True            |  118.32 |            32.75 |      3 | 2026-06-26 | 2026-06-25 |   3.31 |   8.88 |   27.59 |   3974659 |      98.71 |              0.00 |         0.00 |
+|  50 | NI       | NiSource Inc                    | True            |   49.08 |            23.53 |      3 | 2026-06-26 | 2026-05-05 |   2.66 |   3.85 |   27.22 |   6294288 |      11.43 |              0.00 |         0.00 |
+|  51 | TRV      | The Travelers Companies, Inc.   | True            |  327.37 |            69.61 |     13 | 2026-06-26 | 2026-06-25 |   2.85 |   6.35 |   26.48 |   2194910 |      50.84 |             -0.04 |        -0.04 |
+|  52 | PNW      | Pinnacle West Capital Corporati | True            |  108.08 |            13.10 |     13 | 2026-06-26 | 2026-06-25 |   0.75 |   5.63 |   26.29 |   1456102 |      -3.59 |             -0.27 |        -0.27 |
+|  53 | MTB      | M&T Bank Corporation            | True            |  237.26 |            34.75 |      5 | 2026-06-26 | 2026-06-25 |   0.21 |   5.39 |   26.27 |    670589 |     -38.09 |             -0.31 |        -0.31 |
+|  54 | L        | Loews Corporation               | True            |  113.25 |            23.30 |      1 | 2026-06-26 |            |   2.12 |   5.56 |   26.08 |    521495 |     -31.63 |             -1.32 |        -1.32 |
+|  55 | ALL      | Allstate Corporation (The)      | True            |  239.61 |            61.68 |     12 | 2026-06-26 | 2026-06-25 |   3.46 |   8.34 |   25.90 |   1251451 |     -20.64 |             -0.20 |        -0.20 |
+|  56 | CNP      | CenterPoint Energy, Inc (Holdin | True            |   45.04 |            29.46 |      5 | 2026-06-26 | 2026-06-25 |   1.85 |   5.18 |   25.90 |  11079227 |      64.38 |             -0.07 |        -0.07 |
+|  57 | XEL      | Xcel Energy Inc.                | True            |   82.23 |            51.33 |      2 | 2026-06-26 | 2026-06-25 |   0.59 |   6.23 |   25.12 |   6404321 |       6.81 |             -1.19 |        -1.19 |
+|  58 | CNC      | Centene Corporation             | True            |   65.73 |            32.46 |      8 | 2026-06-26 | 2026-06-10 |   1.48 |   7.72 |   22.70 |   3223279 |     -44.46 |             -1.23 |       -33.29 |
+|  59 | KO       | Coca-Cola Company (The)         | True            |   82.63 |           355.51 |     14 | 2026-06-26 | 2026-06-12 |   2.75 |   4.08 |   22.31 |  51837004 |     223.28 |             -1.04 |        -1.04 |
+|  60 | LYV      | Live Nation Entertainment, Inc. | True            |  179.46 |            41.76 |      5 | 2026-06-26 | 2026-06-25 |   2.48 |   4.80 |   21.92 |   2301708 |     -20.72 |             -0.80 |        -0.80 |
+|  61 | ES       | Eversource Energy (D/B/A)       | True            |   73.48 |            27.63 |      1 | 2026-06-26 |            |   1.94 |   5.59 |   21.49 |   2055440 |       6.30 |             -1.66 |        -7.71 |
+|  62 | DTE      | DTE Energy Company              | True            |  154.43 |            32.13 |      3 | 2026-06-26 | 2026-06-25 |   1.06 |   5.49 |   21.29 |    782002 |     -14.88 |             -0.30 |        -0.30 |
+|  63 | CB       | Chubb Limited                   | True            |  341.44 |           132.43 |      1 | 2026-06-26 |            |   3.21 |   5.58 |   21.14 |   1555050 |      35.90 |             -0.62 |        -0.62 |
+|  64 | REG      | Regency Centers Corporation     | True            |   81.81 |            15.29 |      5 | 2026-06-26 | 2026-06-25 |   1.94 |   6.41 |   20.73 |   2604457 |      79.06 |             -0.14 |        -0.14 |
+|  65 | DGX      | Quest Diagnostics Incorporated  | True            |  209.88 |            23.23 |      1 | 2026-06-26 |            |   1.76 |   7.63 |   20.67 |   1265560 |     100.12 |             -1.27 |        -1.27 |
+|  66 | TROW     | T. Rowe Price Group, Inc.       | True            |  110.27 |            23.63 |      1 | 2026-06-26 |            |   3.70 |   2.43 |   20.65 |   3716700 |     109.71 |             -1.85 |       -38.89 |
+|  67 | WEC      | WEC Energy Group, Inc.          | True            |  118.85 |            38.71 |      2 | 2026-06-26 | 2026-06-25 |   1.52 |   5.96 |   18.90 |   1072852 |     -46.81 |             -0.04 |        -0.04 |
+|  68 | AFL      | AFLAC Incorporated              | True            |  120.15 |            61.15 |     17 | 2026-06-26 | 2026-06-25 |   1.62 |   4.05 |   18.10 |   1403041 |     -27.62 |             -0.10 |        -0.10 |
+|  69 | EW       | Edwards Lifesciences Corporatio | True            |   90.78 |            52.27 |      9 | 2026-06-26 | 2026-06-25 |   1.18 |   3.91 |   17.67 |  14298608 |     231.09 |             -1.82 |       -31.09 |
+|  70 | CMS      | CMS Energy Corporation          | True            |   78.81 |            24.35 |      1 | 2026-06-26 |            |   2.22 |   7.40 |   17.43 |   2282045 |     -46.12 |             -1.17 |        -1.17 |
+|  71 | PSA      | Public Storage                  | True            |  324.39 |            56.96 |     11 | 2026-06-26 | 2026-06-12 |   1.14 |   1.97 |   17.08 |    591036 |     -24.12 |             -1.32 |        -5.96 |
+|  72 | LIN      | Linde plc                       | True            |  519.62 |           240.24 |     15 | 2026-06-26 | 2026-06-25 |  -0.51 |   1.46 |   13.38 |   3222945 |      41.24 |             -1.58 |        -1.58 |
+|  73 | SO       | Southern Company (The)          | True            |   97.16 |           109.53 |      1 | 2026-06-26 |            |   1.30 |   4.37 |   11.05 |   8116237 |      12.21 |             -1.62 |        -1.62 |
+|  74 | ABNB     | Airbnb, Inc.                    | True            |  145.56 |            86.39 |      3 | 2026-06-26 | 2026-06-25 |   2.59 |   2.21 |    8.85 |   5855841 |      93.12 |             -1.37 |       -33.82 |
+|  75 | EXR      | Extra Space Storage Inc         | True            |  149.21 |            32.93 |      2 | 2026-06-26 | 2026-06-12 |   1.37 |   2.67 |    7.22 |    713168 |     -45.99 |             -1.68 |       -21.39 |
+|  76 | ESS      | Essex Property Trust, Inc.      | True            |  295.34 |            20.36 |      7 | 2026-06-26 | 2026-06-25 |   3.42 |   7.90 |    6.77 |    362804 |      10.04 |             -0.17 |        -5.24 |
+|  77 | CPT      | Camden Property Trust           | True            |  116.31 |            11.53 |      7 | 2026-06-26 | 2026-06-12 |   2.39 |   6.72 |    5.89 |    547419 |     -41.70 |             -0.24 |       -24.76 |
+|  78 | EQR      | Equity Residential              | True            |   68.38 |            26.42 |     10 | 2026-06-26 | 2026-06-09 |   1.80 |   6.69 |    4.85 |   3391071 |      68.58 |             -0.94 |       -14.52 |
+|  79 | UDR      | UDR, Inc.                       | True            |   39.98 |            14.81 |      2 | 2026-06-26 | 2026-06-12 |   2.25 |   6.44 |    2.63 |   2604144 |     -29.92 |             -0.12 |       -21.39 |
+|  80 | SNDK     | Sandisk Corporation             | False           | 2090.71 |           309.61 |      8 | 2026-06-25 | 2026-06-18 | -10.46 |  -4.30 | 4307.06 |  16567766 |      10.23 |            -11.20 |       -11.20 |
+|  81 | WDC      | Western Digital Corporation     | False           |  586.45 |           202.14 |      6 | 2026-06-15 | 2026-06-03 | -13.17 | -21.41 |  825.90 |  21366429 |      81.87 |            -26.68 |       -26.68 |
+|  82 | MU       | Micron Technology, Inc.         | False           | 1132.33 |          1278.85 |     11 | 2026-06-22 | 2026-06-18 |  -6.69 |  -0.15 |  800.83 |  84431604 |       1.67 |             -9.77 |        -9.77 |
+|  83 | STX      | Seagate Technology Holdings PLC | False           |  899.90 |           203.60 |      5 | 2026-06-15 | 2026-05-26 | -12.24 | -15.86 |  544.91 |   9175598 |      65.48 |            -21.35 |       -21.35 |
+|  84 | LRCX     | Lam Research Corporation        | False           |  379.09 |           474.08 |     15 | 2026-06-25 | 2026-06-22 |  -5.66 |  -2.56 |  293.63 |  19520350 |      15.88 |             -7.48 |        -7.48 |
+|  85 | AMD      | Advanced Micro Devices, Inc.    | False           |  521.58 |           850.49 |      6 | 2026-06-15 | 2026-06-03 |  -2.06 |  -2.94 |  263.02 |  51570759 |      90.19 |             -7.36 |        -7.36 |
+|  86 | FIX      | Comfort Systems USA, Inc.       | False           | 1854.23 |            65.24 |      8 | 2026-06-22 | 2026-05-14 |  -8.10 |  -5.75 |  260.10 |    742581 |      85.04 |            -10.56 |       -10.56 |
+|  87 | AMAT     | Applied Materials, Inc.         | False           |  626.84 |           497.69 |     13 | 2026-06-25 | 2026-06-22 |  -6.16 |   1.58 |  244.07 |  27518637 |      66.70 |             -6.33 |        -6.33 |
+|  88 | DELL     | Dell Technologies Inc.          | False           |  399.49 |           258.13 |      6 | 2026-06-01 | 2026-05-29 |  -2.43 |  -2.44 |  221.93 |  10767471 |      -3.68 |            -14.91 |       -14.91 |
+|  89 | KLAC     | KLA Corporation                 | False           |  248.64 |           324.79 |      6 | 2026-06-22 | 2026-06-12 |  -3.93 |  -4.21 |  177.14 |  21179905 |      76.86 |             -7.88 |        -7.88 |
+|  90 | CAT      | Caterpillar, Inc.               | False           |  997.47 |           459.43 |     11 | 2026-06-25 | 2026-06-22 |  -5.63 |   1.18 |  164.03 |  13879126 |     198.98 |             -5.64 |        -5.64 |
+|  91 | HPE      | Hewlett Packard Enterprise Comp | False           |   43.71 |            57.88 |      8 | 2026-05-28 | 2026-05-26 |  -6.44 |  -7.80 |  142.90 |  36689234 |      36.27 |            -31.77 |       -31.77 |
+|  92 | CMI      | Cummins Inc.                    | False           |  685.87 |            94.64 |      6 | 2026-06-25 | 2026-06-22 |  -5.73 |  -4.32 |  114.95 |   4242900 |     363.86 |             -7.03 |        -7.03 |
+|  93 | KEYS     | Keysight Technologies Inc.      | False           |  328.66 |            56.17 |      7 | 2026-06-22 | 2026-06-18 |  -8.72 |  -9.63 |   99.26 |   1186394 |       3.79 |            -12.35 |       -12.35 |
+|  94 | JBHT     | J.B. Hunt Transport Services, I | False           |  280.30 |            26.43 |     15 | 2026-06-12 | 2026-06-08 |   2.05 |   3.35 |   97.52 |   1338096 |      70.54 |             -4.51 |        -4.51 |
+|  95 | GNRC     | Generac Holdlings Inc.          | False           |  278.62 |            16.40 |     12 | 2026-06-25 | 2026-06-22 |  -5.60 |  -0.19 |   95.78 |   1188533 |     -14.92 |             -6.01 |       -46.86 |
+|  96 | GOOGL    | Alphabet Inc.                   | False           |  337.39 |          4117.03 |      8 | 2026-05-15 | 2026-05-14 |  -1.84 |  -8.33 |   94.97 | 110924370 |     148.91 |            -17.38 |       -17.38 |
+|  97 | VLO      | Valero Energy Corporation       | False           |  259.37 |            77.02 |      5 | 2026-06-03 | 2026-06-02 |   1.69 |   9.76 |   94.21 |   8333191 |     145.14 |             -2.35 |        -2.35 |
+|  98 | DAL      | Delta Air Lines, Inc.           | False           |   92.57 |            60.82 |     10 | 2026-06-25 | 2026-06-24 |   0.50 |   9.97 |   91.30 |   7110923 |     -39.82 |             -2.70 |        -2.70 |
+|  99 | STLD     | Steel Dynamics, Inc.            | False           |  245.49 |            35.40 |     13 | 2026-06-12 | 2026-06-04 |  -2.20 |  -1.77 |   89.21 |   1549503 |      38.18 |            -14.98 |       -14.98 |
+| 100 | NUE      | Nucor Corporation               | False           |  239.78 |            54.61 |     14 | 2026-06-12 | 2026-06-04 |  -3.66 |  -1.66 |   86.37 |   2241599 |      50.10 |            -11.49 |       -11.49 |
+| 101 | DDOG     | Datadog, Inc.                   | False           |  239.77 |            85.35 |     10 | 2026-06-01 | 2026-05-29 |   8.52 |   7.52 |   82.86 |   9557192 |     236.77 |            -13.97 |       -13.97 |
+| 102 | FDX      | FedEx Corporation               | False           |  318.53 |            76.00 |      8 | 2026-06-15 | 2026-06-12 |  -3.31 |  -1.98 |   82.29 |   2227999 |     -17.72 |             -7.43 |        -7.43 |
+| 103 | PWR      | Quanta Services, Inc.           | False           |  687.87 |           103.22 |      6 | 2026-05-14 | 2026-05-13 |  -4.28 |  -2.05 |   81.45 |   1889115 |      23.94 |            -12.79 |       -12.79 |
+| 104 | C        | Citigroup, Inc.                 | False           |  141.76 |           241.78 |      9 | 2026-06-22 | 2026-06-16 |  -2.22 |  -0.91 |   71.83 |  17909590 |      47.33 |             -4.19 |       -62.56 |
+| 105 | ROST     | Ross Stores, Inc.               | False           |  213.26 |            68.41 |      8 | 2026-06-12 | 2026-06-04 |  -0.87 |  -8.39 |   69.95 |   8616732 |      98.85 |            -12.17 |       -12.17 |
+| 106 | HAL      | Halliburton Company             | False           |   34.21 |            28.58 |      6 | 2026-05-19 | 2026-05-18 |  -1.33 |  -2.06 |   69.59 |  12116492 |      -7.72 |            -21.18 |       -42.26 |
+| 107 | ON       | ON Semiconductor Corporation    | False           |   90.65 |            35.28 |      7 | 2026-06-03 | 2026-06-02 | -23.66 | -25.46 |   68.97 |  44050274 |     412.05 |            -32.81 |       -32.81 |
+| 108 | IBKR     | Interactive Brokers Group, Inc. | False           |   89.82 |           152.35 |     10 | 2026-06-22 | 2026-06-18 |  -2.54 |  -6.44 |   68.94 |   5896218 |      91.06 |             -8.20 |        -8.20 |
+| 109 | CSCO     | Cisco Systems, Inc.             | False           |  113.77 |           448.42 |     13 | 2026-06-04 | 2026-06-03 |  -4.37 |  -4.83 |   68.80 |  50087461 |      86.07 |            -12.73 |       -12.73 |
+| 110 | JBL      | Jabil Inc.                      | False           |  358.60 |            37.83 |      5 | 2026-06-12 | 2026-06-03 |  -4.28 |  -3.57 |   66.77 |   1505135 |      -0.59 |            -16.40 |       -16.40 |
+| 111 | ADI      | Analog Devices, Inc.            | False           |  386.91 |           188.46 |     10 | 2026-06-22 | 2026-06-18 |  -7.42 | -10.94 |   65.24 |  12192427 |      89.30 |            -13.23 |       -13.23 |
+| 112 | STT      | State Street Corporation        | False           |  168.11 |            46.53 |     22 | 2026-06-23 | 2026-06-22 |  -0.83 |  -0.12 |   64.01 |   3957442 |      62.90 |             -4.19 |        -4.19 |
+| 113 | TRGP     | Targa Resources, Inc.           | False           |  272.61 |            58.51 |      8 | 2026-05-22 | 2026-05-19 |  -0.31 |   5.43 |   58.58 |   2122750 |      72.89 |             -2.64 |        -2.64 |
+| 114 | MS       | Morgan Stanley                  | False           |  212.03 |           334.43 |     18 | 2026-06-23 | 2026-06-22 |  -4.08 |  -4.99 |   55.38 |   9915576 |      88.61 |             -8.00 |        -8.00 |
+| 115 | MPC      | Marathon Petroleum Corporation  | False           |  254.06 |            74.17 |      7 | 2026-06-04 | 2026-06-03 |   0.20 |   4.59 |   54.63 |   6858314 |     279.77 |             -6.75 |        -6.75 |
+| 116 | GS       | Goldman Sachs Group, Inc. (The) | False           | 1019.61 |           300.79 |     13 | 2026-06-22 | 2026-06-16 |  -4.27 |  -7.02 |   51.37 |   2140931 |       9.79 |             -9.37 |        -9.37 |
+| 117 | BEN      | Franklin Resources, Inc.        | False           |   33.21 |            17.26 |     15 | 2026-06-23 | 2026-06-22 |   1.72 |   0.48 |   49.53 |   4363395 |      48.56 |             -3.52 |        -5.69 |
+| 118 | ADM      | Archer-Daniels-Midland Company  | False           |   76.79 |            37.01 |      6 | 2026-06-03 | 2026-06-02 |   0.33 |   2.25 |   48.97 |   4002828 |      -3.07 |            -10.05 |       -12.58 |
+| 119 | EBAY     | eBay Inc.                       | False           |  107.87 |            47.89 |      7 | 2026-05-21 | 2026-05-20 |  -0.12 |  -0.34 |   48.28 |   3759791 |      54.18 |             -9.34 |        -9.34 |
+| 120 | GE       | GE Aerospace                    | False           |  369.00 |           385.54 |      6 | 2026-06-25 | 2026-06-24 |  -0.64 |   3.18 |   47.79 |   7642079 |       0.66 |             -2.81 |        -2.81 |
+| 121 | NTRS     | Northern Trust Corporation      | False           |  173.87 |            32.17 |     13 | 2026-06-25 | 2026-06-23 |  -1.19 |   1.02 |   44.60 |   1080477 |      11.56 |             -2.70 |        -2.70 |
+| 122 | VTR      | Ventas, Inc.                    | False           |   89.05 |            43.29 |      7 | 2026-05-14 | 2026-05-13 |   1.85 |   9.13 |   44.48 |   2581795 |     -26.65 |             -2.21 |        -2.21 |
+| 123 | EXPD     | Expeditors International of Was | False           |  160.73 |            21.02 |      5 | 2026-06-12 | 2026-06-11 |  -0.58 |  -0.37 |   42.97 |    437511 |     -48.61 |             -4.62 |        -4.62 |
+| 124 | SLB      | SLB Limited                     | False           |   47.00 |            70.27 |      7 | 2026-06-04 | 2026-05-26 |  -0.89 |  -2.27 |   42.72 |   8298163 |     -61.65 |            -19.68 |       -45.04 |
+
+---
 ## Snapshot: 2026-06-25 | Generated: 2026-06-27 00:24 UTC
 
 ### 🚀 AI Momentum Analysis

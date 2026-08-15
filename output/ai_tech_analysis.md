@@ -1,6 +1,135 @@
 # S&P 500 Momentum Tracker - Tech (IT + Communication Services) AI Analysis
 
 ---
+## Snapshot: 2026-08-14 | Generated: 2026-08-15 00:17 UTC
+
+### 🚀 AI Momentum Analysis
+
+## 🚀 TOP MOMENTUM PICKS
+
+
+1. **NetApp, Inc. (NTAP)**
+   - **Price**: $207.08
+   - **Market Cap**: $40.64B
+   - **% 1Y**: 92.32%
+   - **% 1W**: 9.27%
+   - **Volume**: 2,286,438
+
+2. **Micron Technology, Inc. (MU)**
+   - **Price**: $971.66
+   - **Market Cap**: N/A
+   - **% 1Y**: 676.77%
+   - **% 1W**: 10.72%
+   - **Volume**: 27,609,119
+
+3. **Live Nation Entertainment, Inc. (LYV)**
+   - **Price**: $188.46
+   - **Market Cap**: $43.90B
+   - **% 1Y**: 16.62%
+   - **% 1W**: 4.32%
+   - **Volume**: 1,162,894
+
+4. **Omnicom Group Inc. (OMC)**
+   - **Price**: $87.57
+   - **Market Cap**: $24.02B
+   - **% 1Y**: 20.79%
+   - **% 1W**: 2.73%
+   - **Volume**: 1,256,204
+
+5. **Advanced Micro Devices, Inc. (AMD)**
+   - **Price**: $514.39
+   - **Market Cap**: $839.73B
+   - **% 1Y**: 184.27%
+   - **% 1W**: 6.42%
+   - **Volume**: 24,928,819
+
+## 📈 EARLY / BREAKOUT WATCH
+
+
+1. **Datadog, Inc. (DDOG)**
+   - **Price**: $255.46
+   - **Market Cap**: $91.73B
+   - **% 1Y**: 105.16%
+   - **Volume**: 4,366,268
+
+2. **CrowdStrike Holdings, Inc. (CRWD)**
+   - **Price**: $216.95
+   - **Market Cap**: $220.91B
+   - **% 1Y**: 104.26%
+   - **Volume**: 6,688,148
+
+3. **Keysight Technologies Inc. (KEYS)**
+   - **Price**: $357.82
+   - **Market Cap**: $61.15B
+   - **% 1Y**: 117.55%
+   - **Volume**: 926,706
+
+## ⚠️ CAUTION
+
+
+1. **Sandisk Corporation (SNDK)**
+   - **% 1Y**: 3415.66% (historical anomaly)
+   - **% 1W**: 35.38%
+   - **High Hits**: 8
+
+2. **Western Digital Corporation (WDC)**
+   - **% 1Y**: 569.17%
+   - **% 1W**: 17.15%
+   - **High Hits**: 6
+
+3. **Seagate Technology Holdings PLC (STX)**
+   - **% 1Y**: 530.24%
+   - **% 1W**: 19.77%
+   - **High Hits**: 5
+
+These names exhibit high hit counts but lack strong year-over-year momentum, indicating potential range-bound trading despite recent price action.
+
+### 📊 Tech Screen — IT & Communication Services — Stocks at Highs
+
+**Total: 3 stocks** | 🏆 At ATH: 2 | 🔥 At 52W High only: 1
+
+> **Columns**: **At high today** = in today's at-52W/ATH set; **False** = still shown (history + ranked by % 1Y / market cap / hits). | Hits = cumulative high hits | % 1D/1W/1Y = price changes | Vol % 1D = volume vs prior day
+
+|   # | Ticker   | Name                            | At high today   |   Price |   Market Cap (B) |   Hits | Last Hit   | 2nd Last   |   % 1D |   % 1W |    % 1Y |      Vol |   Vol % 1D |   % From 52W High |   % From ATH |
+|-----|----------|---------------------------------|-----------------|---------|------------------|--------|------------|------------|--------|--------|---------|----------|------------|-------------------|--------------|
+|   1 | NTAP     | NetApp, Inc.                    | True            |  207.08 |            40.64 |      9 | 2026-08-14 | 2026-08-13 |   1.02 |   9.27 |   92.32 |  2286438 |     -33.23 |             -0.95 |        -0.95 |
+|   2 | OMC      | Omnicom Group Inc.              | True            |   87.57 |            24.02 |      5 | 2026-08-14 | 2026-08-13 |  -0.89 |   2.73 |   20.79 |  1256204 |     -44.22 |             -0.97 |       -12.62 |
+|   3 | LYV      | Live Nation Entertainment, Inc. | True            |  188.46 |            43.90 |     14 | 2026-08-14 | 2026-08-13 |   1.29 |   4.32 |   16.62 |  1162894 |     -61.25 |             -0.41 |        -0.41 |
+|   4 | SNDK     | Sandisk Corporation             | False           | 1641.11 |           239.60 |      8 | 2026-06-25 | 2026-06-18 |   7.39 |  35.38 | 3415.66 | 20360626 |      -7.85 |            -30.30 |       -30.30 |
+|   5 | MU       | Micron Technology, Inc.         | False           |  971.66 |           nan    |     11 | 2026-06-22 | 2026-06-18 |   2.30 |  10.72 |  676.77 | 27609119 |     -24.78 |            -22.56 |       -22.56 |
+|   6 | WDC      | Western Digital Corporation     | False           |  508.80 |           nan    |      6 | 2026-06-15 | 2026-06-03 |   4.41 |  17.15 |  569.17 |  9844298 |      13.16 |            -36.39 |       -36.39 |
+|   7 | STX      | Seagate Technology Holdings PLC | False           |  973.44 |           220.62 |      5 | 2026-06-15 | 2026-05-26 |   5.65 |  19.77 |  530.24 |  5231374 |      13.97 |            -14.92 |       -14.92 |
+|   8 | TER      | Teradyne, Inc.                  | False           |  418.79 |            65.47 |      6 | 2026-06-30 | 2026-06-29 |   2.01 |  10.41 |  275.48 |  1834366 |      -2.44 |            -14.17 |       -14.17 |
+|   9 | DELL     | Dell Technologies Inc.          | False           |  490.81 |           317.13 |      7 | 2026-08-12 | 2026-06-01 |  -0.75 |   8.16 |  257.96 |  3574867 |     -55.67 |             -4.51 |        -4.51 |
+|  10 | LRCX     | Lam Research Corporation        | False           |  332.36 |           415.89 |     17 | 2026-06-30 | 2026-06-29 |  -1.38 |   6.75 |  211.23 |  7260342 |     -18.43 |            -24.21 |       -24.21 |
+|  11 | AMD      | Advanced Micro Devices, Inc.    | False           |  514.39 |           839.73 |      7 | 2026-06-30 | 2026-06-15 |   6.50 |   6.42 |  184.27 | 24928819 |      32.85 |            -12.03 |       -12.03 |
+|  12 | HPE      | Hewlett Packard Enterprise Comp | False           |   58.71 |            77.74 |      8 | 2026-05-28 | 2026-05-26 |  -1.86 |  10.32 |  181.11 | 11734448 |     -55.08 |             -8.36 |        -8.36 |
+|  13 | AMAT     | Applied Materials, Inc.         | False           |  507.18 |           402.68 |     13 | 2026-06-25 | 2026-06-22 |  -5.12 |  -5.93 |  171.41 | 12513552 |      -3.47 |            -31.43 |       -31.43 |
+|  14 | GLW      | Corning Incorporated            | False           |  165.99 |           142.98 |      5 | 2026-06-29 | 2026-06-25 |   4.70 |   0.19 |  155.18 |  8284297 |      -3.44 |            -38.92 |       -38.92 |
+|  15 | PANW     | Palo Alto Networks, Inc.        | False           |  384.27 |           313.18 |     21 | 2026-08-13 | 2026-08-12 |  -2.96 |   5.61 |  121.42 |  4216192 |      -8.21 |             -3.66 |        -3.66 |
+|  16 | KEYS     | Keysight Technologies Inc.      | False           |  357.82 |            61.15 |      7 | 2026-06-22 | 2026-06-18 |   1.12 |   4.94 |  117.55 |   926706 |       9.68 |             -4.57 |        -4.57 |
+|  17 | KLAC     | KLA Corporation                 | False           |  203.72 |           266.17 |      8 | 2026-06-30 | 2026-06-29 |  -2.70 |   2.83 |  114.60 |  7027440 |     -17.74 |            -33.72 |       -33.72 |
+|  18 | FTNT     | Fortinet, Inc.                  | False           |  160.01 |           117.40 |     22 | 2026-08-04 | 2026-07-14 |  -3.28 |   0.23 |  107.13 |  2792696 |     -34.48 |             -7.02 |        -7.02 |
+|  19 | DDOG     | Datadog, Inc.                   | False           |  255.46 |            91.73 |     12 | 2026-08-04 | 2026-08-03 |   1.28 |   9.20 |  105.16 |  4366268 |      20.94 |            -12.73 |       -12.73 |
+|  20 | CRWD     | CrowdStrike Holdings, Inc.      | False           |  216.95 |           220.91 |     14 | 2026-08-13 | 2026-08-10 |  -3.80 |   1.18 |  104.26 |  6688148 |      14.86 |             -4.64 |        -4.64 |
+|  21 | GOOGL    | Alphabet Inc.                   | False           |  345.90 |          4230.33 |      8 | 2026-05-15 | 2026-05-14 |  -0.13 |  -2.37 |   70.93 | 16891717 |      -5.45 |            -15.30 |       -15.30 |
+|  22 | JBL      | Jabil Inc.                      | False           |  363.10 |            38.05 |      5 | 2026-06-12 | 2026-06-03 |  -1.96 |   6.41 |   67.24 |   706953 |     -24.66 |            -15.35 |       -15.35 |
+|  23 | ADI      | Analog Devices, Inc.            | False           |  389.39 |           nan    |     10 | 2026-06-22 | 2026-06-18 |   2.16 |  -0.14 |   67.06 |  2106632 |     -26.45 |            -12.68 |       -12.68 |
+|  24 | CSCO     | Cisco Systems, Inc.             | False           |  111.68 |           440.18 |     13 | 2026-06-04 | 2026-06-03 |  -1.58 |  -8.03 |   64.49 | 29278347 |     -52.44 |            -14.02 |       -14.02 |
+|  25 | ON       | ON Semiconductor Corporation    | False           |   82.66 |            32.18 |      7 | 2026-06-03 | 2026-06-02 |   1.35 |   1.84 |   60.13 |  4472154 |     -22.70 |            -38.73 |       -38.73 |
+|  26 | Q        | Qnity Electronics, Inc.         | False           |  142.30 |            29.77 |      5 | 2026-06-22 | 2026-06-18 |  -0.20 |   3.12 |   49.60 |   657156 |     -58.81 |            -19.73 |       -19.73 |
+|  27 | TXN      | Texas Instruments Incorporated  | False           |  279.58 |           255.33 |     10 | 2026-06-22 | 2026-05-26 |   2.25 |  -2.27 |   48.07 |  4747660 |     -10.89 |            -15.87 |       -15.87 |
+|  28 | AAPL     | Apple Inc.                      | False           |  305.93 |          4464.80 |     25 | 2026-07-29 | 2026-07-28 |   0.22 |  -2.28 |   31.91 | 26072932 |     -35.38 |            -11.14 |       -11.14 |
+|  29 | AVGO     | Broadcom Inc.                   | False           |  392.99 |          1869.68 |      7 | 2026-06-03 | 2026-06-02 |  -5.94 |  -8.13 |   27.20 | 29203339 |     121.56 |            -20.48 |       -20.48 |
+|  30 | FFIV     | F5, Inc.                        | False           |  403.20 |            22.83 |     20 | 2026-07-14 | 2026-07-10 |  -3.08 |   0.74 |   26.59 |   454652 |     -16.88 |             -7.31 |        -7.31 |
+|  31 | TDY      | Teledyne Technologies Incorpora | False           |  679.67 |            31.51 |      6 | 2026-08-12 | 2026-08-10 |   0.89 |  -1.68 |   25.42 |   188926 |     -23.17 |             -2.58 |        -2.58 |
+|  32 | NVDA     | NVIDIA Corporation              | False           |  225.16 |          5453.60 |      5 | 2026-05-14 | 2026-05-13 |  -0.06 |   0.54 |   23.87 | 75161211 |     -23.98 |             -4.70 |        -4.70 |
+|  33 | ZBRA     | Zebra Technologies Corporation  | False           |  376.03 |            17.79 |      5 | 2026-08-13 | 2026-08-11 |  -0.95 |  -0.12 |   14.74 |   567850 |     -25.28 |             -2.64 |       -38.86 |
+|  34 | VRSN     | VeriSign, Inc.                  | False           |  284.24 |            25.70 |      6 | 2026-05-26 | 2026-05-22 |  -1.01 |  -3.50 |    7.85 |   424928 |     -38.69 |             -9.04 |        -9.04 |
+|  35 | NXPI     | NXP Semiconductors N.V.         | False           |  234.71 |            59.19 |      5 | 2026-05-26 | 2026-05-22 |   1.21 |  -2.09 |    3.17 |  2797182 |     -17.15 |            -30.72 |       -30.72 |
+|  36 | CDNS     | Cadence Design Systems, Inc.    | False           |  324.82 |            89.45 |      5 | 2026-06-04 | 2026-06-03 |   0.32 |  -4.25 |   -6.91 |  2482141 |       9.86 |            -22.05 |       -22.05 |
+
+---
 ## Snapshot: 2026-08-07 | Generated: 2026-08-08 00:17 UTC
 
 ### 🚀 AI Momentum Analysis

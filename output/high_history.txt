@@ -1,18 +1,18 @@
 S&P 500 Momentum Tracker - High History
-Generated: 2026-09-02 00:22:02 UTC
+Generated: 2026-09-03 00:10:01 UTC
 ==========================================================================================
 
 Stocks ranked by number of times hitting 52-Week High or All-Time High
 Higher hits = stronger momentum
 
-Total unique stocks tracked: 283
-🚀 High momentum (3+ hits): 251
-📈 Building momentum (2 hits): 14
-✨ New breakouts (1 hit): 18
+Total unique stocks tracked: 284
+🚀 High momentum (3+ hits): 252
+📈 Building momentum (2 hits): 16
+✨ New breakouts (1 hit): 16
 
 |   # | Ticker   | Name                           |   Hits | Last Hit   | 2nd Last   | 3rd Last   |
 |-----|----------|--------------------------------|--------|------------|------------|------------|
-|   1 | TECH     | Bio-Techne Corp                |     48 | 2026-09-01 | 2026-08-31 | 2026-08-28 |
+|   1 | TECH     | Bio-Techne Corp                |     49 | 2026-09-02 | 2026-09-01 | 2026-08-31 |
 |   2 | PFG      | Principal Financial Group Inc  |     42 | 2026-08-13 | 2026-08-06 | 2026-08-05 |
 |   3 | STT      | State Street Corporation       |     38 | 2026-08-28 | 2026-08-27 | 2026-08-26 |
 |   4 | AIZ      | Assurant, Inc.                 |     37 | 2026-08-05 | 2026-08-04 | 2026-08-03 |
@@ -22,12 +22,12 @@ Total unique stocks tracked: 283
 |   8 | BAC      | Bank of America Corporation    |     34 | 2026-08-18 | 2026-08-14 | 2026-08-13 |
 |   9 | GL       | Globe Life Inc.                |     33 | 2026-07-16 | 2026-07-15 | 2026-07-14 |
 |  10 | FRT      | Federal Realty Investment Trus |     33 | 2026-07-29 | 2026-07-28 | 2026-07-27 |
-|  11 | DOC      | Healthpeak Properties, Inc.    |     33 | 2026-07-28 | 2026-07-27 | 2026-07-21 |
-|  12 | PNC      | PNC Financial Services Group,  |     33 | 2026-08-18 | 2026-08-17 | 2026-08-14 |
-|  13 | MPC      | Marathon Petroleum Corporation |     32 | 2026-09-01 | 2026-08-31 | 2026-08-28 |
+|  11 | MPC      | Marathon Petroleum Corporation |     33 | 2026-09-02 | 2026-09-01 | 2026-08-31 |
+|  12 | DOC      | Healthpeak Properties, Inc.    |     33 | 2026-07-28 | 2026-07-27 | 2026-07-21 |
+|  13 | PNC      | PNC Financial Services Group,  |     33 | 2026-08-18 | 2026-08-17 | 2026-08-14 |
 |  14 | HST      | Host Hotels & Resorts, Inc.    |     31 | 2026-07-29 | 2026-07-28 | 2026-07-27 |
-|  15 | CVS      | CVS Health Corporation         |     31 | 2026-07-28 | 2026-07-21 | 2026-07-20 |
-|  16 | VLO      | Valero Energy Corporation      |     30 | 2026-09-01 | 2026-08-31 | 2026-08-28 |
+|  15 | VLO      | Valero Energy Corporation      |     31 | 2026-09-02 | 2026-09-01 | 2026-08-31 |
+|  16 | CVS      | CVS Health Corporation         |     31 | 2026-07-28 | 2026-07-21 | 2026-07-20 |
 |  17 | DVA      | DaVita Inc.                    |     30 | 2026-07-31 | 2026-07-29 | 2026-07-28 |
 |  18 | EXPD     | Expeditors International of Wa |     30 | 2026-08-31 | 2026-08-28 | 2026-08-27 |
 |  19 | MTB      | M&T Bank Corporation           |     30 | 2026-08-18 | 2026-08-17 | 2026-08-14 |
@@ -47,21 +47,21 @@ Total unique stocks tracked: 283
 |  33 | UNH      | UnitedHealth Group Incorporate |     23 | 2026-07-13 | 2026-07-09 | 2026-07-08 |
 |  34 | UNP      | Union Pacific Corporation      |     22 | 2026-08-26 | 2026-08-24 | 2026-07-17 |
 |  35 | LH       | Labcorp Holdings Inc.          |     22 | 2026-08-28 | 2026-08-27 | 2026-08-26 |
-|  36 | ROK      | Rockwell Automation, Inc.      |     21 | 2026-06-30 | 2026-06-29 | 2026-06-26 |
-|  37 | BEN      | Franklin Resources, Inc.       |     21 | 2026-08-04 | 2026-08-03 | 2026-07-07 |
-|  38 | PNW      | Pinnacle West Capital Corporat |     21 | 2026-07-16 | 2026-07-14 | 2026-07-13 |
-|  39 | NSC      | Norfolk Southern Corporation   |     21 | 2026-08-26 | 2026-08-25 | 2026-08-24 |
-|  40 | PANW     | Palo Alto Networks, Inc.       |     21 | 2026-08-13 | 2026-08-12 | 2026-08-11 |
-|  41 | GD       | General Dynamics Corporation   |     21 | 2026-08-19 | 2026-08-18 | 2026-08-14 |
-|  42 | PSX      | Phillips 66                    |     21 | 2026-09-01 | 2026-08-31 | 2026-08-28 |
-|  43 | MS       | Morgan Stanley                 |     20 | 2026-07-15 | 2026-07-14 | 2026-06-23 |
-|  44 | ROST     | Ross Stores, Inc.              |     20 | 2026-08-10 | 2026-08-07 | 2026-08-06 |
-|  45 | VTR      | Ventas, Inc.                   |     20 | 2026-07-27 | 2026-07-24 | 2026-07-23 |
-|  46 | LIN      | Linde plc                      |     20 | 2026-07-07 | 2026-07-06 | 2026-07-02 |
-|  47 | KIM      | Kimco Realty Corporation (HC)  |     20 | 2026-07-28 | 2026-07-27 | 2026-07-24 |
-|  48 | FFIV     | F5, Inc.                       |     20 | 2026-07-14 | 2026-07-10 | 2026-07-09 |
-|  49 | TGT      | Target Corporation             |     20 | 2026-08-24 | 2026-08-21 | 2026-08-19 |
-|  50 | V        | Visa Inc.                      |     20 | 2026-08-31 | 2026-08-28 | 2026-08-27 |
+|  36 | PSX      | Phillips 66                    |     22 | 2026-09-02 | 2026-09-01 | 2026-08-31 |
+|  37 | ROK      | Rockwell Automation, Inc.      |     21 | 2026-06-30 | 2026-06-29 | 2026-06-26 |
+|  38 | BEN      | Franklin Resources, Inc.       |     21 | 2026-08-04 | 2026-08-03 | 2026-07-07 |
+|  39 | PNW      | Pinnacle West Capital Corporat |     21 | 2026-07-16 | 2026-07-14 | 2026-07-13 |
+|  40 | NSC      | Norfolk Southern Corporation   |     21 | 2026-08-26 | 2026-08-25 | 2026-08-24 |
+|  41 | PANW     | Palo Alto Networks, Inc.       |     21 | 2026-08-13 | 2026-08-12 | 2026-08-11 |
+|  42 | GD       | General Dynamics Corporation   |     21 | 2026-08-19 | 2026-08-18 | 2026-08-14 |
+|  43 | V        | Visa Inc.                      |     21 | 2026-09-02 | 2026-08-31 | 2026-08-28 |
+|  44 | MS       | Morgan Stanley                 |     20 | 2026-07-15 | 2026-07-14 | 2026-06-23 |
+|  45 | ROST     | Ross Stores, Inc.              |     20 | 2026-08-10 | 2026-08-07 | 2026-08-06 |
+|  46 | VTR      | Ventas, Inc.                   |     20 | 2026-07-27 | 2026-07-24 | 2026-07-23 |
+|  47 | LIN      | Linde plc                      |     20 | 2026-07-07 | 2026-07-06 | 2026-07-02 |
+|  48 | KIM      | Kimco Realty Corporation (HC)  |     20 | 2026-07-28 | 2026-07-27 | 2026-07-24 |
+|  49 | FFIV     | F5, Inc.                       |     20 | 2026-07-14 | 2026-07-10 | 2026-07-09 |
+|  50 | TGT      | Target Corporation             |     20 | 2026-08-24 | 2026-08-21 | 2026-08-19 |
 |  51 | JBHT     | J.B. Hunt Transport Services,  |     19 | 2026-07-16 | 2026-07-01 | 2026-06-30 |
 |  52 | GWW      | W.W. Grainger, Inc.            |     19 | 2026-07-28 | 2026-07-27 | 2026-07-17 |
 |  53 | PSA      | Public Storage                 |     19 | 2026-07-29 | 2026-07-28 | 2026-07-16 |
@@ -90,94 +90,94 @@ Total unique stocks tracked: 283
 |  76 | ESS      | Essex Property Trust, Inc.     |     16 | 2026-07-16 | 2026-07-14 | 2026-07-13 |
 |  77 | REG      | Regency Centers Corporation    |     16 | 2026-07-27 | 2026-07-24 | 2026-07-22 |
 |  78 | SWK      | Stanley Black & Decker, Inc.   |     16 | 2026-08-12 | 2026-08-11 | 2026-08-10 |
-|  79 | RJF      | Raymond James Financial, Inc.  |     16 | 2026-08-28 | 2026-08-18 | 2026-08-17 |
-|  80 | AMP      | Ameriprise Financial, Inc.     |     16 | 2026-08-24 | 2026-08-18 | 2026-08-17 |
-|  81 | GS       | Goldman Sachs Group, Inc. (The |     15 | 2026-07-15 | 2026-07-14 | 2026-06-22 |
-|  82 | IBKR     | Interactive Brokers Group, Inc |     15 | 2026-08-31 | 2026-08-26 | 2026-08-25 |
-|  83 | SBUX     | Starbucks Corporation          |     15 | 2026-08-28 | 2026-08-26 | 2026-08-17 |
-|  84 | IEX      | IDEX Corporation               |     15 | 2026-08-17 | 2026-08-14 | 2026-08-13 |
-|  85 | SJM      | The J.M. Smucker Company       |     15 | 2026-08-25 | 2026-08-24 | 2026-08-21 |
-|  86 | IVZ      | Invesco Ltd                    |     15 | 2026-08-27 | 2026-08-26 | 2026-08-25 |
-|  87 | LYV      | Live Nation Entertainment, Inc |     15 | 2026-08-25 | 2026-08-14 | 2026-08-13 |
-|  88 | INCY     | Incyte Corporation             |     15 | 2026-07-28 | 2026-07-27 | 2026-07-24 |
-|  89 | EG       | Everest Group, Ltd.            |     15 | 2026-07-29 | 2026-07-28 | 2026-07-27 |
-|  90 | CTVA     | Corteva, Inc.                  |     15 | 2026-07-30 | 2026-07-29 | 2026-07-28 |
-|  91 | AMGN     | Amgen Inc.                     |     15 | 2026-09-01 | 2026-08-26 | 2026-08-25 |
-|  92 | EW       | Edwards Lifesciences Corporati |     14 | 2026-07-07 | 2026-07-06 | 2026-07-02 |
-|  93 | MTCH     | Match Group, Inc.              |     14 | 2026-09-01 | 2026-08-26 | 2026-08-25 |
+|  79 | CTVA     | Corteva, Inc.                  |     16 | 2026-09-02 | 2026-07-30 | 2026-07-29 |
+|  80 | RJF      | Raymond James Financial, Inc.  |     16 | 2026-08-28 | 2026-08-18 | 2026-08-17 |
+|  81 | AMP      | Ameriprise Financial, Inc.     |     16 | 2026-08-24 | 2026-08-18 | 2026-08-17 |
+|  82 | AMGN     | Amgen Inc.                     |     16 | 2026-09-02 | 2026-09-01 | 2026-08-26 |
+|  83 | GS       | Goldman Sachs Group, Inc. (The |     15 | 2026-07-15 | 2026-07-14 | 2026-06-22 |
+|  84 | IBKR     | Interactive Brokers Group, Inc |     15 | 2026-08-31 | 2026-08-26 | 2026-08-25 |
+|  85 | SBUX     | Starbucks Corporation          |     15 | 2026-08-28 | 2026-08-26 | 2026-08-17 |
+|  86 | MTCH     | Match Group, Inc.              |     15 | 2026-09-02 | 2026-09-01 | 2026-08-26 |
+|  87 | IEX      | IDEX Corporation               |     15 | 2026-08-17 | 2026-08-14 | 2026-08-13 |
+|  88 | SJM      | The J.M. Smucker Company       |     15 | 2026-08-25 | 2026-08-24 | 2026-08-21 |
+|  89 | IVZ      | Invesco Ltd                    |     15 | 2026-08-27 | 2026-08-26 | 2026-08-25 |
+|  90 | LYV      | Live Nation Entertainment, Inc |     15 | 2026-08-25 | 2026-08-14 | 2026-08-13 |
+|  91 | INCY     | Incyte Corporation             |     15 | 2026-07-28 | 2026-07-27 | 2026-07-24 |
+|  92 | EG       | Everest Group, Ltd.            |     15 | 2026-07-29 | 2026-07-28 | 2026-07-27 |
+|  93 | EW       | Edwards Lifesciences Corporati |     14 | 2026-07-07 | 2026-07-06 | 2026-07-02 |
 |  94 | KEY      | KeyCorp                        |     14 | 2026-07-16 | 2026-07-15 | 2026-07-14 |
 |  95 | EIX      | Edison International           |     14 | 2026-07-24 | 2026-07-23 | 2026-07-22 |
-|  96 | STLD     | Steel Dynamics, Inc.           |     13 | 2026-06-12 | 2026-06-04 | 2026-06-03 |
-|  97 | WAB      | Westinghouse Air Brake Technol |     13 | 2026-08-26 | 2026-08-17 | 2026-07-28 |
-|  98 | AMAT     | Applied Materials, Inc.        |     13 | 2026-06-25 | 2026-06-22 | 2026-06-12 |
-|  99 | CSCO     | Cisco Systems, Inc.            |     13 | 2026-06-04 | 2026-06-03 | 2026-06-02 |
-| 100 | GNRC     | Generac Holdlings Inc.         |     13 | 2026-06-30 | 2026-06-25 | 2026-06-22 |
-| 101 | WST      | West Pharmaceutical Services,  |     13 | 2026-07-16 | 2026-07-02 | 2026-07-01 |
-| 102 | CPT      | Camden Property Trust          |     13 | 2026-07-07 | 2026-07-06 | 2026-07-02 |
-| 103 | FITB     | Fifth Third Bancorp            |     13 | 2026-07-16 | 2026-07-15 | 2026-07-07 |
-| 104 | GE       | GE Aerospace                   |     13 | 2026-08-05 | 2026-08-04 | 2026-07-06 |
-| 105 | CINF     | Cincinnati Financial Corporati |     13 | 2026-07-06 | 2026-07-02 | 2026-07-01 |
-| 106 | OMC      | Omnicom Group Inc.             |     13 | 2026-08-28 | 2026-08-27 | 2026-08-26 |
-| 107 | RTX      | RTX Corporation                |     13 | 2026-08-18 | 2026-08-17 | 2026-08-14 |
-| 108 | SOLV     | Solventum Corporation          |     13 | 2026-08-31 | 2026-08-28 | 2026-08-27 |
-| 109 | RVTY     | Revvity, Inc.                  |     13 | 2026-08-31 | 2026-08-28 | 2026-08-27 |
-| 110 | CAT      | Caterpillar, Inc.              |     12 | 2026-06-30 | 2026-06-25 | 2026-06-22 |
-| 111 | BIIB     | Biogen Inc.                    |     12 | 2026-08-28 | 2026-08-27 | 2026-08-26 |
-| 112 | DDOG     | Datadog, Inc.                  |     12 | 2026-08-04 | 2026-08-03 | 2026-06-01 |
-| 113 | ELV      | Elevance Health, Inc.          |     12 | 2026-07-14 | 2026-07-13 | 2026-07-09 |
-| 114 | JNJ      | Johnson & Johnson              |     12 | 2026-09-01 | 2026-08-26 | 2026-08-25 |
-| 115 | VRTX     | Vertex Pharmaceuticals Incorpo |     12 | 2026-09-01 | 2026-08-27 | 2026-08-26 |
+|  96 | RVTY     | Revvity, Inc.                  |     14 | 2026-09-02 | 2026-08-31 | 2026-08-28 |
+|  97 | STLD     | Steel Dynamics, Inc.           |     13 | 2026-06-12 | 2026-06-04 | 2026-06-03 |
+|  98 | WAB      | Westinghouse Air Brake Technol |     13 | 2026-08-26 | 2026-08-17 | 2026-07-28 |
+|  99 | AMAT     | Applied Materials, Inc.        |     13 | 2026-06-25 | 2026-06-22 | 2026-06-12 |
+| 100 | BIIB     | Biogen Inc.                    |     13 | 2026-09-02 | 2026-08-28 | 2026-08-27 |
+| 101 | CSCO     | Cisco Systems, Inc.            |     13 | 2026-06-04 | 2026-06-03 | 2026-06-02 |
+| 102 | GNRC     | Generac Holdlings Inc.         |     13 | 2026-06-30 | 2026-06-25 | 2026-06-22 |
+| 103 | WST      | West Pharmaceutical Services,  |     13 | 2026-07-16 | 2026-07-02 | 2026-07-01 |
+| 104 | CPT      | Camden Property Trust          |     13 | 2026-07-07 | 2026-07-06 | 2026-07-02 |
+| 105 | FITB     | Fifth Third Bancorp            |     13 | 2026-07-16 | 2026-07-15 | 2026-07-07 |
+| 106 | GE       | GE Aerospace                   |     13 | 2026-08-05 | 2026-08-04 | 2026-07-06 |
+| 107 | CINF     | Cincinnati Financial Corporati |     13 | 2026-07-06 | 2026-07-02 | 2026-07-01 |
+| 108 | JNJ      | Johnson & Johnson              |     13 | 2026-09-02 | 2026-09-01 | 2026-08-26 |
+| 109 | VRTX     | Vertex Pharmaceuticals Incorpo |     13 | 2026-09-02 | 2026-09-01 | 2026-08-27 |
+| 110 | OMC      | Omnicom Group Inc.             |     13 | 2026-08-28 | 2026-08-27 | 2026-08-26 |
+| 111 | RTX      | RTX Corporation                |     13 | 2026-08-18 | 2026-08-17 | 2026-08-14 |
+| 112 | SOLV     | Solventum Corporation          |     13 | 2026-08-31 | 2026-08-28 | 2026-08-27 |
+| 113 | CAT      | Caterpillar, Inc.              |     12 | 2026-06-30 | 2026-06-25 | 2026-06-22 |
+| 114 | DDOG     | Datadog, Inc.                  |     12 | 2026-08-04 | 2026-08-03 | 2026-06-01 |
+| 115 | ELV      | Elevance Health, Inc.          |     12 | 2026-07-14 | 2026-07-13 | 2026-07-09 |
 | 116 | BRK-B    | Berkshire Hathaway Inc. New    |     12 | 2026-08-10 | 2026-08-07 | 2026-08-06 |
-| 117 | BDX      | Becton, Dickinson and Company  |     12 | 2026-08-28 | 2026-08-26 | 2026-08-25 |
-| 118 | BK       | The Bank of New York Mellon Co |     11 | 2026-06-02 | 2026-06-01 | 2026-05-29 |
-| 119 | MU       | Micron Technology, Inc.        |     11 | 2026-06-22 | 2026-06-18 | 2026-06-15 |
-| 120 | DAL      | Delta Air Lines, Inc.          |     11 | 2026-06-30 | 2026-06-25 | 2026-06-24 |
-| 121 | JCI      | Johnson Controls International |     11 | 2026-08-17 | 2026-08-11 | 2026-08-06 |
-| 122 | CNC      | Centene Corporation            |     11 | 2026-07-14 | 2026-07-13 | 2026-07-01 |
-| 123 | WSM      | Williams-Sonoma, Inc.          |     11 | 2026-08-11 | 2026-08-10 | 2026-08-07 |
-| 124 | CAH      | Cardinal Health, Inc.          |     11 | 2026-08-05 | 2026-07-07 | 2026-07-06 |
-| 125 | CB       | Chubb Limited                  |     11 | 2026-07-29 | 2026-07-28 | 2026-07-27 |
-| 126 | L        | Loews Corporation              |     11 | 2026-07-29 | 2026-07-28 | 2026-07-27 |
-| 127 | PKG      | Packaging Corporation of Ameri |     11 | 2026-08-14 | 2026-08-13 | 2026-08-12 |
-| 128 | HIG      | The Hartford Insurance Group,  |     11 | 2026-08-07 | 2026-08-06 | 2026-08-05 |
-| 129 | IQV      | IQVIA Holdings, Inc.           |     11 | 2026-08-31 | 2026-08-28 | 2026-08-27 |
-| 130 | DXCM     | DexCom, Inc.                   |     11 | 2026-08-31 | 2026-08-28 | 2026-08-24 |
-| 131 | ADI      | Analog Devices, Inc.           |     10 | 2026-06-22 | 2026-06-18 | 2026-06-03 |
-| 132 | ADM      | Archer-Daniels-Midland Company |     10 | 2026-07-22 | 2026-07-21 | 2026-07-20 |
-| 133 | TXN      | Texas Instruments Incorporated |     10 | 2026-06-22 | 2026-05-26 | 2026-05-20 |
-| 134 | APD      | Air Products and Chemicals, In |     10 | 2026-08-31 | 2026-08-14 | 2026-08-11 |
-| 135 | EBAY     | eBay Inc.                      |     10 | 2026-07-28 | 2026-07-10 | 2026-07-09 |
-| 136 | ES       | Eversource Energy (D/B/A)      |     10 | 2026-07-28 | 2026-07-24 | 2026-07-16 |
-| 137 | BMY      | Bristol-Myers Squibb Company   |     10 | 2026-08-26 | 2026-08-25 | 2026-08-24 |
+| 117 | IQV      | IQVIA Holdings, Inc.           |     12 | 2026-09-02 | 2026-08-31 | 2026-08-28 |
+| 118 | BDX      | Becton, Dickinson and Company  |     12 | 2026-08-28 | 2026-08-26 | 2026-08-25 |
+| 119 | BK       | The Bank of New York Mellon Co |     11 | 2026-06-02 | 2026-06-01 | 2026-05-29 |
+| 120 | MU       | Micron Technology, Inc.        |     11 | 2026-06-22 | 2026-06-18 | 2026-06-15 |
+| 121 | DAL      | Delta Air Lines, Inc.          |     11 | 2026-06-30 | 2026-06-25 | 2026-06-24 |
+| 122 | JCI      | Johnson Controls International |     11 | 2026-08-17 | 2026-08-11 | 2026-08-06 |
+| 123 | APD      | Air Products and Chemicals, In |     11 | 2026-09-02 | 2026-08-31 | 2026-08-14 |
+| 124 | CNC      | Centene Corporation            |     11 | 2026-07-14 | 2026-07-13 | 2026-07-01 |
+| 125 | WSM      | Williams-Sonoma, Inc.          |     11 | 2026-08-11 | 2026-08-10 | 2026-08-07 |
+| 126 | CAH      | Cardinal Health, Inc.          |     11 | 2026-08-05 | 2026-07-07 | 2026-07-06 |
+| 127 | CB       | Chubb Limited                  |     11 | 2026-07-29 | 2026-07-28 | 2026-07-27 |
+| 128 | L        | Loews Corporation              |     11 | 2026-07-29 | 2026-07-28 | 2026-07-27 |
+| 129 | PKG      | Packaging Corporation of Ameri |     11 | 2026-08-14 | 2026-08-13 | 2026-08-12 |
+| 130 | HIG      | The Hartford Insurance Group,  |     11 | 2026-08-07 | 2026-08-06 | 2026-08-05 |
+| 131 | BMY      | Bristol-Myers Squibb Company   |     11 | 2026-09-02 | 2026-08-26 | 2026-08-25 |
+| 132 | DXCM     | DexCom, Inc.                   |     11 | 2026-08-31 | 2026-08-28 | 2026-08-24 |
+| 133 | ADI      | Analog Devices, Inc.           |     10 | 2026-06-22 | 2026-06-18 | 2026-06-03 |
+| 134 | ADM      | Archer-Daniels-Midland Company |     10 | 2026-07-22 | 2026-07-21 | 2026-07-20 |
+| 135 | TXN      | Texas Instruments Incorporated |     10 | 2026-06-22 | 2026-05-26 | 2026-05-20 |
+| 136 | EBAY     | eBay Inc.                      |     10 | 2026-07-28 | 2026-07-10 | 2026-07-09 |
+| 137 | ES       | Eversource Energy (D/B/A)      |     10 | 2026-07-28 | 2026-07-24 | 2026-07-16 |
 | 138 | MMM      | 3M Company                     |     10 | 2026-08-14 | 2026-08-13 | 2026-08-12 |
 | 139 | WAT      | Waters Corporation             |     10 | 2026-08-27 | 2026-08-26 | 2026-08-25 |
-| 140 | FDX      | FedEx Corporation              |      9 | 2026-08-13 | 2026-06-15 | 2026-06-12 |
-| 141 | PM       | Philip Morris International In |      9 | 2026-07-20 | 2026-07-17 | 2026-07-16 |
-| 142 | VTRS     | Viatris Inc.                   |      9 | 2026-07-30 | 2026-07-29 | 2026-07-28 |
-| 143 | CBOE     | Cboe Global Markets, Inc.      |      9 | 2026-05-18 | 2026-05-15 | 2026-05-13 |
-| 144 | NTAP     | NetApp, Inc.                   |      9 | 2026-08-14 | 2026-08-13 | 2026-08-12 |
-| 145 | C        | Citigroup, Inc.                |      9 | 2026-06-22 | 2026-06-16 | 2026-06-17 |
-| 146 | CNP      | CenterPoint Energy, Inc (Holdi |      9 | 2026-07-24 | 2026-07-07 | 2026-07-02 |
-| 147 | TROW     | T. Rowe Price Group, Inc.      |      9 | 2026-07-28 | 2026-07-27 | 2026-07-16 |
-| 148 | RF       | Regions Financial Corporation  |      9 | 2026-08-14 | 2026-08-05 | 2026-08-04 |
-| 149 | PFE      | Pfizer, Inc.                   |      9 | 2026-09-01 | 2026-08-31 | 2026-08-27 |
-| 150 | VZ       | Verizon Communications Inc.    |      9 | 2026-09-01 | 2026-08-31 | 2026-08-28 |
-| 151 | GOOG     | Alphabet Inc.                  |      8 | 2026-05-15 | 2026-05-14 | 2026-05-13 |
-| 152 | GOOGL    | Alphabet Inc.                  |      8 | 2026-05-15 | 2026-05-14 | 2026-05-13 |
-| 153 | MAR      | Marriott International         |      8 | 2026-06-12 | 2026-06-09 | 2026-06-08 |
-| 154 | KLAC     | KLA Corporation                |      8 | 2026-06-30 | 2026-06-29 | 2026-06-22 |
-| 155 | FIX      | Comfort Systems USA, Inc.      |      8 | 2026-06-22 | 2026-05-14 | 2026-05-13 |
-| 156 | SNDK     | Sandisk Corporation            |      8 | 2026-06-25 | 2026-06-18 | 2026-06-15 |
-| 157 | LLY      | Eli Lilly and Company          |      8 | 2026-08-19 | 2026-08-18 | 2026-08-10 |
-| 158 | SLB      | SLB Limited                    |      8 | 2026-08-31 | 2026-06-04 | 2026-05-26 |
-| 159 | HPE      | Hewlett Packard Enterprise Com |      8 | 2026-05-28 | 2026-05-26 | 2026-05-22 |
-| 160 | OKE      | ONEOK, Inc.                    |      8 | 2026-08-31 | 2026-08-19 | 2026-08-18 |
-| 161 | UDR      | UDR, Inc.                      |      8 | 2026-07-07 | 2026-07-06 | 2026-07-02 |
-| 162 | LNT      | Alliant Energy Corporation     |      8 | 2026-07-07 | 2026-07-02 | 2026-06-30 |
-| 163 | BBY      | Best Buy Co., Inc.             |      8 | 2026-07-29 | 2026-07-28 | 2026-07-27 |
-| 164 | GRMN     | Garmin Ltd.                    |      8 | 2026-08-14 | 2026-08-13 | 2026-08-12 |
-| 165 | INVH     | Invitation Homes Inc.          |      8 | 2026-08-24 | 2026-08-14 | 2026-08-13 |
-| 166 | REGN     | Regeneron Pharmaceuticals, Inc |      8 | 2026-08-25 | 2026-08-21 | 2026-08-19 |
+| 140 | PFE      | Pfizer, Inc.                   |     10 | 2026-09-02 | 2026-09-01 | 2026-08-31 |
+| 141 | VZ       | Verizon Communications Inc.    |     10 | 2026-09-02 | 2026-09-01 | 2026-08-31 |
+| 142 | FDX      | FedEx Corporation              |      9 | 2026-08-13 | 2026-06-15 | 2026-06-12 |
+| 143 | PM       | Philip Morris International In |      9 | 2026-07-20 | 2026-07-17 | 2026-07-16 |
+| 144 | VTRS     | Viatris Inc.                   |      9 | 2026-07-30 | 2026-07-29 | 2026-07-28 |
+| 145 | CBOE     | Cboe Global Markets, Inc.      |      9 | 2026-05-18 | 2026-05-15 | 2026-05-13 |
+| 146 | NTAP     | NetApp, Inc.                   |      9 | 2026-08-14 | 2026-08-13 | 2026-08-12 |
+| 147 | C        | Citigroup, Inc.                |      9 | 2026-06-22 | 2026-06-16 | 2026-06-17 |
+| 148 | CNP      | CenterPoint Energy, Inc (Holdi |      9 | 2026-07-24 | 2026-07-07 | 2026-07-02 |
+| 149 | TROW     | T. Rowe Price Group, Inc.      |      9 | 2026-07-28 | 2026-07-27 | 2026-07-16 |
+| 150 | RF       | Regions Financial Corporation  |      9 | 2026-08-14 | 2026-08-05 | 2026-08-04 |
+| 151 | REGN     | Regeneron Pharmaceuticals, Inc |      9 | 2026-09-02 | 2026-08-25 | 2026-08-21 |
+| 152 | GOOG     | Alphabet Inc.                  |      8 | 2026-05-15 | 2026-05-14 | 2026-05-13 |
+| 153 | GOOGL    | Alphabet Inc.                  |      8 | 2026-05-15 | 2026-05-14 | 2026-05-13 |
+| 154 | MAR      | Marriott International         |      8 | 2026-06-12 | 2026-06-09 | 2026-06-08 |
+| 155 | KLAC     | KLA Corporation                |      8 | 2026-06-30 | 2026-06-29 | 2026-06-22 |
+| 156 | FIX      | Comfort Systems USA, Inc.      |      8 | 2026-06-22 | 2026-05-14 | 2026-05-13 |
+| 157 | SNDK     | Sandisk Corporation            |      8 | 2026-06-25 | 2026-06-18 | 2026-06-15 |
+| 158 | LLY      | Eli Lilly and Company          |      8 | 2026-08-19 | 2026-08-18 | 2026-08-10 |
+| 159 | SLB      | SLB Limited                    |      8 | 2026-08-31 | 2026-06-04 | 2026-05-26 |
+| 160 | HPE      | Hewlett Packard Enterprise Com |      8 | 2026-05-28 | 2026-05-26 | 2026-05-22 |
+| 161 | OKE      | ONEOK, Inc.                    |      8 | 2026-08-31 | 2026-08-19 | 2026-08-18 |
+| 162 | UDR      | UDR, Inc.                      |      8 | 2026-07-07 | 2026-07-06 | 2026-07-02 |
+| 163 | LNT      | Alliant Energy Corporation     |      8 | 2026-07-07 | 2026-07-02 | 2026-06-30 |
+| 164 | BBY      | Best Buy Co., Inc.             |      8 | 2026-07-29 | 2026-07-28 | 2026-07-27 |
+| 165 | GRMN     | Garmin Ltd.                    |      8 | 2026-08-14 | 2026-08-13 | 2026-08-12 |
+| 166 | INVH     | Invitation Homes Inc.          |      8 | 2026-08-24 | 2026-08-14 | 2026-08-13 |
 | 167 | WMB      | Williams Companies, Inc. (The) |      7 | 2026-06-26 | 2026-05-19 | 2026-05-18 |
 | 168 | KEYS     | Keysight Technologies Inc.     |      7 | 2026-06-22 | 2026-06-18 | 2026-05-11 |
 | 169 | ON       | ON Semiconductor Corporation   |      7 | 2026-06-03 | 2026-06-02 | 2026-05-26 |
@@ -219,37 +219,37 @@ Total unique stocks tracked: 283
 | 205 | CDNS     | Cadence Design Systems, Inc.   |      5 | 2026-06-04 | 2026-06-03 | 2026-06-02 |
 | 206 | EXR      | Extra Space Storage Inc        |      5 | 2026-07-28 | 2026-07-16 | 2026-07-02 |
 | 207 | HWM      | Howmet Aerospace Inc.          |      5 | 2026-08-05 | 2026-07-24 | 2026-07-23 |
-| 208 | XEL      | Xcel Energy Inc.               |      5 | 2026-07-24 | 2026-07-02 | 2026-06-29 |
-| 209 | EOG      | EOG Resources, Inc.            |      5 | 2026-08-21 | 2026-08-20 | 2026-08-19 |
-| 210 | ZBRA     | Zebra Technologies Corporation |      5 | 2026-08-13 | 2026-08-11 | 2026-08-10 |
-| 211 | EMR      | Emerson Electric Company       |      5 | 2026-08-14 | 2026-08-13 | 2026-08-12 |
-| 212 | MSCI     | MSCI Inc.                      |      4 | 2026-07-16 | 2026-06-01 | 2026-05-29 |
-| 213 | MCHP     | Microchip Technology Incorpora |      4 | 2026-05-07 | 2026-05-06 | 2026-05-05 |
-| 214 | INTC     | Intel Corporation              |      4 | 2026-06-30 | 2026-06-22 | 2026-06-18 |
-| 215 | MPWR     | Monolithic Power Systems, Inc. |      4 | 2026-06-03 | 2026-05-13 | 2026-05-11 |
-| 216 | MGM      | MGM Resorts International      |      4 | 2026-06-01 | 2026-05-29 | 2026-05-28 |
-| 217 | COST     | Costco Wholesale Corporation   |      4 | 2026-05-19 | 2026-05-18 | 2026-05-15 |
-| 218 | ODFL     | Old Dominion Freight Line, Inc |      4 | 2026-06-09 | 2026-06-08 | 2026-06-04 |
-| 219 | RL       | Ralph Lauren Corporation       |      4 | 2026-06-25 | 2026-06-24 | 2026-06-12 |
-| 220 | FTV      | Fortive Corporation            |      4 | 2026-07-28 | 2026-07-06 | 2026-07-02 |
-| 221 | MRNA     | Moderna, Inc.                  |      4 | 2026-08-19 | 2026-07-01 | 2026-06-29 |
-| 222 | APH      | Amphenol Corporation           |      4 | 2026-06-30 | 2026-06-29 | 2026-06-22 |
-| 223 | AVB      | AvalonBay Communities, Inc.    |      4 | 2026-07-16 | 2026-07-07 | 2026-07-06 |
-| 224 | HSIC     | Henry Schein, Inc.             |      4 | 2026-08-26 | 2026-08-12 | 2026-07-17 |
-| 225 | PCAR     | PACCAR Inc.                    |      4 | 2026-07-28 | 2026-07-27 | 2026-07-24 |
-| 226 | GPN      | Global Payments Inc.           |      4 | 2026-08-24 | 2026-08-13 | 2026-08-04 |
-| 227 | TPR      | Tapestry, Inc.                 |      4 | 2026-08-10 | 2026-08-07 | 2026-08-06 |
-| 228 | WTW      | Willis Towers Watson Public Li |      4 | 2026-08-25 | 2026-08-24 | 2026-08-10 |
-| 229 | COP      | ConocoPhillips                 |      4 | 2026-09-01 | 2026-08-24 | 2026-08-21 |
-| 230 | NWS      | News Corporation               |      4 | 2026-08-27 | 2026-08-26 | 2026-08-25 |
-| 231 | NI       | NiSource Inc                   |      3 | 2026-06-26 | 2026-05-05 | 2026-05-04 |
-| 232 | TSN      | Tyson Foods, Inc.              |      3 | 2026-05-08 | 2026-05-05 | 2026-05-04 |
-| 233 | WMT      | Walmart Inc.                   |      3 | 2026-05-19 | 2026-05-18 | 2026-05-14 |
-| 234 | ETR      | Entergy Corporation            |      3 | 2026-06-29 | 2026-05-05 | 2026-05-04 |
-| 235 | FANG     | Diamondback Energy, Inc.       |      3 | 2026-08-18 | 2026-06-03 | 2026-05-04 |
-| 236 | EME      | EMCOR Group, Inc.              |      3 | 2026-05-06 | 2026-05-05 | 2026-05-04 |
-| 237 | NBIS     | Nebius Group N.V.              |      3 | 2026-05-29 | 2026-05-06 | 2026-05-04 |
-| 238 | HPQ      | HP Inc.                        |      3 | 2026-08-07 | 2026-08-04 | 2026-06-01 |
+| 208 | APH      | Amphenol Corporation           |      5 | 2026-09-02 | 2026-06-30 | 2026-06-29 |
+| 209 | XEL      | Xcel Energy Inc.               |      5 | 2026-07-24 | 2026-07-02 | 2026-06-29 |
+| 210 | HSIC     | Henry Schein, Inc.             |      5 | 2026-09-02 | 2026-08-26 | 2026-08-12 |
+| 211 | EOG      | EOG Resources, Inc.            |      5 | 2026-08-21 | 2026-08-20 | 2026-08-19 |
+| 212 | ZBRA     | Zebra Technologies Corporation |      5 | 2026-08-13 | 2026-08-11 | 2026-08-10 |
+| 213 | EMR      | Emerson Electric Company       |      5 | 2026-08-14 | 2026-08-13 | 2026-08-12 |
+| 214 | COP      | ConocoPhillips                 |      5 | 2026-09-02 | 2026-09-01 | 2026-08-24 |
+| 215 | MSCI     | MSCI Inc.                      |      4 | 2026-07-16 | 2026-06-01 | 2026-05-29 |
+| 216 | MCHP     | Microchip Technology Incorpora |      4 | 2026-05-07 | 2026-05-06 | 2026-05-05 |
+| 217 | INTC     | Intel Corporation              |      4 | 2026-06-30 | 2026-06-22 | 2026-06-18 |
+| 218 | MPWR     | Monolithic Power Systems, Inc. |      4 | 2026-06-03 | 2026-05-13 | 2026-05-11 |
+| 219 | MGM      | MGM Resorts International      |      4 | 2026-06-01 | 2026-05-29 | 2026-05-28 |
+| 220 | COST     | Costco Wholesale Corporation   |      4 | 2026-05-19 | 2026-05-18 | 2026-05-15 |
+| 221 | HPQ      | HP Inc.                        |      4 | 2026-09-02 | 2026-08-07 | 2026-08-04 |
+| 222 | ODFL     | Old Dominion Freight Line, Inc |      4 | 2026-06-09 | 2026-06-08 | 2026-06-04 |
+| 223 | RL       | Ralph Lauren Corporation       |      4 | 2026-06-25 | 2026-06-24 | 2026-06-12 |
+| 224 | FTV      | Fortive Corporation            |      4 | 2026-07-28 | 2026-07-06 | 2026-07-02 |
+| 225 | MRNA     | Moderna, Inc.                  |      4 | 2026-08-19 | 2026-07-01 | 2026-06-29 |
+| 226 | AVB      | AvalonBay Communities, Inc.    |      4 | 2026-07-16 | 2026-07-07 | 2026-07-06 |
+| 227 | PCAR     | PACCAR Inc.                    |      4 | 2026-07-28 | 2026-07-27 | 2026-07-24 |
+| 228 | GPN      | Global Payments Inc.           |      4 | 2026-08-24 | 2026-08-13 | 2026-08-04 |
+| 229 | TPR      | Tapestry, Inc.                 |      4 | 2026-08-10 | 2026-08-07 | 2026-08-06 |
+| 230 | WTW      | Willis Towers Watson Public Li |      4 | 2026-08-25 | 2026-08-24 | 2026-08-10 |
+| 231 | NWS      | News Corporation               |      4 | 2026-08-27 | 2026-08-26 | 2026-08-25 |
+| 232 | NI       | NiSource Inc                   |      3 | 2026-06-26 | 2026-05-05 | 2026-05-04 |
+| 233 | TSN      | Tyson Foods, Inc.              |      3 | 2026-05-08 | 2026-05-05 | 2026-05-04 |
+| 234 | WMT      | Walmart Inc.                   |      3 | 2026-05-19 | 2026-05-18 | 2026-05-14 |
+| 235 | ETR      | Entergy Corporation            |      3 | 2026-06-29 | 2026-05-05 | 2026-05-04 |
+| 236 | FANG     | Diamondback Energy, Inc.       |      3 | 2026-08-18 | 2026-06-03 | 2026-05-04 |
+| 237 | EME      | EMCOR Group, Inc.              |      3 | 2026-05-06 | 2026-05-05 | 2026-05-04 |
+| 238 | NBIS     | Nebius Group N.V.              |      3 | 2026-05-29 | 2026-05-06 | 2026-05-04 |
 | 239 | FSLR     | First Solar, Inc.              |      3 | 2026-06-04 | 2026-06-03 | 2026-06-02 |
 | 240 | TJX      | TJX Companies, Inc. (The)      |      3 | 2026-06-12 | 2026-06-10 | 2026-06-09 |
 | 241 | EQIX     | Equinix, Inc.                  |      3 | 2026-08-14 | 2026-06-23 | 2026-06-22 |
@@ -260,38 +260,39 @@ Total unique stocks tracked: 283
 | 246 | ANET     | Arista Networks, Inc.          |      3 | 2026-08-04 | 2026-07-10 | 2026-07-08 |
 | 247 | WRB      | W.R. Berkley Corporation       |      3 | 2026-07-28 | 2026-07-27 | 2026-07-24 |
 | 248 | XYZ      | Block, Inc.                    |      3 | 2026-08-04 | 2026-07-30 | 2026-07-28 |
-| 249 | NWSA     | News Corporation               |      3 | 2026-08-27 | 2026-08-26 | 2026-08-25 |
-| 250 | NDAQ     | Nasdaq, Inc.                   |      3 | 2026-08-28 | 2026-08-27 | 2026-08-26 |
-| 251 | GEN      | Gen Digital Inc.               |      3 | 2026-08-31 | 2026-08-28 | 2026-08-27 |
-| 252 | KMI      | Kinder Morgan, Inc.            |      2 | 2026-05-19 | 2026-05-18 |            |
-| 253 | AKAM     | Akamai Technologies, Inc.      |      2 | 2026-05-08 | 2026-05-06 |            |
-| 254 | IBM      | International Business Machine |      2 | 2026-06-03 | 2026-06-02 |            |
-| 255 | YUM      | Yum! Brands, Inc.              |      2 | 2026-07-07 | 2026-07-06 |            |
-| 256 | MOH      | Molina Healthcare Inc          |      2 | 2026-07-14 | 2026-07-13 |            |
-| 257 | UPS      | nan                            |      2 | 2026-07-17 | 2026-07-16 |            |
-| 258 | GM       | General Motors Company         |      2 | 2026-07-28 | 2026-07-27 |            |
-| 259 | AON      | Aon plc                        |      2 | 2026-07-29 | 2026-07-28 |            |
-| 260 | KHC      | The Kraft Heinz Company        |      2 | 2026-07-29 | 2026-07-28 |            |
-| 261 | ITW      | Illinois Tool Works Inc.       |      2 | 2026-08-07 | 2026-08-05 |            |
-| 262 | SHW      | Sherwin-Williams Company (The) |      2 | 2026-08-07 | 2026-08-05 |            |
-| 263 | BLK      | BlackRock, Inc.                |      2 | 2026-08-25 | 2026-08-13 |            |
-| 264 | APA      | APA Corporation                |      2 | 2026-09-01 | 2026-08-20 |            |
+| 249 | APA      | APA Corporation                |      3 | 2026-09-02 | 2026-09-01 | 2026-08-20 |
+| 250 | NWSA     | News Corporation               |      3 | 2026-08-27 | 2026-08-26 | 2026-08-25 |
+| 251 | NDAQ     | Nasdaq, Inc.                   |      3 | 2026-08-28 | 2026-08-27 | 2026-08-26 |
+| 252 | GEN      | Gen Digital Inc.               |      3 | 2026-08-31 | 2026-08-28 | 2026-08-27 |
+| 253 | KMI      | Kinder Morgan, Inc.            |      2 | 2026-05-19 | 2026-05-18 |            |
+| 254 | AKAM     | Akamai Technologies, Inc.      |      2 | 2026-05-08 | 2026-05-06 |            |
+| 255 | IBM      | International Business Machine |      2 | 2026-06-03 | 2026-06-02 |            |
+| 256 | YUM      | Yum! Brands, Inc.              |      2 | 2026-07-07 | 2026-07-06 |            |
+| 257 | MOH      | Molina Healthcare Inc          |      2 | 2026-07-14 | 2026-07-13 |            |
+| 258 | UPS      | nan                            |      2 | 2026-07-17 | 2026-07-16 |            |
+| 259 | GM       | General Motors Company         |      2 | 2026-07-28 | 2026-07-27 |            |
+| 260 | AON      | Aon plc                        |      2 | 2026-07-29 | 2026-07-28 |            |
+| 261 | KHC      | The Kraft Heinz Company        |      2 | 2026-07-29 | 2026-07-28 |            |
+| 262 | ITW      | Illinois Tool Works Inc.       |      2 | 2026-08-07 | 2026-08-05 |            |
+| 263 | SHW      | Sherwin-Williams Company (The) |      2 | 2026-08-07 | 2026-08-05 |            |
+| 264 | BLK      | BlackRock, Inc.                |      2 | 2026-08-25 | 2026-08-13 |            |
 | 265 | NEM      | Newmont Corporation            |      2 | 2026-08-25 | 2026-08-24 |            |
-| 266 | BKR      | Baker Hughes Company           |      1 | 2026-05-04 |            |            |
-| 267 | MRVL     | Marvell Technology, Inc.       |      1 | 2026-06-03 |            |            |
-| 268 | SPCX     | Space Exploration Technologies |      1 | 2026-06-15 |            |            |
-| 269 | DD       | DuPont de Nemours, Inc.        |      1 | 2026-06-24 |            |            |
-| 270 | TT       | Trane Technologies plc         |      1 | 2026-06-25 |            |            |
-| 271 | CMS      | CMS Energy Corporation         |      1 | 2026-06-26 |            |            |
-| 272 | GEV      | GE Vernova Inc.                |      1 | 2026-06-30 |            |            |
-| 273 | QNT      | Quantinuum Inc.                |      1 | 2026-06-30 |            |            |
-| 274 | CI       | The Cigna Group                |      1 | 2026-07-13 |            |            |
-| 275 | O        | Realty Income Corporation      |      1 | 2026-07-16 |            |            |
-| 276 | WM       | Waste Management, Inc.         |      1 | 2026-07-16 |            |            |
-| 277 | BALL     | Ball Corporation               |      1 | 2026-07-28 |            |            |
-| 278 | CHD      | Church & Dwight Company, Inc.  |      1 | 2026-08-05 |            |            |
-| 279 | A        | Agilent Technologies, Inc.     |      1 | 2026-08-21 |            |            |
-| 280 | AMCR     | Amcor plc                      |      1 | 2026-08-21 |            |            |
-| 281 | AWK      | American Water Works Company,  |      1 | 2026-08-24 |            |            |
-| 282 | CVX      | Chevron Corporation            |      1 | 2026-09-01 |            |            |
-| 283 | DE       | Deere & Company                |      1 | 2026-09-01 |            |            |
+| 266 | AWK      | American Water Works Company,  |      2 | 2026-09-02 | 2026-08-24 |            |
+| 267 | CVX      | Chevron Corporation            |      2 | 2026-09-02 | 2026-09-01 |            |
+| 268 | DE       | Deere & Company                |      2 | 2026-09-02 | 2026-09-01 |            |
+| 269 | BKR      | Baker Hughes Company           |      1 | 2026-05-04 |            |            |
+| 270 | MRVL     | Marvell Technology, Inc.       |      1 | 2026-06-03 |            |            |
+| 271 | SPCX     | Space Exploration Technologies |      1 | 2026-06-15 |            |            |
+| 272 | DD       | DuPont de Nemours, Inc.        |      1 | 2026-06-24 |            |            |
+| 273 | TT       | Trane Technologies plc         |      1 | 2026-06-25 |            |            |
+| 274 | CMS      | CMS Energy Corporation         |      1 | 2026-06-26 |            |            |
+| 275 | GEV      | GE Vernova Inc.                |      1 | 2026-06-30 |            |            |
+| 276 | QNT      | Quantinuum Inc.                |      1 | 2026-06-30 |            |            |
+| 277 | CI       | The Cigna Group                |      1 | 2026-07-13 |            |            |
+| 278 | O        | Realty Income Corporation      |      1 | 2026-07-16 |            |            |
+| 279 | WM       | Waste Management, Inc.         |      1 | 2026-07-16 |            |            |
+| 280 | BALL     | Ball Corporation               |      1 | 2026-07-28 |            |            |
+| 281 | CHD      | Church & Dwight Company, Inc.  |      1 | 2026-08-05 |            |            |
+| 282 | A        | Agilent Technologies, Inc.     |      1 | 2026-08-21 |            |            |
+| 283 | AMCR     | Amcor plc                      |      1 | 2026-08-21 |            |            |
+| 284 | CF       | CF Industries Holdings, Inc.   |      1 | 2026-09-02 |            |            |

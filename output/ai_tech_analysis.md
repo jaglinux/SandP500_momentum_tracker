@@ -1,6 +1,89 @@
 # S&P 500 Momentum Tracker - Tech (IT + Communication Services) AI Analysis
 
 ---
+## Snapshot: 2026-09-25 | Generated: 2026-09-26 20:30 UTC
+
+### 🚀 AI Momentum Analysis
+
+## 🚀 TOP MOMENTUM PICKS
+
+
+1. **AMD (Advanced Micro Devices, Inc.)**
+   - **Price**: $630.63
+   - **Market Cap**: $1029.49B
+   - **% 1Y**: 291.04%
+   - **% 1W**: 12.65%
+   - **Volume**: 17,594,900
+
+2. **AAPL (Apple Inc.)**
+   - **Price**: $341.07
+   - **Market Cap**: $4977.64B
+   - **% 1Y**: 33.27%
+   - **% 1W**: 1.47%
+   - **Volume**: 29,950,100
+
+3. **WBD (Warner Bros. Discovery, Inc.)**
+   - **Price**: $30.86
+   - **Market Cap**: $77.37B
+   - **% 1Y**: 56.02%
+   - **% 1W**: 11.01%
+   - **Volume**: 23,737,400
+
+## 📈 EARLY / BREAKOUT WATCH
+
+
+1. **CRWD (CrowdStrike Holdings, Inc.)**
+   - **Price**: $252.13
+   - **Market Cap**: $258.16B
+   - **% 1Y**: 113.18%
+   - **Volume**: 7,630,500
+
+2. **FTNT (Fortinet, Inc.)**
+   - **Price**: $173.46
+   - **Market Cap**: $127.27B
+   - **% 1Y**: 108.46%
+   - **Volume**: 2,507,400
+
+## ⚠️ CAUTION
+
+
+1. **VZ (Verizon Communications Inc.)**
+   - **% 1Y**: 16.02%
+   - **% 1W**: -2.10%
+   - **Hits**: 10
+
+2. **GEN (Gen Digital Inc.)**
+   - **% 1Y**: -22.63%
+   - **% 1W**: -25.47%
+   - **Hits**: 6
+
+3. **DELL (Dell Technologies Inc.)**
+   - **% 1Y**: 335.30%
+   - **% 1W**: -0.91%
+   - **Hits**: 7
+
+These names exhibit high hit counts but are showing weak price momentum over the past year or week, indicating potential caution for investors.
+
+### 📊 Tech Screen — IT & Communication Services — Stocks at Highs
+
+**Total: 3 stocks** | 🏆 At ATH: 2 | 🔥 At 52W High only: 1
+
+> **Columns**: **At high today** = in today's at-52W/ATH set; **False** = still shown (history + ranked by % 1Y / market cap / hits). | Hits = cumulative high hits | % 1D/1W/1Y = price changes | Vol % 1D = volume vs prior day
+
+|   # | Ticker   | Name                           | At high today   |   Price |   Market Cap (B) |   Hits | Last Hit   | 2nd Last   |   % 1D |   % 1W |   % 1Y |         Vol |   Vol % 1D |   % From 52W High |   % From ATH |
+|-----|----------|--------------------------------|-----------------|---------|------------------|--------|------------|------------|--------|--------|--------|-------------|------------|-------------------|--------------|
+|   1 | AMD      | Advanced Micro Devices, Inc.   | True            |  630.63 |          1029.49 |      5 | 2026-09-25 | 2026-09-24 |   0.22 |  12.65 | 291.04 | 17594900.00 |     -30.51 |             -1.31 |        -1.31 |
+|   2 | WBD      | Warner Bros. Discovery, Inc. - | True            |   30.86 |            77.37 |      5 | 2026-09-25 | 2026-09-24 |   0.06 |  11.01 |  56.02 | 23737400.00 |     -48.52 |             -0.19 |       -60.51 |
+|   3 | AAPL     | Apple Inc.                     | True            |  341.07 |          4977.64 |      3 | 2026-09-25 | 2026-09-22 |   1.53 |   1.47 |  33.27 | 29950100.00 |      21.09 |             -1.24 |        -1.24 |
+|   4 | DELL     | Dell Technologies Inc.         | False           |  562.89 |           357.89 |      7 | 2026-09-17 | 2026-09-16 |   5.01 |  -0.91 | 335.30 |  8703900.00 |       9.30 |             -5.48 |        -5.48 |
+|   5 | CRWD     | CrowdStrike Holdings, Inc.     | False           |  252.13 |           258.16 |     10 | 2026-09-24 | 2026-09-23 |  -2.90 |   6.09 | 113.18 |  7630500.00 |      -9.15 |             -4.45 |        -4.45 |
+|   6 | FTNT     | Fortinet, Inc.                 | False           |  173.46 |           127.27 |      9 | 2026-09-24 | 2026-09-23 |  -2.92 |   2.13 | 108.46 |  2507400.00 |     -33.28 |             -4.36 |        -4.36 |
+|   7 | FFIV     | F5, Inc.                       | False           |  443.06 |            25.09 |      6 | 2026-09-23 | 2026-09-22 |  -0.78 |   2.55 |  36.75 |   428200.00 |     -22.27 |             -4.10 |        -4.10 |
+|   8 | HPQ      | HP Inc.                        | False           |   31.30 |            28.23 |      6 | 2026-09-11 | 2026-09-10 |   0.51 |  -9.01 |  22.51 | 12013300.00 |       0.99 |            -13.61 |       -13.99 |
+|   9 | VZ       | Verizon Communications Inc.    | False           |   47.08 |           195.61 |     10 | 2026-09-15 | 2026-09-14 |  -0.51 |  -2.10 |  16.02 | 13417600.00 |     -36.22 |             -8.88 |        -8.88 |
+|  10 | GEN      | Gen Digital Inc.               | False           |   21.62 |            12.94 |      6 | 2026-09-15 | 2026-09-14 |  -6.29 | -25.47 | -22.63 | 29874300.00 |      -6.97 |            -31.69 |       -31.69 |
+
+---
 ## Snapshot: 2026-09-18 | Generated: 2026-09-19 00:17 UTC
 
 ### 🚀 AI Momentum Analysis

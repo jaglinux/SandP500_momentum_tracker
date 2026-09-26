@@ -1,0 +1,74 @@
+# Trim high_history.json / high_history.txt to an approximate trailing window.
+# Pure Python (no OpenAI). Commits and pushes updated output files + manifest.
+
+name: Prune high history
+
+on:
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "Keep last N calendar days of hits (relative to latest date in history)"
+        required: false
+        type: string
+        default: "30"
+
+permissions:
+  contents: write
+
+jobs:
+  prune:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate days
+        env:
+          DAYS: ${{ github.event.inputs.days }}
+        run: |
+          if [[ ! "$DAYS" =~ ^[1-9][0-9]*$ ]]; then
+            echo "::error::days must be a positive integer, got: $DAYS"
+            exit 1
+          fi
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Prune high history
+        id: prune
+        env:
+          DAYS: ${{ github.event.inputs.days }}
+        run: |
+          set -euo pipefail
+          LOG=$(python scripts/prune_high_history.py --days "${DAYS}")
+          printf '%s\n' "${LOG}"
+          if printf '%s\n' "${LOG}" | grep -q '^CHANGED=1$'; then
+            echo "changed=true" >> "${GITHUB_OUTPUT}"
+          else
+            echo "changed=false" >> "${GITHUB_OUTPUT}"
+          fi
+
+      - name: Regenerate manifest
+        if: steps.prune.outputs.changed == 'true'
+        run: python generate_manifest.py
+
+      - name: Commit and push
+        if: steps.prune.outputs.changed == 'true'
+        env:
+          DAYS: ${{ github.event.inputs.days }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/high_history.json output/high_history.txt manifest.json
+          if git diff --staged --quiet; then
+            echo "No file changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: prune high_history to last ${DAYS} days (workflow_dispatch) [skip ci]"
+          git push

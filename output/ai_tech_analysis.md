@@ -1,6 +1,123 @@
 # S&P 500 Momentum Tracker - Tech (IT + Communication Services) AI Analysis
 
 ---
+## Snapshot: 2026-10-02 | Generated: 2026-10-03 00:17 UTC
+
+### 🚀 AI Momentum Analysis
+
+## 🚀 TOP MOMENTUM PICKS
+
+
+1. **AMD (Advanced Micro Devices, Inc.)**
+   - **Price**: $633.91
+   - **Market Cap**: $1,034.84B
+   - **% 1Y**: 273.48%
+   - **% 1W**: 0.52%
+   - **Hits**: 6
+   - **Volume**: 19,323,673 (12.78% increase)
+
+2. **HPE (Hewlett Packard Enterprise Comp)**
+   - **Price**: $69.33
+   - **Market Cap**: $92.03B
+   - **% 1Y**: 188.32%
+   - **% 1W**: 10.15%
+   - **Hits**: 1
+   - **Volume**: 28,994,373 (76.22% increase)
+
+3. **KEYS (Keysight Technologies Inc.)**
+   - **Price**: $384.64
+   - **Market Cap**: $65.48B
+   - **% 1Y**: 119.59%
+   - **% 1W**: 6.21%
+   - **Hits**: 2
+   - **Volume**: 1,248,141 (-2.05% decrease)
+
+4. **CRWD (CrowdStrike Holdings, Inc.)**
+   - **Price**: $270.04
+   - **Market Cap**: $276.50B
+   - **% 1Y**: 117.42%
+   - **% 1W**: 7.10%
+   - **Hits**: 15
+   - **Volume**: 5,830,129 (-16.08% decrease)
+
+5. **FTNT (Fortinet, Inc.)**
+   - **Price**: $180.95
+   - **Market Cap**: $132.77B
+   - **% 1Y**: 109.70%
+   - **% 1W**: 4.32%
+   - **Hits**: 12
+   - **Volume**: 3,403,414 (14.87% increase)
+
+## 📈 EARLY / BREAKOUT WATCH
+
+
+1. **NTAP (NetApp, Inc.)**
+   - **Price**: $226.27
+   - **Market Cap**: $44.44B
+   - **% 1Y**: 91.75%
+   - **% 1W**: 12.49%
+   - **Hits**: 4
+   - **Volume**: 4,741,673 (101.89% increase)
+
+2. **WBD (Warner Bros. Discovery, Inc.)**
+   - **Price**: $30.94
+   - **Market Cap**: $77.57B
+   - **% 1Y**: 60.81%
+   - **% 1W**: 0.26%
+   - **Hits**: 10
+   - **Volume**: 49,936,086 (12.77% increase)
+
+## ⚠️ CAUTION
+
+
+1. **VZ (Verizon Communications Inc.)**
+   - **% 1Y**: 13.03%
+   - **% 1W**: -2.46%
+   - **Hits**: 10
+   - **Volume**: 19,585,521 (-12.50% decrease)
+
+2. **FFIV (F5, Inc.)**
+   - **% 1Y**: 38.77%
+   - **% 1W**: 2.48%
+   - **Hits**: 7
+   - **Volume**: 628,305 (14.03% increase)
+
+3. **HPQ (HP Inc.)**
+   - **% 1Y**: 27.48%
+   - **% 1W**: 2.62%
+   - **Hits**: 6
+   - **Volume**: 10,286,954 (-24.80% decrease)
+
+4. **GEN (Gen Digital Inc.)**
+   - **% 1Y**: -20.13%
+   - **% 1W**: 1.71%
+   - **Hits**: 6
+   - **Volume**: 12,135,483 (9.81% increase)
+
+### 📊 Tech Screen — IT & Communication Services — Stocks at Highs
+
+**Total: 10 stocks** | 🏆 At ATH: 9 | 🔥 At 52W High only: 1
+
+> **Columns**: **At high today** = in today's at-52W/ATH set; **False** = still shown (history + ranked by % 1Y / market cap / hits). | Hits = cumulative high hits | % 1D/1W/1Y = price changes | Vol % 1D = volume vs prior day
+
+|   # | Ticker   | Name                            | At high today   |   Price |   Market Cap (B) |   Hits | Last Hit   | 2nd Last   |   % 1D |   % 1W |   % 1Y |          Vol |   Vol % 1D |   % From 52W High |   % From ATH |
+|-----|----------|---------------------------------|-----------------|---------|------------------|--------|------------|------------|--------|--------|--------|--------------|------------|-------------------|--------------|
+|   1 | AMD      | Advanced Micro Devices, Inc.    | True            |  633.91 |          1034.84 |      6 | 2026-10-02 | 2026-09-25 |   2.95 |   0.52 | 273.48 |  19323673.00 |      12.78 |             -0.80 |        -0.80 |
+|   2 | HPE      | Hewlett Packard Enterprise Comp | True            |   69.33 |            92.03 |      1 | 2026-10-02 |            |   7.36 |  10.15 | 188.32 |  28994373.00 |      76.22 |              3.32 |         3.32 |
+|   3 | KEYS     | Keysight Technologies Inc.      | True            |  384.64 |            65.48 |      2 | 2026-10-02 | 2026-10-01 |   2.88 |   6.21 | 119.59 |   1248141.00 |      -2.05 |              2.11 |         2.11 |
+|   4 | CRWD     | CrowdStrike Holdings, Inc.      | True            |  270.04 |           276.50 |     15 | 2026-10-02 | 2026-10-01 |   1.48 |   7.10 | 117.42 |   5830129.00 |     -16.08 |              0.27 |         0.27 |
+|   5 | FTNT     | Fortinet, Inc.                  | True            |  180.95 |           132.77 |     12 | 2026-10-02 | 2026-10-01 |   1.25 |   4.32 | 109.70 |   3403414.00 |      14.87 |             -0.23 |        -0.23 |
+|   6 | PANW     | Palo Alto Networks, Inc.        | True            |  403.24 |           329.85 |      4 | 2026-10-02 | 2026-09-30 |   1.76 |   7.61 |  92.66 |   4829505.00 |      -9.03 |             -0.36 |        -0.36 |
+|   7 | NTAP     | NetApp, Inc.                    | True            |  226.27 |            44.44 |      4 | 2026-10-02 | 2026-10-01 |   5.22 |  12.49 |  91.75 |   4741673.00 |     101.89 |              4.36 |         4.36 |
+|   8 | WBD      | Warner Bros. Discovery, Inc. -  | True            |   30.94 |            77.57 |     10 | 2026-10-02 | 2026-10-01 |  -0.03 |   0.26 |  60.81 |  49936086.00 |      12.77 |             -0.10 |       -60.40 |
+|   9 | FFIV     | F5, Inc.                        | True            |  454.04 |            25.71 |      7 | 2026-10-02 | 2026-09-23 |   2.34 |   2.48 |  38.77 |    628305.00 |      14.03 |             -1.72 |        -1.72 |
+|  10 | NVDA     | NVIDIA Corporation              | True            |  233.95 |          5649.19 |      1 | 2026-10-02 |            |   1.34 |   3.95 |  24.15 | 134470648.00 |      36.39 |             -0.87 |        -0.87 |
+|  11 | DELL     | Dell Technologies Inc.          | False           |  562.52 |           357.66 |      7 | 2026-09-17 | 2026-09-16 |   3.84 |  -0.07 | 286.57 |   5366986.00 |     -19.53 |             -5.54 |        -5.54 |
+|  12 | HPQ      | HP Inc.                         | False           |   32.12 |            28.97 |      6 | 2026-09-11 | 2026-09-10 |  -0.09 |   2.62 |  27.48 |  10286954.00 |     -24.80 |            -11.34 |       -11.74 |
+|  13 | VZ       | Verizon Communications Inc.     | False           |   45.92 |           190.79 |     10 | 2026-09-15 | 2026-09-14 |  -0.13 |  -2.46 |  13.03 |  19585521.00 |     -12.50 |            -11.13 |       -11.13 |
+|  14 | GEN      | Gen Digital Inc.                | False           |   21.99 |            13.16 |      6 | 2026-09-15 | 2026-09-14 |  -1.17 |   1.71 | -20.13 |  12135483.00 |       9.81 |            -30.52 |       -30.52 |
+
+---
 ## Snapshot: 2026-09-25 | Generated: 2026-09-26 20:30 UTC
 
 ### 🚀 AI Momentum Analysis

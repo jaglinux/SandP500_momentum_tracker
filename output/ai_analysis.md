@@ -1,6 +1,97 @@
 # S&P 500 Momentum Tracker - AI Analysis
 
 ---
+## Snapshot: 2026-10-02 | Generated: 2026-10-03 00:17 UTC
+
+### 🚀 AI Momentum Analysis
+
+## 🚀 TOP MOMENTUM PICKS
+
+
+1. **AMD** ($633.91) - 1Y: +273.48%, 1W: +0.52%, Vol spike: +12.78% - AMD shows exceptional year-over-year growth, indicating strong momentum despite a slight pullback this week. The volume spike suggests institutional interest, reinforcing the bullish outlook.
+
+2. **HPE** ($69.33) - 1Y: +188.32%, 1W: +10.15%, Vol spike: +76.22% - Hewlett Packard Enterprise has a robust yearly gain and a significant weekly increase, indicating a strong upward trend. The high volume spike confirms strong buying interest.
+
+3. **KEYS** ($384.64) - 1Y: +119.59%, 1W: +6.21%, Vol spike: -2.05% - Keysight Technologies demonstrates solid momentum with a strong yearly gain and positive weekly trend. Although the volume spike is slightly negative, the overall momentum remains strong.
+
+4. **CRWD** ($270.04) - 1Y: +117.42%, 1W: +7.10%, Vol spike: -16.08% - CrowdStrike shows impressive yearly growth and a positive weekly trend. Despite a decrease in volume, the stock's momentum remains intact.
+
+5. **NTAP** ($226.27) - 1Y: +91.75%, 1W: +12.49%, Vol spike: +101.89% - NetApp has a strong yearly gain and a significant weekly increase, indicating a solid upward trend. The volume spike suggests strong institutional buying, reinforcing the bullish sentiment.
+
+## 📈 BREAKOUT WATCH
+
+
+1. **WBD** ($30.94) - 1Y: +60.81%, 1W: +0.26%, Vol spike: +12.77% - Warner Bros. Discovery is showing early-stage momentum with a single hit at a high today. The yearly gain is solid, and while the weekly change is minimal, the volume spike indicates potential for further movement.
+
+2. **EXPD** ($192.47) - 1Y: +58.04%, 1W: +2.67%, Vol spike: +6.30% - Expeditors International is also in the early stages of momentum with a recent high. The yearly gain is strong, and the positive weekly trend supports potential for continued upward movement.
+
+## 🤖 TECH MOMENTUM
+
+
+1. **AMD** ($633.91) - 1Y: +273.48%, 1W: +0.52% - As a leading semiconductor company, AMD's exceptional yearly growth and solid market cap make it a standout in the tech sector.
+
+2. **HPE** ($69.33) - 1Y: +188.32%, 1W: +10.15% - Hewlett Packard Enterprise also qualifies with strong momentum in the tech space, showcasing significant growth.
+
+3. **KEYS** ($384.64) - 1Y: +119.59%, 1W: +6.21% - Keysight Technologies rounds out the tech momentum picks with impressive yearly gains and a positive trend.
+
+## ⚠️ RANGE-BOUND / CAUTION
+
+
+- **CRWD** ($270.04) - 15 hits but only +117.42% yearly gain - While it shows strong momentum, the high hit count suggests potential resistance levels.
+- **TECH** ($72.40) - 15 hits with only +17.27% yearly gain - This stock is hitting the same price ceiling repeatedly, indicating it may be range-bound.
+- **RVTY** ($151.53) - 13 hits with +66.14% yearly gain - Despite a solid yearly gain, the high hit count raises concerns about resistance.
+- **FTNT** ($180.95) - 12 hits with +109.70% yearly gain - Similar to others, the high hit count suggests potential resistance despite strong yearly performance.
+- **TMO** ($654.80) - 12 hits with +25.17% yearly gain - The high hit count combined with a lower yearly gain indicates it may be range-bound.
+
+### 📊 Stocks at Highs (Full Momentum Data)
+
+**Total: 14 stocks** | 🏆 At ATH: 12 | 🔥 At 52W High only: 2
+
+> **Columns**: **At high today** = in today's at-52W/ATH set; **False** = still shown (history + ranked by % 1Y / market cap / hits). | Hits = cumulative high hits | % 1D/1W/1Y = price changes | Vol % 1D = volume vs prior day
+
+|   # | Ticker   | Name                            | At high today   |   Price |   Market Cap (B) |   Hits | Last Hit   | 2nd Last   |   % 1D |   % 1W |   % 1Y |          Vol |   Vol % 1D |   % From 52W High |   % From ATH |
+|-----|----------|---------------------------------|-----------------|---------|------------------|--------|------------|------------|--------|--------|--------|--------------|------------|-------------------|--------------|
+|   1 | AMD      | Advanced Micro Devices, Inc.    | True            |  633.91 |          1034.84 |      6 | 2026-10-02 | 2026-09-25 |   2.95 |   0.52 | 273.48 |  19323673.00 |      12.78 |             -0.80 |        -0.80 |
+|   2 | HPE      | Hewlett Packard Enterprise Comp | True            |   69.33 |            92.03 |      1 | 2026-10-02 |            |   7.36 |  10.15 | 188.32 |  28994373.00 |      76.22 |              3.32 |         3.32 |
+|   3 | KEYS     | Keysight Technologies Inc.      | True            |  384.64 |            65.48 |      2 | 2026-10-02 | 2026-10-01 |   2.88 |   6.21 | 119.59 |   1248141.00 |      -2.05 |              2.11 |         2.11 |
+|   4 | CRWD     | CrowdStrike Holdings, Inc.      | True            |  270.04 |           276.50 |     15 | 2026-10-02 | 2026-10-01 |   1.48 |   7.10 | 117.42 |   5830129.00 |     -16.08 |              0.27 |         0.27 |
+|   5 | FTNT     | Fortinet, Inc.                  | True            |  180.95 |           132.77 |     12 | 2026-10-02 | 2026-10-01 |   1.25 |   4.32 | 109.70 |   3403414.00 |      14.87 |             -0.23 |        -0.23 |
+|   6 | PANW     | Palo Alto Networks, Inc.        | True            |  403.24 |           329.85 |      4 | 2026-10-02 | 2026-09-30 |   1.76 |   7.61 |  92.66 |   4829505.00 |      -9.03 |             -0.36 |        -0.36 |
+|   7 | NTAP     | NetApp, Inc.                    | True            |  226.27 |            44.44 |      4 | 2026-10-02 | 2026-10-01 |   5.22 |  12.49 |  91.75 |   4741673.00 |     101.89 |              4.36 |         4.36 |
+|   8 | WBD      | Warner Bros. Discovery, Inc. -  | True            |   30.94 |            77.57 |     10 | 2026-10-02 | 2026-10-01 |  -0.03 |   0.26 |  60.81 |  49936086.00 |      12.77 |             -0.10 |       -60.40 |
+|   9 | EXPD     | Expeditors International of Was | True            |  192.47 |            25.02 |     11 | 2026-10-02 | 2026-09-21 |   2.52 |   2.67 |  58.04 |   1542298.00 |       6.30 |             -1.09 |        -1.09 |
+|  10 | NDSN     | Nordson Corporation             | True            |  333.54 |            18.58 |      1 | 2026-10-02 |            |   1.37 |   2.39 |  45.40 |    315132.00 |      -3.66 |             -1.35 |        -1.35 |
+|  11 | JCI      | Johnson Controls International  | True            |  156.24 |            94.64 |      1 | 2026-10-02 |            |   2.95 |   4.02 |  45.04 |   3221206.00 |      18.61 |             -0.24 |        -0.24 |
+|  12 | FFIV     | F5, Inc.                        | True            |  454.04 |            25.71 |      7 | 2026-10-02 | 2026-09-23 |   2.34 |   2.48 |  38.77 |    628305.00 |      14.03 |             -1.72 |        -1.72 |
+|  13 | NVDA     | NVIDIA Corporation              | True            |  233.95 |          5649.19 |      1 | 2026-10-02 |            |   1.34 |   3.95 |  24.15 | 134470648.00 |      36.39 |             -0.87 |        -0.87 |
+|  14 | TECH     | Bio-Techne Corp                 | True            |   72.40 |            11.35 |     15 | 2026-10-02 | 2026-10-01 |   0.00 |  -0.29 |  17.27 |   1864706.00 |     -31.23 |             -0.40 |       -45.52 |
+|  15 | DELL     | Dell Technologies Inc.          | False           |  562.52 |           357.66 |      7 | 2026-09-17 | 2026-09-16 |   3.84 |  -0.07 | 286.57 |   5366986.00 |     -19.53 |             -5.54 |        -5.54 |
+|  16 | VLO      | Valero Energy Corporation       | False           |  406.30 |           116.98 |     10 | 2026-09-18 | 2026-09-17 |  -0.53 |   4.94 | 151.92 |   2572839.00 |      -3.53 |             -3.04 |        -3.04 |
+|  17 | MPC      | Marathon Petroleum Corporation  | False           |  422.33 |           118.60 |     10 | 2026-09-18 | 2026-09-17 |   0.52 |   7.32 | 123.36 |   2163484.00 |       2.27 |             -2.03 |        -2.03 |
+|  18 | PSX      | Phillips 66                     | False           |  264.58 |           106.08 |     10 | 2026-09-18 | 2026-09-17 |   0.13 |   3.45 | 101.88 |   1987536.00 |     -21.43 |             -4.53 |        -4.53 |
+|  19 | APA      | APA Corporation                 | False           |   43.68 |            15.30 |      5 | 2026-09-15 | 2026-09-10 |   0.78 |   2.20 |  89.29 |   3957574.00 |     -42.90 |             -7.93 |       -58.91 |
+|  20 | RVTY     | Revvity, Inc.                   | False           |  151.53 |            16.91 |     13 | 2026-09-30 | 2026-09-29 |   1.66 |   0.28 |  66.14 |   1235180.00 |     -50.27 |             -4.26 |       -24.55 |
+|  21 | STT      | State Street Corporation        | False           |  175.96 |            48.34 |      5 | 2026-09-11 | 2026-09-04 |   0.77 |  -2.45 |  56.47 |   1618741.00 |     -24.56 |             -9.72 |        -9.72 |
+|  22 | DE       | Deere & Company                 | False           |  687.00 |           185.23 |      6 | 2026-09-23 | 2026-09-22 |   2.96 |  -0.26 |  50.46 |   1063572.00 |     -33.38 |             -4.52 |        -4.52 |
+|  23 | BIIB     | Biogen Inc.                     | False           |  219.88 |            32.49 |     10 | 2026-09-29 | 2026-09-28 |  -1.32 |  -3.39 |  41.63 |    774024.00 |     -55.90 |             -4.60 |       -54.21 |
+|  24 | CVX      | Chevron Corporation             | False           |  206.69 |           405.44 |      8 | 2026-09-15 | 2026-09-11 |  -0.20 |   1.10 |  40.08 |   6642588.00 |      10.72 |             -5.09 |        -5.09 |
+|  25 | COP      | ConocoPhillips                  | False           |  126.75 |           152.27 |      9 | 2026-09-15 | 2026-09-14 |  -0.24 |  -0.43 |  40.01 |   5196222.00 |     -14.40 |            -10.50 |       -10.50 |
+|  26 | WAT      | Waters Corporation              | False           |  425.21 |            41.75 |     10 | 2026-09-30 | 2026-09-29 |  -0.08 |  -1.92 |  32.09 |    596074.00 |     -26.47 |             -5.13 |        -5.13 |
+|  27 | DGX      | Quest Diagnostics Incorporated  | False           |  233.33 |            25.75 |      7 | 2026-09-21 | 2026-09-18 |   0.97 |  -1.27 |  31.20 |   1099433.00 |      10.81 |             -6.23 |        -6.23 |
+|  28 | HPQ      | HP Inc.                         | False           |   32.12 |            28.97 |      6 | 2026-09-11 | 2026-09-10 |  -0.09 |   2.62 |  27.48 |  10286954.00 |     -24.80 |            -11.34 |       -11.74 |
+|  29 | IQV      | IQVIA Holdings, Inc.            | False           |  258.21 |            42.50 |     10 | 2026-09-24 | 2026-09-22 |  -0.96 |  -4.50 |  26.36 |   1364582.00 |      -7.58 |             -6.92 |        -9.59 |
+|  30 | TMO      | Thermo Fisher Scientific Inc    | False           |  654.80 |           242.11 |     12 | 2026-09-30 | 2026-09-29 |   0.35 |  -2.99 |  25.17 |   1663049.00 |     -29.99 |             -4.22 |        -4.22 |
+|  31 | A        | Agilent Technologies, Inc.      | False           |  167.78 |            47.31 |      6 | 2026-09-29 | 2026-09-28 |   0.66 |  -2.90 |  21.69 |   2093032.00 |     -24.91 |             -5.24 |        -5.24 |
+|  32 | BBY      | Best Buy Co., Inc.              | False           |   87.97 |            18.45 |      6 | 2026-09-22 | 2026-09-17 |   0.31 |  -2.81 |  20.93 |   2184871.00 |     -36.13 |             -8.87 |       -21.73 |
+|  33 | MTCH     | Match Group, Inc.               | False           |   40.32 |             9.41 |      5 | 2026-09-15 | 2026-09-14 |   0.47 |  -0.57 |  18.68 |   2575493.00 |     -12.75 |            -10.27 |       -76.93 |
+|  34 | ABBV     | AbbVie Inc.                     | False           |  262.82 |           464.43 |     10 | 2026-09-28 | 2026-09-25 |   1.11 |  -0.58 |  14.55 |   5541012.00 |      42.45 |             -2.44 |        -2.44 |
+|  35 | VZ       | Verizon Communications Inc.     | False           |   45.92 |           190.79 |     10 | 2026-09-15 | 2026-09-14 |  -0.13 |  -2.46 |  13.03 |  19585521.00 |     -12.50 |            -11.13 |       -11.13 |
+|  36 | PFE      | Pfizer, Inc.                    | False           |   27.80 |           158.45 |      8 | 2026-09-29 | 2026-09-28 |  -1.14 |  -3.03 |   9.86 |  34914894.00 |      14.50 |             -4.83 |       -41.82 |
+|  37 | V        | Visa Inc.                       | False           |  360.66 |           677.09 |      5 | 2026-09-03 | 2026-09-02 |   0.23 |  -1.83 |   5.09 |   3987848.00 |     -24.34 |             -6.46 |        -6.46 |
+|  38 | AWK      | American Water Works Company, I | False           |  130.25 |            25.88 |      6 | 2026-09-10 | 2026-09-09 |   1.87 |  -0.50 |  -1.32 |   2147419.00 |     -11.39 |             -8.51 |       -23.77 |
+|  39 | GEN      | Gen Digital Inc.                | False           |   21.99 |            13.16 |      6 | 2026-09-15 | 2026-09-14 |  -1.17 |   1.71 | -20.13 |  12135483.00 |       9.81 |            -30.52 |       -30.52 |
+
+---
 ## Snapshot: 2026-09-25 | Generated: 2026-09-26 20:30 UTC
 
 ### 🚀 AI Momentum Analysis

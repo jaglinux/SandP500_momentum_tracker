@@ -1,5 +1,5 @@
 S&P 500 Momentum Tracker - High History
-Generated: 2026-10-08 00:11:05 UTC
+Generated: 2026-10-09 00:08:19 UTC
 ==========================================================================================
 
 Stocks ranked by number of times hitting 52-Week High or All-Time High
@@ -12,17 +12,17 @@ Total unique stocks tracked: 88
 
 |   # | Ticker   | Name                           |   Hits | Last Hit   | 2nd Last   | 3rd Last   |
 |-----|----------|--------------------------------|--------|------------|------------|------------|
-|   1 | TECH     | Bio-Techne Corp                |     18 | 2026-10-07 | 2026-10-06 | 2026-10-05 |
+|   1 | TECH     | Bio-Techne Corp                |     19 | 2026-10-08 | 2026-10-07 | 2026-10-06 |
 |   2 | CRWD     | CrowdStrike Holdings, Inc.     |     17 | 2026-10-06 | 2026-10-05 | 2026-10-02 |
-|   3 | FTNT     | Fortinet, Inc.                 |     15 | 2026-10-07 | 2026-10-06 | 2026-10-05 |
-|   4 | RVTY     | Revvity, Inc.                  |     14 | 2026-10-05 | 2026-09-30 | 2026-09-29 |
-|   5 | VLO      | Valero Energy Corporation      |     13 | 2026-10-07 | 2026-10-06 | 2026-10-05 |
-|   6 | MPC      | Marathon Petroleum Corporation |     13 | 2026-10-07 | 2026-10-06 | 2026-10-05 |
-|   7 | EXPD     | Expeditors International of Wa |     13 | 2026-10-06 | 2026-10-05 | 2026-10-02 |
-|   8 | ABBV     | AbbVie Inc.                    |     13 | 2026-10-07 | 2026-10-06 | 2026-10-05 |
+|   3 | FTNT     | Fortinet, Inc.                 |     16 | 2026-10-08 | 2026-10-07 | 2026-10-06 |
+|   4 | VLO      | Valero Energy Corporation      |     14 | 2026-10-08 | 2026-10-07 | 2026-10-06 |
+|   5 | MPC      | Marathon Petroleum Corporation |     14 | 2026-10-08 | 2026-10-07 | 2026-10-06 |
+|   6 | EXPD     | Expeditors International of Wa |     14 | 2026-10-08 | 2026-10-06 | 2026-10-05 |
+|   7 | ABBV     | AbbVie Inc.                    |     14 | 2026-10-08 | 2026-10-07 | 2026-10-06 |
+|   8 | RVTY     | Revvity, Inc.                  |     14 | 2026-10-05 | 2026-09-30 | 2026-09-29 |
 |   9 | TMO      | Thermo Fisher Scientific Inc   |     13 | 2026-10-05 | 2026-09-30 | 2026-09-29 |
-|  10 | WBD      | Warner Bros. Discovery, Inc. - |     12 | 2026-10-06 | 2026-10-05 | 2026-10-02 |
-|  11 | PSX      | Phillips 66                    |     11 | 2026-10-07 | 2026-09-18 | 2026-09-17 |
+|  10 | PSX      | Phillips 66                    |     12 | 2026-10-08 | 2026-10-07 | 2026-09-18 |
+|  11 | WBD      | Warner Bros. Discovery, Inc. - |     12 | 2026-10-06 | 2026-10-05 | 2026-10-02 |
 |  12 | WAT      | Waters Corporation             |     11 | 2026-10-05 | 2026-09-30 | 2026-09-29 |
 |  13 | BIIB     | Biogen Inc.                    |     10 | 2026-09-29 | 2026-09-28 | 2026-09-25 |
 |  14 | FFIV     | F5, Inc.                       |     10 | 2026-10-07 | 2026-10-06 | 2026-10-05 |
@@ -47,14 +47,14 @@ Total unique stocks tracked: 88
 |  33 | MTCH     | Match Group, Inc.              |      5 | 2026-09-15 | 2026-09-14 | 2026-09-03 |
 |  34 | V        | Visa Inc.                      |      5 | 2026-09-03 | 2026-09-02 | 2026-08-31 |
 |  35 | APA      | APA Corporation                |      5 | 2026-09-15 | 2026-09-10 | 2026-09-09 |
-|  36 | MRNA     | Moderna, Inc.                  |      4 | 2026-09-29 | 2026-09-25 | 2026-09-24 |
-|  37 | VRTX     | Vertex Pharmaceuticals Incorpo |      4 | 2026-09-03 | 2026-09-02 | 2026-09-01 |
-|  38 | SOLV     | Solventum Corporation          |      4 | 2026-09-03 | 2026-08-31 | 2026-08-28 |
-|  39 | PAYC     | Paycom Software, Inc.          |      4 | 2026-09-03 | 2026-08-31 | 2026-08-28 |
-|  40 | MSI      | Motorola Solutions, Inc.       |      4 | 2026-09-01 | 2026-08-31 | 2026-08-28 |
-|  41 | KEYS     | Keysight Technologies Inc.     |      4 | 2026-10-06 | 2026-10-05 | 2026-10-02 |
-|  42 | ADM      | Archer-Daniels-Midland Company |      3 | 2026-09-17 | 2026-09-10 | 2026-09-09 |
-|  43 | AAPL     | Apple Inc.                     |      3 | 2026-09-25 | 2026-09-22 | 2026-09-21 |
+|  36 | AAPL     | Apple Inc.                     |      4 | 2026-10-08 | 2026-09-25 | 2026-09-22 |
+|  37 | MRNA     | Moderna, Inc.                  |      4 | 2026-09-29 | 2026-09-25 | 2026-09-24 |
+|  38 | VRTX     | Vertex Pharmaceuticals Incorpo |      4 | 2026-09-03 | 2026-09-02 | 2026-09-01 |
+|  39 | SOLV     | Solventum Corporation          |      4 | 2026-09-03 | 2026-08-31 | 2026-08-28 |
+|  40 | PAYC     | Paycom Software, Inc.          |      4 | 2026-09-03 | 2026-08-31 | 2026-08-28 |
+|  41 | MSI      | Motorola Solutions, Inc.       |      4 | 2026-09-01 | 2026-08-31 | 2026-08-28 |
+|  42 | KEYS     | Keysight Technologies Inc.     |      4 | 2026-10-06 | 2026-10-05 | 2026-10-02 |
+|  43 | ADM      | Archer-Daniels-Midland Company |      3 | 2026-09-17 | 2026-09-10 | 2026-09-09 |
 |  44 | JNJ      | Johnson & Johnson              |      3 | 2026-09-03 | 2026-09-02 | 2026-09-01 |
 |  45 | AMGN     | Amgen Inc.                     |      3 | 2026-09-03 | 2026-09-02 | 2026-09-01 |
 |  46 | MA       | Mastercard Incorporated        |      3 | 2026-08-31 | 2026-08-28 | 2026-08-27 |

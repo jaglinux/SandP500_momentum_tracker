@@ -1,6 +1,106 @@
 # S&P 500 Momentum Tracker - Tech (IT + Communication Services) AI Analysis
 
 ---
+## Snapshot: 2026-10-09 | Generated: 2026-10-10 00:17 UTC
+
+### 🚀 AI Momentum Analysis
+
+## 🚀 TOP MOMENTUM PICKS
+
+
+1. **Dell Technologies Inc. (DELL)**
+   - **Price**: $586.06
+   - **Market Cap**: $372.62B
+   - **% 1Y**: 280.59%
+   - **% 1W**: 4.18%
+   - **Volume**: 5,273,949 (1.91% increase)
+   
+2. **Hewlett Packard Enterprise Co. (HPE)**
+   - **Price**: $73.46
+   - **Market Cap**: $97.52B
+   - **% 1Y**: 184.89%
+   - **% 1W**: 5.96%
+   - **Volume**: 13,440,804 (-16.69% decrease)
+   
+3. **Fortinet, Inc. (FTNT)**
+   - **Price**: $194.75
+   - **Market Cap**: $142.89B
+   - **% 1Y**: 125.95%
+   - **% 1W**: 7.63%
+   - **Volume**: 2,068,351 (-53.58% decrease)
+   
+4. **Keysight Technologies Inc. (KEYS)**
+   - **Price**: $382.75
+   - **Market Cap**: $65.16B
+   - **% 1Y**: 123.70%
+   - **% 1W**: -0.49%
+   - **Volume**: 899,509 (-54.86% decrease)
+   
+5. **Datadog, Inc. (DDOG)**
+   - **Price**: $293.26
+   - **Market Cap**: $105.30B
+   - **% 1Y**: 78.74%
+   - **% 1W**: 5.79%
+   - **Volume**: 3,703,089 (25.57% increase)
+
+## 📈 EARLY / BREAKOUT WATCH
+
+
+1. **Palantir Technologies Inc. (PLTR)**
+   - **Price**: $209.05
+   - **Market Cap**: $502.36B
+   - **% 1Y**: 12.71%
+   - **% 1W**: 10.75%
+   - **Volume**: 37,389,859 (-10.69% decrease)
+
+## ⚠️ CAUTION
+
+
+1. **Zebra Technologies Corporation (ZBRA)**
+   - **% 1Y**: 29.58%
+   - **% 1W**: 3.01%
+   - **High Hits**: 3
+   - **Volume**: 338,214 (-11.21% decrease)
+
+2. **Arista Networks, Inc. (ANET)**
+   - **% 1Y**: 36.98%
+   - **% 1W**: 4.53%
+   - **High Hits**: 3
+   - **Volume**: 4,326,938 (-11.24% decrease)
+
+3. **F5, Inc. (FFIV)**
+   - **% 1Y**: 40.16%
+   - **% 1W**: 5.68%
+   - **High Hits**: 11
+   - **Volume**: 500,969 (-1.69% decrease)
+
+### 📊 Tech Screen — IT & Communication Services — Stocks at Highs
+
+**Total: 10 stocks** | 🏆 At ATH: 9 | 🔥 At 52W High only: 1
+
+> **Columns**: **At high today** = in today's at-52W/ATH set; **False** = still shown (history + ranked by % 1Y / market cap / hits). | Hits = cumulative high hits | % 1D/1W/1Y = price changes | Vol % 1D = volume vs prior day
+
+|   # | Ticker   | Name                            | At high today   |   Price |   Market Cap (B) |   Hits | Last Hit   | 2nd Last   |   % 1D |   % 1W |   % 1Y |         Vol |   Vol % 1D |   % From 52W High |   % From ATH |
+|-----|----------|---------------------------------|-----------------|---------|------------------|--------|------------|------------|--------|--------|--------|-------------|------------|-------------------|--------------|
+|   1 | DELL     | Dell Technologies Inc.          | True            |  586.06 |           372.62 |      8 | 2026-10-09 | 2026-09-17 |   2.00 |   4.18 | 280.59 |  5273949.00 |       1.91 |             -1.59 |        -1.59 |
+|   2 | HPE      | Hewlett Packard Enterprise Comp | True            |   73.46 |            97.52 |      4 | 2026-10-09 | 2026-10-07 |   3.46 |   5.96 | 184.89 | 13440804.00 |     -16.69 |              0.25 |         0.25 |
+|   3 | FTNT     | Fortinet, Inc.                  | True            |  194.75 |           142.89 |     17 | 2026-10-09 | 2026-10-08 |   2.99 |   7.63 | 125.95 |  2068351.00 |     -53.58 |              1.22 |         1.22 |
+|   4 | KEYS     | Keysight Technologies Inc.      | True            |  382.75 |            65.16 |      5 | 2026-10-09 | 2026-10-06 |   2.16 |  -0.49 | 123.70 |   899509.00 |     -54.86 |             -1.84 |        -1.84 |
+|   5 | NTAP     | NetApp, Inc.                    | True            |  237.15 |            46.58 |      7 | 2026-10-09 | 2026-10-07 |   2.64 |   4.81 |  99.70 |  1607866.00 |     -29.09 |             -0.39 |        -0.39 |
+|   6 | DDOG     | Datadog, Inc.                   | True            |  293.26 |           105.30 |      1 | 2026-10-09 |            |   7.11 |   5.79 |  78.74 |  3703089.00 |      25.57 |              0.18 |         0.18 |
+|   7 | FFIV     | F5, Inc.                        | True            |  479.83 |            27.17 |     11 | 2026-10-09 | 2026-10-07 |   3.94 |   5.68 |  40.16 |   500969.00 |      -1.69 |              1.61 |         1.61 |
+|   8 | ANET     | Arista Networks, Inc.           | True            |  216.74 |           273.36 |      3 | 2026-10-09 | 2026-10-07 |   2.73 |   4.53 |  36.98 |  4326938.00 |     -11.24 |             -0.27 |        -0.27 |
+|   9 | ZBRA     | Zebra Technologies Corporation  | True            |  387.18 |            18.32 |      3 | 2026-10-09 | 2026-10-07 |   1.32 |   3.01 |  29.58 |   338214.00 |     -11.21 |             -0.93 |       -37.04 |
+|  10 | PLTR     | Palantir Technologies Inc.      | True            |  209.05 |           502.36 |      1 | 2026-10-09 |            |   5.17 |  10.75 |  12.71 | 37389859.00 |     -10.69 |              0.74 |         0.74 |
+|  11 | AMD      | Advanced Micro Devices, Inc.    | False           |  608.10 |           992.71 |      8 | 2026-10-07 | 2026-10-06 |  -2.03 |  -4.07 | 161.11 | 13664055.00 |     -41.83 |             -7.66 |        -7.66 |
+|  12 | CRWD     | CrowdStrike Holdings, Inc.      | False           |  275.04 |           281.62 |     17 | 2026-10-06 | 2026-10-05 |   4.57 |   1.85 | 116.09 |  7041009.00 |     -24.98 |             -4.16 |        -4.16 |
+|  13 | PANW     | Palo Alto Networks, Inc.        | False           |  418.78 |           342.56 |      6 | 2026-10-06 | 2026-10-05 |   5.09 |   3.85 |  94.63 |  3832323.00 |     -13.27 |             -3.13 |        -3.13 |
+|  14 | HPQ      | HP Inc.                         | False           |   30.20 |            27.23 |      6 | 2026-09-11 | 2026-09-10 |  -6.91 |  -5.98 |  17.68 | 16689643.00 |      66.45 |            -16.64 |       -17.01 |
+|  15 | VZ       | Verizon Communications Inc.     | False           |   41.65 |           173.05 |     10 | 2026-09-15 | 2026-09-14 | -10.14 |  -9.30 |   8.98 | 94888715.00 |     316.52 |            -19.39 |       -19.39 |
+|  16 | GEN      | Gen Digital Inc.                | False           |   23.25 |            13.92 |      6 | 2026-09-15 | 2026-09-14 |   2.20 |   5.73 | -12.30 |  7432119.00 |     -30.53 |            -26.54 |       -26.54 |
+|  17 | WBD      | Warner Bros. Discovery, Inc. -  | False           |  nan    |            77.60 |     12 | 2026-10-06 | 2026-10-05 | nan    | nan    | nan    |      nan    |     nan    |            nan    |       nan    |
+
+---
 ## Snapshot: 2026-10-02 | Generated: 2026-10-03 00:17 UTC
 
 ### 🚀 AI Momentum Analysis

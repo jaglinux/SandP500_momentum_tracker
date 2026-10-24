@@ -1,6 +1,113 @@
 # S&P 500 Momentum Tracker - Tech (IT + Communication Services) AI Analysis
 
 ---
+## Snapshot: 2026-10-23 | Generated: 2026-10-24 00:17 UTC
+
+### 🚀 AI Momentum Analysis
+
+## 🚀 TOP MOMENTUM PICKS
+
+
+1. **Apple Inc. (AAPL)**
+   - **Price**: $347.73
+   - **Market Cap**: $5,074.76B
+   - **% 1Y**: 34.45%
+   - **% 1W**: 1.24%
+   - **Volume**: 39,450,857
+
+2. **Fortinet, Inc. (FTNT)**
+   - **Price**: $179.99
+   - **Market Cap**: $132.06B
+   - **% 1Y**: 111.93%
+   - **% 1W**: 6.42%
+   - **Volume**: 3,221,255
+
+3. **CrowdStrike Holdings, Inc. (CRWD)**
+   - **Price**: $257.57
+   - **Market Cap**: $263.73B
+   - **% 1Y**: 97.38%
+   - **% 1W**: 13.27%
+   - **Volume**: 13,342,948
+
+4. **F5, Inc. (FFIV)**
+   - **Price**: $455.42
+   - **Market Cap**: $25.79B
+   - **% 1Y**: 50.87%
+   - **% 1W**: 3.03%
+   - **Volume**: 622,514
+
+5. **Advanced Micro Devices, Inc. (AMD)**
+   - **Price**: $516.79
+   - **Market Cap**: $843.65B
+   - **% 1Y**: 119.92%
+   - **% 1W**: -2.26%
+   - **Volume**: 15,094,156
+
+## 📈 EARLY / BREAKOUT WATCH
+
+
+1. **Zebra Technologies Corporation (ZBRA)**
+   - **Price**: $386.45
+   - **Market Cap**: $18.41B
+   - **% 1Y**: 23.12%
+   - **% 1W**: 4.73%
+   - **Volume**: 450,971
+
+2. **CDW Corporation (CDW)**
+   - **Price**: $165.11
+   - **Market Cap**: $20.64B
+   - **% 1Y**: 6.30%
+   - **% 1W**: 9.72%
+   - **Volume**: 1,678,555
+
+## ⚠️ CAUTION
+
+
+1. **Dell Technologies Inc. (DELL)**
+   - **% 1Y**: 199.07% (high hits but not at high today)
+   - **% 1W**: 1.19%
+   - **Volume**: 4,325,290
+
+2. **HP Inc. (HPQ)**
+   - **% 1Y**: 27.04% (high hits but not at high today)
+   - **% 1W**: 12.10%
+   - **Volume**: 12,122,990
+
+3. **Verizon Communications Inc. (VZ)**
+   - **% 1Y**: 24.04% (high hits but not at high today)
+   - **% 1W**: -0.29%
+   - **Volume**: 51,071,223
+
+4. **Gen Digital Inc. (GEN)**
+   - **% 1Y**: -6.67% (high hits but not at high today)
+   - **% 1W**: 2.98%
+   - **Volume**: 4,670,711
+
+### 📊 Tech Screen — IT & Communication Services — Stocks at Highs
+
+**Total: 3 stocks** | 🏆 At ATH: 1 | 🔥 At 52W High only: 2
+
+> **Columns**: **At high today** = in today's at-52W/ATH set; **False** = still shown (history + ranked by % 1Y / market cap / hits). | Hits = cumulative high hits | % 1D/1W/1Y = price changes | Vol % 1D = volume vs prior day
+
+|   # | Ticker   | Name                           | At high today   |   Price |   Market Cap (B) |   Hits | Last Hit   | 2nd Last   |   % 1D |   % 1W |   % 1Y |         Vol |   Vol % 1D |   % From 52W High |   % From ATH |
+|-----|----------|--------------------------------|-----------------|---------|------------------|--------|------------|------------|--------|--------|--------|-------------|------------|-------------------|--------------|
+|   1 | AAPL     | Apple Inc.                     | True            |  347.73 |          5074.76 |     13 | 2026-10-23 | 2026-10-22 |  -0.14 |   1.24 |  34.45 | 39450857.00 |     -15.88 |             -0.18 |        -0.18 |
+|   2 | ZBRA     | Zebra Technologies Corporation | True            |  386.45 |            18.41 |      8 | 2026-10-23 | 2026-10-21 |   0.60 |   4.73 |  23.12 |   450971.00 |     -23.45 |             -1.61 |       -37.16 |
+|   3 | CDW      | CDW Corporation                | True            |  165.11 |            20.64 |      4 | 2026-10-23 | 2026-10-22 |   0.30 |   9.72 |   6.30 |  1678555.00 |     -14.02 |             -0.27 |       -34.78 |
+|   4 | DELL     | Dell Technologies Inc.         | False           |  456.44 |           290.21 |      8 | 2026-10-09 | 2026-09-17 |   0.77 |   1.19 | 199.07 |  4325290.00 |     -34.57 |            -23.25 |       -23.25 |
+|   5 | AMD      | Advanced Micro Devices, Inc.   | False           |  516.79 |           843.65 |      8 | 2026-10-07 | 2026-10-06 |   1.74 |  -2.26 | 119.92 | 15094156.00 |     -46.11 |            -21.52 |       -21.52 |
+|   6 | FTNT     | Fortinet, Inc.                 | False           |  179.99 |           132.06 |     18 | 2026-10-12 | 2026-10-09 |   4.05 |   6.42 | 111.93 |  3221255.00 |     -18.66 |             -8.69 |        -8.69 |
+|   7 | CRWD     | CrowdStrike Holdings, Inc.     | False           |  257.57 |           263.73 |     17 | 2026-10-06 | 2026-10-05 |   8.25 |  13.27 |  97.38 | 13342948.00 |      31.99 |            -10.25 |       -10.25 |
+|   8 | KEYS     | Keysight Technologies Inc.     | False           |  314.77 |            53.59 |      5 | 2026-10-09 | 2026-10-06 |   1.04 |  -4.96 |  86.94 |  1426937.00 |     -24.04 |            -19.28 |       -19.28 |
+|   9 | NTAP     | NetApp, Inc.                   | False           |  215.48 |            42.32 |      9 | 2026-10-13 | 2026-10-12 |   1.40 |   5.73 |  85.75 |  1699464.00 |       3.56 |            -10.54 |       -10.54 |
+|  10 | PANW     | Palo Alto Networks, Inc.       | False           |  380.55 |           311.29 |      6 | 2026-10-06 | 2026-10-05 |   7.22 |  11.27 |  76.98 |  6561456.00 |     -10.28 |            -11.98 |       -11.98 |
+|  11 | FFIV     | F5, Inc.                       | False           |  455.42 |            25.79 |     13 | 2026-10-13 | 2026-10-12 |   1.19 |   3.03 |  50.87 |   622514.00 |      25.99 |             -5.77 |        -5.77 |
+|  12 | HPQ      | HP Inc.                        | False           |   33.64 |            30.34 |      6 | 2026-09-11 | 2026-09-10 |  -0.36 |  12.10 |  27.04 | 12122990.00 |     -23.49 |             -7.15 |        -7.56 |
+|  13 | VZ       | Verizon Communications Inc.    | False           |   44.66 |           185.55 |     10 | 2026-09-15 | 2026-09-14 |  -1.19 |  -0.29 |  24.04 | 51071223.00 |      76.61 |            -12.23 |       -12.23 |
+|  14 | GEN      | Gen Digital Inc.               | False           |   24.88 |            14.89 |      6 | 2026-09-15 | 2026-09-14 |  -0.04 |   2.98 |  -6.67 |  4670711.00 |     -35.81 |            -21.39 |       -21.39 |
+|  15 | WBD      | Warner Bros. Discovery, Inc. - | False           |  nan    |            77.60 |     12 | 2026-10-06 | 2026-10-05 | nan    | nan    | nan    |      nan    |     nan    |            nan    |       nan    |
+
+---
 ## Snapshot: 2026-10-16 | Generated: 2026-10-17 00:17 UTC
 
 ### 🚀 AI Momentum Analysis

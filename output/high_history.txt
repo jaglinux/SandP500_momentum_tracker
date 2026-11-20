@@ -1,5 +1,5 @@
 S&P 500 Momentum Tracker - High History
-Generated: 2026-11-19 00:07:49 UTC
+Generated: 2026-11-20 00:06:39 UTC
 ==========================================================================================
 
 Stocks ranked by number of times hitting 52-Week High or All-Time High
@@ -12,13 +12,13 @@ Total unique stocks tracked: 192
 
 |   # | Ticker   | Name                           |   Hits | Last Hit   | 2nd Last   | 3rd Last   |
 |-----|----------|--------------------------------|--------|------------|------------|------------|
-|   1 | TECH     | Bio-Techne Corp                |     48 | 2026-11-18 | 2026-11-17 | 2026-11-16 |
+|   1 | TECH     | Bio-Techne Corp                |     49 | 2026-11-19 | 2026-11-18 | 2026-11-17 |
 |   2 | EXPD     | Expeditors International of Wa |     29 | 2026-11-03 | 2026-11-02 | 2026-10-30 |
 |   3 | ABBV     | AbbVie Inc.                    |     26 | 2026-11-04 | 2026-10-30 | 2026-10-29 |
 |   4 | TMO      | Thermo Fisher Scientific Inc   |     24 | 2026-11-11 | 2026-11-10 | 2026-11-09 |
 |   5 | BDX      | Becton, Dickinson and Company  |     23 | 2026-11-18 | 2026-11-16 | 2026-11-13 |
-|   6 | AAPL     | Apple Inc.                     |     21 | 2026-11-13 | 2026-11-12 | 2026-11-11 |
-|   7 | DGX      | Quest Diagnostics Incorporated |     21 | 2026-11-18 | 2026-11-16 | 2026-11-13 |
+|   6 | DGX      | Quest Diagnostics Incorporated |     22 | 2026-11-19 | 2026-11-18 | 2026-11-16 |
+|   7 | AAPL     | Apple Inc.                     |     21 | 2026-11-13 | 2026-11-12 | 2026-11-11 |
 |   8 | V        | Visa Inc.                      |     21 | 2026-11-04 | 2026-11-03 | 2026-11-02 |
 |   9 | COP      | ConocoPhillips                 |     21 | 2026-10-30 | 2026-10-29 | 2026-10-26 |
 |  10 | CVX      | Chevron Corporation            |     21 | 2026-10-30 | 2026-10-29 | 2026-10-26 |
@@ -40,11 +40,11 @@ Total unique stocks tracked: 192
 |  26 | RVTY     | Revvity, Inc.                  |     16 | 2026-10-29 | 2026-10-28 | 2026-10-05 |
 |  27 | APA      | APA Corporation                |     16 | 2026-10-30 | 2026-10-29 | 2026-10-26 |
 |  28 | KDP      | Keurig Dr Pepper Inc.          |     16 | 2026-11-11 | 2026-11-10 | 2026-11-04 |
-|  29 | IQV      | IQVIA Holdings, Inc.           |     15 | 2026-11-09 | 2026-10-28 | 2026-10-23 |
-|  30 | FAST     | Fastenal Company               |     15 | 2026-11-13 | 2026-11-12 | 2026-11-11 |
-|  31 | VLTO     | Veralto Corp                   |     15 | 2026-11-17 | 2026-11-16 | 2026-11-13 |
-|  32 | IFF      | International Flavors & Fragra |     14 | 2026-11-02 | 2026-10-30 | 2026-10-27 |
-|  33 | LH       | Labcorp Holdings Inc.          |     14 | 2026-11-18 | 2026-11-17 | 2026-11-16 |
+|  29 | LH       | Labcorp Holdings Inc.          |     15 | 2026-11-19 | 2026-11-18 | 2026-11-17 |
+|  30 | IQV      | IQVIA Holdings, Inc.           |     15 | 2026-11-09 | 2026-10-28 | 2026-10-23 |
+|  31 | FAST     | Fastenal Company               |     15 | 2026-11-13 | 2026-11-12 | 2026-11-11 |
+|  32 | VLTO     | Veralto Corp                   |     15 | 2026-11-17 | 2026-11-16 | 2026-11-13 |
+|  33 | IFF      | International Flavors & Fragra |     14 | 2026-11-02 | 2026-10-30 | 2026-10-27 |
 |  34 | A        | Agilent Technologies, Inc.     |     14 | 2026-11-09 | 2026-10-29 | 2026-10-28 |
 |  35 | NDAQ     | Nasdaq, Inc.                   |     14 | 2026-11-11 | 2026-11-10 | 2026-11-04 |
 |  36 | XOM      | ExxonMobil Holdings Corporatio |     14 | 2026-10-30 | 2026-10-29 | 2026-10-28 |
@@ -56,13 +56,13 @@ Total unique stocks tracked: 192
 |  42 | AMGN     | Amgen Inc.                     |     12 | 2026-11-04 | 2026-10-30 | 2026-10-29 |
 |  43 | WBD      | Warner Bros. Discovery, Inc. - |     12 | 2026-10-06 | 2026-10-05 | 2026-10-02 |
 |  44 | HAS      | Hasbro, Inc.                   |     12 | 2026-11-11 | 2026-11-10 | 2026-11-04 |
-|  45 | VRSN     | VeriSign, Inc.                 |     11 | 2026-11-04 | 2026-11-03 | 2026-11-02 |
-|  46 | PAYC     | Paycom Software, Inc.          |     11 | 2026-10-23 | 2026-10-22 | 2026-10-21 |
-|  47 | WST      | West Pharmaceutical Services,  |     11 | 2026-10-29 | 2026-10-28 | 2026-10-27 |
-|  48 | CHD      | Church & Dwight Company, Inc.  |     11 | 2026-11-16 | 2026-11-13 | 2026-11-04 |
-|  49 | HST      | Host Hotels & Resorts, Inc.    |     11 | 2026-11-16 | 2026-11-11 | 2026-11-10 |
-|  50 | PG       | Procter & Gamble Company (The) |     11 | 2026-11-18 | 2026-11-17 | 2026-11-16 |
-|  51 | PTC      | PTC Inc.                       |     11 | 2026-11-18 | 2026-11-17 | 2026-11-16 |
+|  45 | PTC      | PTC Inc.                       |     12 | 2026-11-19 | 2026-11-18 | 2026-11-17 |
+|  46 | VRSN     | VeriSign, Inc.                 |     11 | 2026-11-04 | 2026-11-03 | 2026-11-02 |
+|  47 | PAYC     | Paycom Software, Inc.          |     11 | 2026-10-23 | 2026-10-22 | 2026-10-21 |
+|  48 | WST      | West Pharmaceutical Services,  |     11 | 2026-10-29 | 2026-10-28 | 2026-10-27 |
+|  49 | CHD      | Church & Dwight Company, Inc.  |     11 | 2026-11-16 | 2026-11-13 | 2026-11-04 |
+|  50 | HST      | Host Hotels & Resorts, Inc.    |     11 | 2026-11-16 | 2026-11-11 | 2026-11-10 |
+|  51 | PG       | Procter & Gamble Company (The) |     11 | 2026-11-18 | 2026-11-17 | 2026-11-16 |
 |  52 | APD      | Air Products and Chemicals, In |     10 | 2026-11-04 | 2026-11-02 | 2026-10-30 |
 |  53 | MTCH     | Match Group, Inc.              |     10 | 2026-10-22 | 2026-10-21 | 2026-10-20 |
 |  54 | MET      | MetLife, Inc.                  |     10 | 2026-11-04 | 2026-10-22 | 2026-10-21 |

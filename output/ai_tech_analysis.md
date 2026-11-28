@@ -1,6 +1,139 @@
 # S&P 500 Momentum Tracker - Tech (IT + Communication Services) AI Analysis
 
 ---
+## Snapshot: 2026-11-27 | Generated: 2026-11-28 00:17 UTC
+
+### 🚀 AI Momentum Analysis
+
+## 🚀 TOP MOMENTUM PICKS
+
+
+1. **Apple Inc. (AAPL)**  
+   - **Price**: $358.54  
+   - **Market Cap**: $5,210.37B  
+   - **% 1Y**: 29.03%  
+   - **% 1W**: 2.67%  
+   - **Hits**: 24  
+   - **Volume**: 22,683,910  
+   - **Volume % 1D**: -58.21  
+
+2. **Motorola Solutions, Inc. (MSI)**  
+   - **Price**: $544.83  
+   - **Market Cap**: $90.08B  
+   - **% 1Y**: 49.09%  
+   - **% 1W**: 4.39%  
+   - **Hits**: 11  
+   - **Volume**: 691,716  
+   - **Volume % 1D**: -44.58  
+
+3. **VeriSign, Inc. (VRSN)**  
+   - **Price**: $320.20  
+   - **Market Cap**: $28.72B  
+   - **% 1Y**: 28.59%  
+   - **% 1W**: 4.49%  
+   - **Hits**: 13  
+   - **Volume**: 1,481,358  
+   - **Volume % 1D**: 38.89  
+
+4. **CDW Corporation (CDW)**  
+   - **Price**: $179.10  
+   - **Market Cap**: $22.35B  
+   - **% 1Y**: 26.68%  
+   - **% 1W**: 7.30%  
+   - **Hits**: 11  
+   - **Volume**: 708,759  
+   - **Volume % 1D**: -54.05  
+
+5. **Walt Disney Company (DIS)**  
+   - **Price**: $127.24  
+   - **Market Cap**: $217.33B  
+   - **% 1Y**: 23.56%  
+   - **% 1W**: 5.81%  
+   - **Hits**: 12  
+   - **Volume**: 6,928,536  
+   - **Volume % 1D**: -57.64
+
+## 📈 EARLY / BREAKOUT WATCH
+
+
+1. **Dell Technologies Inc. (DELL)**  
+   - **Price**: $316.96  
+   - **Market Cap**: $201.53B  
+   - **% 1Y**: 140.20%  
+   - **% 1W**: 1.41%  
+   - **Hits**: 8  
+   - **Volume**: 9,254,687  
+   - **Volume % 1D**: -65.33  
+
+2. **Advanced Micro Devices, Inc. (AMD)**  
+   - **Price**: $424.54  
+   - **Market Cap**: $702.64B  
+   - **% 1Y**: 95.16%  
+   - **% 1W**: -13.22%  
+   - **Hits**: 8  
+   - **Volume**: 22,329,180  
+   - **Volume % 1D**: -56.75  
+
+3. **Palo Alto Networks, Inc. (PANW)**  
+   - **Price**: $366.76  
+   - **Market Cap**: $301.11B  
+   - **% 1Y**: 92.90%  
+   - **% 1W**: 1.39%  
+   - **Hits**: 6  
+   - **Volume**: 5,330,400  
+   - **Volume % 1D**: -20.33
+
+## ⚠️ CAUTION
+
+
+1. **Omnicom Group Inc. (OMC)**  
+   - **% 1Y**: 34.12%  
+   - **% 1W**: 7.78%  
+   - **Hits**: 12  
+   - **Volume % 1D**: -28.05  
+
+2. **Fortinet, Inc. (FTNT)**  
+   - **% 1Y**: 71.92%  
+   - **% 1W**: 6.10%  
+   - **Hits**: 18  
+   - **Volume % 1D**: -53.53  
+
+3. **CrowdStrike Holdings, Inc. (CRWD)**  
+   - **% 1Y**: 70.63%  
+   - **% 1W**: -10.79%  
+   - **Hits**: 17  
+   - **Volume % 1D**: -38.56
+
+### 📊 Tech Screen — IT & Communication Services — Stocks at Highs
+
+**Total: 7 stocks** | 🏆 At ATH: 3 | 🔥 At 52W High only: 4
+
+> **Columns**: **At high today** = in today's at-52W/ATH set; **False** = still shown (history + ranked by % 1Y / market cap / hits). | Hits = cumulative high hits | % 1D/1W/1Y = price changes | Vol % 1D = volume vs prior day
+
+|   # | Ticker   | Name                           | At high today   |   Price |   Market Cap (B) |   Hits | Last Hit   | 2nd Last   |   % 1D |   % 1W |   % 1Y |         Vol |   Vol % 1D |   % From 52W High |   % From ATH |
+|-----|----------|--------------------------------|-----------------|---------|------------------|--------|------------|------------|--------|--------|--------|-------------|------------|-------------------|--------------|
+|   1 | MSI      | Motorola Solutions, Inc.       | True            |  544.83 |            90.08 |     11 | 2026-11-27 | 2026-11-25 |   0.71 |   4.39 |  49.09 |   691716.00 |     -44.58 |             -0.63 |        -0.63 |
+|   2 | OMC      | Omnicom Group Inc.             | True            |   92.23 |            25.16 |     12 | 2026-11-27 | 2026-11-25 |   1.69 |   7.78 |  34.12 |  1321956.00 |     -28.05 |             -0.06 |        -7.03 |
+|   3 | AAPL     | Apple Inc.                     | True            |  358.54 |          5210.37 |     24 | 2026-11-27 | 2026-11-25 |   0.83 |   2.67 |  29.03 | 22683910.00 |     -58.21 |             -0.63 |        -0.63 |
+|   4 | VRSN     | VeriSign, Inc.                 | True            |  320.20 |            28.72 |     13 | 2026-11-27 | 2026-11-25 |   0.23 |   4.49 |  28.59 |  1481358.00 |      38.89 |             -1.28 |        -1.28 |
+|   5 | CDW      | CDW Corporation                | True            |  179.10 |            22.35 |     11 | 2026-11-27 | 2026-11-25 |   2.36 |   7.30 |  26.68 |   708759.00 |     -54.05 |             -0.74 |       -28.96 |
+|   6 | DIS      | Walt Disney Company (The)      | True            |  127.24 |           217.33 |     12 | 2026-11-27 | 2026-11-25 |   1.31 |   5.81 |  23.56 |  6928536.00 |     -57.64 |             -0.19 |       -35.36 |
+|   7 | PTC      | PTC Inc.                       | True            |  196.85 |            21.46 |     17 | 2026-11-27 | 2026-11-25 |   0.43 |   0.62 |  12.21 |   727461.00 |     -66.65 |             -0.12 |       -10.40 |
+|   8 | DELL     | Dell Technologies Inc.         | False           |  316.96 |           201.53 |      8 | 2026-10-09 | 2026-09-17 |   6.70 |   1.41 | 140.20 |  9254687.00 |     -65.33 |            -46.70 |       -46.70 |
+|   9 | AMD      | Advanced Micro Devices, Inc.   | False           |  424.54 |           702.64 |      8 | 2026-10-07 | 2026-10-06 |   4.56 | -13.22 |  95.16 | 22329180.00 |     -56.75 |            -35.53 |       -35.53 |
+|  10 | PANW     | Palo Alto Networks, Inc.       | False           |  366.76 |           301.11 |      6 | 2026-10-06 | 2026-10-05 |   2.98 |   1.39 |  92.90 |  5330400.00 |     -20.33 |            -15.17 |       -15.17 |
+|  11 | FTNT     | Fortinet, Inc.                 | False           |  139.48 |           102.48 |     18 | 2026-10-12 | 2026-10-09 |   3.35 |   6.10 |  71.92 |  2047958.00 |     -53.53 |            -29.24 |       -29.24 |
+|  12 | CRWD     | CrowdStrike Holdings, Inc.     | False           |  217.20 |           223.85 |     17 | 2026-10-06 | 2026-10-05 |   3.77 | -10.79 |  70.63 |  8953176.00 |     -38.56 |            -24.32 |       -24.32 |
+|  13 | NTAP     | NetApp, Inc.                   | False           |  172.67 |            33.92 |      9 | 2026-10-13 | 2026-10-12 |   4.65 |   1.46 |  57.16 |   845134.00 |     -54.70 |            -28.31 |       -28.31 |
+|  14 | KEYS     | Keysight Technologies Inc.     | False           |  278.74 |            47.36 |      5 | 2026-10-09 | 2026-10-06 |   4.13 |  -0.95 |  40.81 |   775418.00 |     -49.49 |            -28.52 |       -28.52 |
+|  15 | HPQ      | HP Inc.                        | False           |   32.15 |            28.99 |      6 | 2026-09-11 | 2026-09-10 |   3.21 |  15.56 |  38.36 | 12518276.00 |     -67.99 |            -11.26 |       -11.65 |
+|  16 | FFIV     | F5, Inc.                       | False           |  322.86 |            18.38 |     13 | 2026-10-13 | 2026-10-12 |   1.83 |   1.50 |  35.00 |   231766.00 |     -48.85 |            -33.20 |       -33.20 |
+|  17 | ZBRA     | Zebra Technologies Corporation | False           |  331.50 |            15.61 |      8 | 2026-10-23 | 2026-10-21 |   4.12 |   6.08 |  31.16 |   313473.00 |     -35.91 |            -15.60 |       -46.10 |
+|  18 | VZ       | Verizon Communications Inc.    | False           |   47.54 |           197.03 |     10 | 2026-09-15 | 2026-09-14 |   0.55 |   3.94 |  23.34 |  9927754.00 |     -48.65 |             -6.57 |        -6.57 |
+|  19 | GEN      | Gen Digital Inc.               | False           |   30.47 |            18.08 |      6 | 2026-09-15 | 2026-09-14 |   0.99 |   1.06 |  17.79 |  4187544.00 |     -46.06 |             -3.33 |        -3.33 |
+|  20 | WBD      | Warner Bros. Discovery, Inc. - | False           |  nan    |            77.60 |     12 | 2026-10-06 | 2026-10-05 | nan    | nan    | nan    |      nan    |     nan    |            nan    |       nan    |
+
+---
 ## Snapshot: 2026-11-20 | Generated: 2026-11-21 00:17 UTC
 
 ### 🚀 AI Momentum Analysis
